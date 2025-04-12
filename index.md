@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Home
+title: Página inicial
 ---
 
-# Welcome!
+# Bem-vindo!
 
-This is my awesome site built with GitHub Pages and the **Cayman theme**.
+Site para apoio nas aulas de ciências do X ano da Escola N
