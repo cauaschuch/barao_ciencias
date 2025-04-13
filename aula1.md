@@ -12,7 +12,7 @@ Eletricidade é o conceito que utilizamos para nos referir ao comportamento de c
 
 Para entender como funciona a eletricidade, precisamos compreender primeiramente a pergunta "o que são as cargas elétricas?". Na natureza existem 2 tipos de cargas: as positivas (+) e as negativas (-). Corpos com números iguais de cargas positivas e negativas são chamados de corpos eletricamente neutros e tem carga líquida igual a 0. A unidade de carga elétrica no sistema internacional de unidades é o Coulomb (C).
 
-A carga líquida é a soma de cargas em um corpo. Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga líquida pode ser calculada pela soma das cargas, assim $Q_{liq} = +1 -1 = 0$. Assim podemos dizer que essa esfera é eletricamente neutra. 
+A carga líquida é a soma de cargas em um corpo. Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga líquida pode ser calculada pela soma das cargas, assim $$Q_{liq} = +1 -1 = 0$$. Assim podemos dizer que essa esfera é eletricamente neutra. 
 
 <img src="image.png" alt="alt text" style="width:50%;">
 
@@ -46,7 +46,7 @@ Tudo bem, falamos sobre a existência desses dois tipos de carga, mas essa ainda
 
 ### Os átomos:
 
-Os átomos são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os prótons, neutrons e elétrons. Prótons são partículas com carga positiva $+e$, onde $e \approx 1,602 \times 10^{-19}  C$ e tem massa $m \approx 1 u$, onde $u = \frac{m_{C}}{12}$ ($m_{C}$ é a massa de um átomo de carbono). Os neutrons são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. Já os elétrons tem carga negativa $-e$ (aproximadamente $-1,602 \times 10^{-19}  C$) e massa aproximada de $\frac{1u}{1836}$. Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, desconsideramos a massa dos elétrons uma vez que ela é muito baixa. 
+Os átomos são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os prótons, neutrons e elétrons. Prótons são partículas com carga positiva $$+e$$, onde $$e \approx 1,602 \times 10^{-19}  C$$ e tem massa $$m \approx 1 u$$, onde $$u = \frac{m_{C}}{12}$ ($m_{C}$$ é a massa de um átomo de carbono). Os neutrons são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. Já os elétrons tem carga negativa $-e$ (aproximadamente $$-1,602 \times 10^{-19}  C$$) e massa aproximada de $$\frac{1u}{1836}$$. Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, desconsideramos a massa dos elétrons uma vez que ela é muito baixa. 
 
 Além disso, os átomos tem 2 regiões principais: o núcleo e a eletrosfera. O núcleo dos átomos é eletricamente positivo, é onde se concentram um ou mais prótons e pode ou não possuir neutrons também. A eletrosfera é a região envolta do núcleo atômico onde habitam os elétrons. O número de prótons em um átomo define qual elemento da tabela periódica aquele átomo representa.
 
