@@ -7,7 +7,7 @@ title: Aulas
 
 
 ### 🧪 Ciências
-- [Eletricidade básica](./eletricidade-basica)  
+- [Eletricidade](./aula1)  
 - [Geração de energia](./geracao-de-energia)  
 - [Eficiência energética](./eficiencia-energetica)  
 
