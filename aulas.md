@@ -3,8 +3,19 @@ layout: default
 title: Aulas
 ---
 
-## Clique no link do conteúdo e aprenda mais sobre o assunto!
+## Clique no link do conteúdo e aprenda mais sobre o assunto!  
 
-- [Eletricidade Básica](./eletricidade-basica)
-- [Geração de Energia](./geracao-de-energia)
-- [Eficiência Energética](./eficiencia-energetica)
+
+### 🧪 Ciências  
+- [Eletricidade básica](./eletricidade-basica)  
+- [Geração de energia](./geracao-de-energia)  
+- [Eficiência energética](./eficiencia-energetica)  
+
+
+### 🌍 Geografia  
+
+
+
+
+### ➗ Matemática  
+- [Notação científica](./notacao-cientifica.md)  
