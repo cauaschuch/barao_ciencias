@@ -15,7 +15,7 @@ A iniciativa é fruto de uma parceria entre as professoras **Mari Rosso**, **Mar
 Aqui você encontrará materiais de apoio, projetos, recursos interativos e conteúdos extras para tornar o aprendizado mais acessível, divertido e conectado com o dia a dia.  
 
 
-<img src="/IMAGES/escola-barao-foto.jpg" alt="Foto da Escola Barão do Rio Branco" style="width:50%;">
+<img src="IMAGES/escola-barao-foto.jpg" alt="Foto da Escola Barão do Rio Branco" style="width:50%;">
 
 
 Sintam-se em casa!
