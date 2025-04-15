@@ -3,7 +3,7 @@ layout: default
 title: Eficiência Energética
 ---
 
-![Wallpaper eficiencia](images/eficiencia_energetica-wallpaper-01.jpg)
+![Wallpaper eficiencia](./IMAGES/eficiencia_energetica-wallpaper-01.jpg)
 
 ### Aulas
 
