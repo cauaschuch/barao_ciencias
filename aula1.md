@@ -14,7 +14,7 @@ Para entender como funciona a eletricidade, precisamos compreender primeiramente
 
 A carga líquida é a soma de cargas em um corpo. Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga líquida pode ser calculada pela soma das cargas, assim $$Q_{liq} = +1 -1 = 0$$. Assim podemos dizer que essa esfera é eletricamente neutra. 
 
-<img src="/IMAGES/image.png" alt="alt text" style="width:50%;">
+<img src="IMAGES/image.png" alt="alt text" style="width:50%;">
 
 Corpos com mais cargas positivas que cargas negativas, são corpos eletricamente positivos e tem carga líquida maior que 0. E, de maneira similar, corpos com mais cargas negativas que cargas positivas são corpos eletricamente negativos e tem carga líquida menor que 0. 
 
@@ -50,7 +50,7 @@ Os átomos são unidades fundamentais de formação da matéria e são compostos
 
 Além disso, os átomos tem 2 regiões principais: o núcleo e a eletrosfera. O núcleo dos átomos é eletricamente positivo, é onde se concentram um ou mais prótons e pode ou não possuir neutrons também. A eletrosfera é a região envolta do núcleo atômico onde habitam os elétrons. O número de prótons em um átomo define qual elemento da tabela periódica aquele átomo representa.
 
-<img src="/IMAGES/image-1.png" alt="alt text" style="width:40%;">
+<img src="IMAGES/image-1.png" alt="alt text" style="width:40%;">
 
 Quando um átomo tem o mesmo número de prótons e elétrons, como vimos anteriormente, ele é eletricamente neutro, pois apresenta carga líquida nula. Quando um átomo tem números diferentes de prótons e elétrons, ele pode ser eletricamente positivo ou negativo e passa a ser um íon.
 
