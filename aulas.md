@@ -8,7 +8,7 @@ title: Aulas
 
 ### 🧪 Ciências
 - [Eletricidade](./eletricidade_basica.md)  
-- [Geração de energia](./geracao-de-energia)  
+- [Geração de energia](./geracao-de-energia.md)  
 - [Eficiência energética](./eficiencia_energetica.md)  
 
 
