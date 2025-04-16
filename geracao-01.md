@@ -85,6 +85,7 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
         </mfrac>
         <mtext>cm</mtext>
       </mrow>
+      <mrow>
     </mfrac>
     <mo>=</mo>
     <mtext>constante</mtext>
