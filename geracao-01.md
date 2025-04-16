@@ -59,6 +59,45 @@ A mãe reuniu todas essas soluções e criou uma fórmula que somava:
 
 Com isso, o total era sempre 28. Assim, mesmo sem ver todos os blocos diretamente, ela mantinha a contagem certa.
 
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+    <mfrac>
+      <mrow>
+        <mo>(</mo>
+        <mtext>peso da caixa</mtext>
+        <mo>−</mo>
+        <mn>160</mn>
+        <mtext>g</mtext>
+        <mo>)</mo>
+      </mrow>
+      <mrow>
+        <mn>30</mn>
+        <mtext>g</mtext>
+      </mrow>
+    </mfrac>
+    <mo>+</mo>
+    <mfrac>
+      <mrow>
+        <mo>(</mo>
+        <mtext>altura da água</mtext>
+        <mo>−</mo>
+        <mn>15</mn>
+        <mtext>cm</mtext>
+        <mo>)</mo>
+      </mrow>
+      <mrow>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
+        <mtext>cm</mtext>
+      </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mtext>constante</mtext>
+  </mrow>
+</math>
+
 📌 A soma de todas as formas mantém o valor constante.
 
 📌 Na energia: devemos considerar todas as formas visíveis e ocultas.
