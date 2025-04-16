@@ -6,7 +6,7 @@ title: Energia e sua Conservação
 # O que é energia
 ### 🌍 A Lei da Conservação da Energia
 
-Existe uma lei fundamental na natureza: a conservação da energia. Ela afirma que a quantidade total de energia no universo permanece constante, independentemente das transformações que ocorrem. Essa lei não descreve como as coisas acontecem, mas garante que, ao fazer as contas antes e depois de um evento, o total de energia é sempre o mesmo.
+Existe uma lei fundamental na natureza: a conservação da energia. Ela afirma que a **quantidade total de energia** no universo permanece **constante**, independentemente das transformações que ocorrem. Essa lei não descreve como as coisas acontecem, mas garante que, ao fazer as contas antes e depois de um evento, o total de energia é sempre o mesmo.
 
   📌 A energia total do universo não muda.
 
@@ -15,41 +15,12 @@ Existe uma lei fundamental na natureza: a conservação da energia. Ela afirma q
   📌 É uma ideia abstrata, sem descrever o mecanismo.
 
 ### 🧸 A Analogia dos Blocos de Dênis
-Para ilustrar, imagine Dênis com seus 28 blocos indestrutíveis. Sua mãe faz a contagem no início e no fim do dia, sempre esperando encontrar os mesmos 28. Quando isso não acontece, ela busca formas criativas de descobrir onde os blocos estão escondidos, criando soluções práticas — assim como na física, onde precisamos "achar" toda a energia presente no sistema.
-
-### 🛠️ As Soluções da Mãe
-- ✅ 1. Procurar embaixo do tapete
-Quando faltou um bloco, a mãe procurou e encontrou debaixo do tapete.
-
-📌 Solução simples e direta: observar bem o ambiente.
-
-📌 Na física: verificar se há energia em locais óbvios.
-
-- ✅ 2. Olhar pela janela
-Em outro momento, dois blocos estavam fora da casa.
-
-📌 Verificar o ambiente externo: o que entrou ou saiu.
-
-📌 Na física: checar se há energia escapando ou entrando no sistema.
-
-- ✅ 3. Pesagem da caixa de brinquedos
-Quando Dênis escondeu blocos na caixa e não deixou a mãe abrir, ela pesou a caixa. Sabendo o peso de cada bloco, ela pôde calcular quantos estavam lá dentro.
-
-📌 Solução indireta: medir outra propriedade (peso) para deduzir a quantidade.
-
-📌 Na física: medir massa, temperatura, altura ou velocidade para calcular energia.
-
-- ✅ 4. Observar o nível da água
-Quando a banheira começou a mudar de nível, a mãe percebeu que blocos estavam na água suja. Cada bloco elevava a água em 0,5 cm, então, medindo o aumento, ela sabia quantos estavam lá.
-
-📌 Solução pelo efeito: observar o impacto que os blocos causavam.
-
-📌 Na física: calcular energia através de seus efeitos (elevação de água, calor gerado, movimento produzido).
+Para ilustrar, imagine **Dênis com seus 28 blocos indestrutíveis**. Sua mãe faz a contagem no início e no fim do dia, sempre esperando encontrar os mesmos 28. Quando isso não acontece, ela busca formas criativas de descobrir onde os blocos estão escondidos, criando soluções práticas — assim como na física, onde precisamos "achar" toda a energia presente no sistema.
 
 
 ### ⚙️ A Fórmula Complexa e a Constância
 
-Num dia, a mãe conta 30 blocos e se surpreende, até lembrar que Bruce havia visitado Dênis e deixado alguns blocos a mais. Depois de devolver os blocos extras, ela fecha a janela e impede Bruce de entrar. Tudo volta ao normal, até que em outro dia encontra apenas 25 blocos. Ela desconfia da caixa de brinquedos, mas Dênis não deixa que ela a abra. Então, curiosa e engenhosa, a mãe pesa a caixa, sabendo que cada bloco pesa 30 g. Naquele dia, a caixa marcava 160 g com 28 blocos encontrados. A partir disso, decide que, sempre que precisar conferir, pesará a caixa, subtrairá os 160 g e dividirá o restante por 30 para descobrir quantos blocos estão escondidos lá.
+Num dia, a mãe conta **30 blocos** e se surpreende, até lembrar que **Bruce havia visitado Dênis e deixado alguns blocos a mais**. Depois de devolver os blocos extras, ela **fecha a janela e impede Bruce de entrar**. Tudo volta ao normal, até que em outro dia encontra apenas **25 blocos**. Ela desconfia da **caixa de brinquedos**, mas Dênis não deixa que ela a abra. Então, curiosa e engenhosa, a mãe **pesa a caixa**, sabendo que cada bloco pesa **30 g**. Naquele dia, a caixa marcava **160 g** com 28 blocos encontrados. A partir disso, decide que, sempre que precisar conferir, **pesará a caixa, subtrairá os 160 g e dividirá o restante por 30** para descobrir quantos blocos estão escondidos lá.
 
 Assim a mãe reuniu todas essas soluções e criou uma fórmula que somava:
 
@@ -126,19 +97,52 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
 
 📌 Se algo entrar ou sair, isso precisa ser contabilizado.
 
+### 🛠️ As Soluções da Mãe
+- **✅ 1. Procurar embaixo do tapete**
+Quando faltou um bloco, a mãe procurou e encontrou debaixo do tapete.
+
+📌 **Solução simples e direta**: observar bem o ambiente.
+
+📌 Na física: verificar se há energia em locais óbvios.
+
+- **✅ 2. Olhar pela janela**
+Em outro momento, dois blocos estavam fora da casa.
+
+📌 **Verificar o ambiente externo**: o que entrou ou saiu.
+
+📌 Na física: checar se há energia escapando ou entrando no sistema.
+
+- **✅ 3. Pesagem da caixa de brinquedos**
+Quando Dênis escondeu blocos na caixa e não deixou a mãe abrir, ela pesou a caixa. Sabendo o peso de cada bloco, ela pôde calcular quantos estavam lá dentro.
+
+📌 **Solução indireta**: medir outra propriedade (peso) para deduzir a quantidade.
+
+📌 Na física: medir massa, temperatura, altura ou velocidade para calcular energia.
+
+- **✅ 4. Observar o nível da água**
+Quando a banheira começou a mudar de nível, a mãe percebeu que blocos estavam na água suja. Cada bloco elevava a água em 0,5 cm, então, medindo o aumento, ela sabia quantos estavam lá.
+
+📌 **Solução pelo efeito**: observar o impacto que os blocos causavam.
+
+📌 Na física: calcular energia através de seus efeitos (elevação de água, calor gerado, movimento produzido).
+
+
+
 
 ### 🔋 Ligação com a Conservação da Energia
 Na física, a energia age como esses blocos. Ela pode mudar de forma ou lugar, mas a soma total deve se conservar. É preciso usar diferentes métodos para “encontrá-la”:
 
-📌 Energia cinética — pelo movimento.
+📌 Energia **cinética** — pelo movimento.
 
-📌 Energia térmica — pela temperatura.
+📌 Energia **térmica** — pela temperatura.
 
-📌 Energia gravitacional — pela altura.
+📌 Energia **gravitacional** — pela altura.
 
-📌 Energia elétrica, química, nuclear — por diferentes efeitos mensuráveis.
+📌 Energia **elétrica**, **química**, **nuclear** — por diferentes efeitos mensuráveis.
 
 Cada situação pede um jeito diferente de “pesar a caixa” ou “medir o nível da água” para garantir que o total de energia do sistema permaneça o mesmo. 
+
+
 ### 🛹 Exemplo: Conservação de Energia numa Pista de Skate
 
 Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do topo de um dos lados, ele possui energia potencial gravitacional (porque está a uma certa altura). Conforme ele desce:
@@ -167,7 +171,7 @@ Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do 
 Depois adicione atrito para ver a energia se dissipando como calor.
 
 
-Ferramentas ativas:
+**Ferramentas ativas:**
 
  - ✅ Kinetic (Cinética)
 
@@ -179,13 +183,13 @@ Ferramentas ativas:
 
 
 
-🛹 Procedimentos:
+** Procedimentos:**
 
 - Posicione o skatista no topo de um lado da pista.
 
 - Solte sem empurrar, apenas deixando ele descer.
 
-Observe no Gráfico de Energia (Energy Graph):
+**Observe no Gráfico de Energia (Energy Graph):**
 
 - A energia potencial gravitacional no topo.
 
@@ -195,7 +199,7 @@ Observe no Gráfico de Energia (Energy Graph):
 
 - A soma das energias potencial e cinética se mantém constante.
 
-Ative o atrito:
+**Ative o atrito:**
 
 Observe como parte da energia vai para a barra de energia térmica.
 
