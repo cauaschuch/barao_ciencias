@@ -8,11 +8,11 @@ title: Energia e sua Conservação
 
 Existe uma lei fundamental na natureza: a conservação da energia. Ela afirma que a quantidade total de energia no universo permanece constante, independentemente das transformações que ocorrem. Essa lei não descreve como as coisas acontecem, mas garante que, ao fazer as contas antes e depois de um evento, o total de energia é sempre o mesmo.
 
-📌 A energia total do universo não muda.
+  📌 A energia total do universo não muda.
 
-📌 A lei é expressa matematicamente, como um número que se conserva.
+  📌 A lei é expressa matematicamente, como um número que se conserva.
 
-📌 É uma ideia abstrata, sem descrever o mecanismo.
+  📌 É uma ideia abstrata, sem descrever o mecanismo.
 
 ### 🧸 A Analogia dos Blocos de Dênis
 Para ilustrar, imagine Dênis com seus 28 blocos indestrutíveis. Sua mãe faz a contagem no início e no fim do dia, sempre esperando encontrar os mesmos 28. Quando isso não acontece, ela busca formas criativas de descobrir onde os blocos estão escondidos, criando soluções práticas — assim como na física, onde precisamos "achar" toda a energia presente no sistema.
