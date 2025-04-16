@@ -77,7 +77,69 @@ Na física, a energia age como esses blocos. Ela pode mudar de forma ou lugar, m
 
 📌 Energia elétrica, química, nuclear — por diferentes efeitos mensuráveis.
 
-Cada situação pede um jeito diferente de “pesar a caixa” ou “medir o nível da água” para garantir que o total de energia do sistema permaneça o mesmo.
+Cada situação pede um jeito diferente de “pesar a caixa” ou “medir o nível da água” para garantir que o total de energia do sistema permaneça o mesmo. 
+### 🛹 Exemplo: Conservação de Energia numa Pista de Skate
+
+Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do topo de um dos lados, ele possui energia potencial gravitacional (porque está a uma certa altura). Conforme ele desce:
+
+A energia potencial se transforma em energia cinética (movimento).
+
+No ponto mais baixo da pista, a velocidade é máxima e a energia cinética é maior, enquanto a energia potencial é quase zero.
+
+Ao subir do outro lado, a energia cinética volta a se transformar em energia potencial, até que ele pare momentaneamente no topo.
+
+Se não houver perda (atrito, resistência do ar), a altura que ele atinge de um lado será igual à do outro — conservando a energia total.
+
+📌 No mundo real, parte da energia se transforma em energia térmica (pelo atrito com o ar e a pista), então o skatista perde um pouco de altura a cada ciclo — o equivalente a "blocos sumindo" para o ambiente. Se somarmos todas as formas de energia, o total continua o mesmo.
+
+🎨 Configuração Inicial (Simulação):
+Modo: "Graphs"
+
+Personagem: Qualquer skatista (de preferência o padrão)
+
+Gravidade: Normal (9.8 m/s²)
+
+Fricção (Atrito): Comece com 0 (sem atrito) para ver a conservação perfeita.
+
+Depois adicione atrito para ver a energia se dissipando como calor.
+
+Ferramentas ativas:
+
+ - ✅ Kinetic (Cinética)
+
+ - ✅ Potential (Potencial)
+
+ - ✅ Thermal (Térmica)
+ 
+ - ✅ Total
+
+🛹 Procedimentos:
+Posicione o skatista no topo de um lado da pista.
+
+Solte sem empurrar, apenas deixando ele descer.
+
+Observe no Gráfico de Energia (Energy Graph):
+
+- A energia potencial gravitacional no topo.
+
+- A conversão para energia cinética no meio da pista.
+
+- O retorno para energia potencial do outro lado.
+
+- A soma das energias potencial e cinética se mantém constante.
+
+Ative o atrito:
+
+Observe como parte da energia vai para a barra de energia térmica.
+
+A altura máxima vai diminuindo a cada ciclo, simulando perda de energia mecânica para o ambiente (como no exemplo real).
+Assim como a mãe de Dênis, temos que somar tudo para garantir que a energia total não desapareceu — apenas mudou de forma ou de lugar.
+
+<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
 
 ### 🌀 A Abstração da Energia
 Por fim, é importante lembrar que a energia, embora seja um conceito fundamental, não sabemos o que ela é de fato. Ela não se apresenta em unidades fixas e visíveis. É uma ideia abstrata: usamos fórmulas para calcular e, ao somar tudo, o total permanece constante.
