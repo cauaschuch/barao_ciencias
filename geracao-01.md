@@ -93,7 +93,7 @@ Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do 
 📌 No mundo real, parte da energia se transforma em energia térmica (pelo atrito com o ar e a pista), então o skatista perde um pouco de altura a cada ciclo — o equivalente a "blocos sumindo" para o ambiente. Se somarmos todas as formas de energia, o total continua o mesmo.
 
 
-## 🎨 Configuração Inicial (Simulação):
+### 🎨 Configuração Inicial (Simulação):
 
 - Modo: "Graphs"
   
@@ -105,6 +105,7 @@ Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do 
 
 Depois adicione atrito para ver a energia se dissipando como calor.
 
+
 Ferramentas ativas:
 
  - ✅ Kinetic (Cinética)
@@ -115,10 +116,13 @@ Ferramentas ativas:
  
  - ✅ Total
 
-🛹 Procedimentos:
-Posicione o skatista no topo de um lado da pista.
 
-Solte sem empurrar, apenas deixando ele descer.
+
+🛹 Procedimentos:
+
+- Posicione o skatista no topo de um lado da pista.
+
+- Solte sem empurrar, apenas deixando ele descer.
 
 Observe no Gráfico de Energia (Energy Graph):
 
