@@ -1,3 +1,10 @@
+---
+layout: default
+title: Tranformação da Energia
+---
+
+# Tranformação da Energia
+
 ### 📚 Introdução à Energia e Trabalho
 A energia está sempre presente e se transforma de um tipo para outro. Por exemplo, quando um objeto cai, sua energia potencial (ligada à altura) diminui, enquanto sua energia cinética (ligada ao movimento) aumenta. A soma dessas energias permanece constante se não houver atrito. Isso é a conservação da energia.
 
