@@ -48,7 +48,7 @@ Quando a banheira começou a mudar de nível, a mãe percebeu que blocos estavam
 
 
 ### ⚙️ A Fórmula Complexa e a Constância
-⚙️ A Fórmula Final e a Constância
+
 A mãe reuniu todas essas soluções e criou uma fórmula que somava:
 
 - Os blocos visíveis
