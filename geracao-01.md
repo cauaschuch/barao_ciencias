@@ -67,7 +67,7 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
         <mo>(</mo>
         <mtext>blocos achados</mtext>
         <mo>)</mo>
-      <mrow>
+      </mrow>
     <mo>+</mo>
     <mfrac>
       <mrow>
@@ -85,7 +85,6 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
         </mfrac>
         <mtext>cm</mtext>
       </mrow>
-      <mrow>
     </mfrac>
     <mo>=</mo>
     <mtext>constante</mtext>
