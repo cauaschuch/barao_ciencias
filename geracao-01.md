@@ -67,6 +67,7 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
         <mo>(</mo>
         <mtext>blocos achados</mtext>
         <mo>)</mo>
+      <mrow>
     </mfrac>
     <mo>+</mo>
     <mfrac>
