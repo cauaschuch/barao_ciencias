@@ -61,6 +61,12 @@ Com isso, o total era sempre 28. Assim, mesmo sem ver todos os blocos diretament
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
+      <mrow>
+        <mo>(</mo>
+        <mtext>blocos achados</mtext>
+        <mo>)</mo>
+      </mrow>
+    <mo>+</mo>
     <mfrac>
       <mrow>
         <mo>(</mo>
@@ -74,6 +80,18 @@ Com isso, o total era sempre 28. Assim, mesmo sem ver todos os blocos diretament
         <mn>30</mn>
         <mtext>g</mtext>
       </mrow>
+    </mfrac>
+    <mo>=</mo>
+    <mtext>constante</mtext>
+  </mrow>
+</math>
+
+<math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+      <mrow>
+        <mo>(</mo>
+        <mtext>blocos achados</mtext>
+        <mo>)</mo>
     </mfrac>
     <mo>+</mo>
     <mfrac>
