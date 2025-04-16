@@ -18,28 +18,28 @@ Existe uma lei fundamental na natureza: a conservação da energia. Ela afirma q
 Para ilustrar, imagine Dênis com seus 28 blocos indestrutíveis. Sua mãe faz a contagem no início e no fim do dia, sempre esperando encontrar os mesmos 28. Quando isso não acontece, ela busca formas criativas de descobrir onde os blocos estão escondidos, criando soluções práticas — assim como na física, onde precisamos "achar" toda a energia presente no sistema.
 
 ### 🛠️ As Soluções da Mãe
-✅ 1. Procurar embaixo do tapete
+- ✅ 1. Procurar embaixo do tapete
 Quando faltou um bloco, a mãe procurou e encontrou debaixo do tapete.
 
 📌 Solução simples e direta: observar bem o ambiente.
 
 📌 Na física: verificar se há energia em locais óbvios.
 
-✅ 2. Olhar pela janela
+- ✅ 2. Olhar pela janela
 Em outro momento, dois blocos estavam fora da casa.
 
 📌 Verificar o ambiente externo: o que entrou ou saiu.
 
 📌 Na física: checar se há energia escapando ou entrando no sistema.
 
-✅ 3. Pesagem da caixa de brinquedos
+- ✅ 3. Pesagem da caixa de brinquedos
 Quando Dênis escondeu blocos na caixa e não deixou a mãe abrir, ela pesou a caixa. Sabendo o peso de cada bloco, ela pôde calcular quantos estavam lá dentro.
 
 📌 Solução indireta: medir outra propriedade (peso) para deduzir a quantidade.
 
 📌 Na física: medir massa, temperatura, altura ou velocidade para calcular energia.
 
-✅ 4. Observar o nível da água
+- ✅ 4. Observar o nível da água
 Quando a banheira começou a mudar de nível, a mãe percebeu que blocos estavam na água suja. Cada bloco elevava a água em 0,5 cm, então, medindo o aumento, ela sabia quantos estavam lá.
 
 📌 Solução pelo efeito: observar o impacto que os blocos causavam.
@@ -49,7 +49,9 @@ Quando a banheira começou a mudar de nível, a mãe percebeu que blocos estavam
 
 ### ⚙️ A Fórmula Complexa e a Constância
 
-A mãe reuniu todas essas soluções e criou uma fórmula que somava:
+Num dia, a mãe conta 30 blocos e se surpreende, até lembrar que Bruce havia visitado Dênis e deixado alguns blocos a mais. Depois de devolver os blocos extras, ela fecha a janela e impede Bruce de entrar. Tudo volta ao normal, até que em outro dia encontra apenas 25 blocos. Ela desconfia da caixa de brinquedos, mas Dênis não deixa que ela a abra. Então, curiosa e engenhosa, a mãe pesa a caixa, sabendo que cada bloco pesa 30 g. Naquele dia, a caixa marcava 160 g com 28 blocos encontrados. A partir disso, decide que, sempre que precisar conferir, pesará a caixa, subtrairá os 160 g e dividirá o restante por 30 para descobrir quantos blocos estão escondidos lá.
+
+Assim a mãe reuniu todas essas soluções e criou uma fórmula que somava:
 
 - Os blocos visíveis
 
@@ -85,6 +87,8 @@ Com isso, o total era sempre 28. Assim, mesmo sem ver todos os blocos diretament
     <mtext>constante</mtext>
   </mrow>
 </math>
+
+Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na banheira está subindo porque o menino está jogando blocos lá, onde ela não consegue vê-los. Para resolver, ela **adiciona outro termo à sua fórmula**, considerando que a **altura inicial da água era de 15 cm** e que **cada bloco eleva o nível em 0,5 cm**. Assim, consegue calcular quantos blocos estão escondidos na água usando essa nova relação.
 
 <math display="block" xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
