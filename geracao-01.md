@@ -82,13 +82,13 @@ Cada situação pede um jeito diferente de “pesar a caixa” ou “medir o ní
 
 Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do topo de um dos lados, ele possui energia potencial gravitacional (porque está a uma certa altura). Conforme ele desce:
 
-A energia potencial se transforma em energia cinética (movimento).
+ - A energia potencial se transforma em energia cinética (movimento).
 
-No ponto mais baixo da pista, a velocidade é máxima e a energia cinética é maior, enquanto a energia potencial é quase zero.
+ - No ponto mais baixo da pista, a velocidade é máxima e a energia cinética é maior, enquanto a energia potencial é quase zero.
 
-Ao subir do outro lado, a energia cinética volta a se transformar em energia potencial, até que ele pare momentaneamente no topo.
+ - Ao subir do outro lado, a energia cinética volta a se transformar em energia potencial, até que ele pare momentaneamente no topo.
 
-Se não houver perda (atrito, resistência do ar), a altura que ele atinge de um lado será igual à do outro — conservando a energia total.
+ - Se não houver perda (atrito, resistência do ar), a altura que ele atinge de um lado será igual à do outro — conservando a energia total.
 
 📌 No mundo real, parte da energia se transforma em energia térmica (pelo atrito com o ar e a pista), então o skatista perde um pouco de altura a cada ciclo — o equivalente a "blocos sumindo" para o ambiente. Se somarmos todas as formas de energia, o total continua o mesmo.
 
