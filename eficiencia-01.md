@@ -14,7 +14,7 @@ Isso quer dizer que **a máquina não foi muito eficiente**.
 
 > 💬 **Eficiência** é o quanto daquilo que a gente coloca numa máquina vira o resultado que a gente quer.
 
-![Nem tudo vira suco](suco-de-laranja-eficiencia.jpg)
+![Nem tudo vira suco](./IMAGES/suco-de-laranja-eficiencia.jpg)
 
 
 ---
@@ -42,7 +42,7 @@ Imagine um **painel solar**:
 
 Isso significa que ele tem uma **eficiência de 40%**.
 
-![Perdendo energia pelo caminho](perdendo-energia-eficiencia.jpg)
+![Perdendo energia pelo caminho](./IMAGES/perdendo-energia-eficiencia.jpg)
 
 ---
 
@@ -66,7 +66,7 @@ Logo, pode-se dizer que, nesse caso, o Painel Solar é **um pouco mais eficiente
 
 > **Eficiência energética é a porcentagem da energia que uma máquina consegue transformar em energia útil.**
 
-![Energia que entra vs. Energia útil](perdendo-energia-eficiencia-2.jpg)
+![Energia que entra vs. Energia útil](./IMAGES/perdendo-energia-eficiencia-2.jpg)
 
 ---
 
@@ -78,4 +78,4 @@ Imagine um mostrador com carinhas indicando o nível de eficiência:
 - 😐 Média eficiência  
 - 😀 Alta eficiência  
 
-![Níveis de eficiência](niveis-de-eficiencia.jpg)
+![Níveis de eficiência](./IMAGES/niveis-de-eficiencia.jpg)
