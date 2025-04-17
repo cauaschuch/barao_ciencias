@@ -79,3 +79,5 @@ Imagine um mostrador com carinhas indicando o nível de eficiência:
 - 😀 Alta eficiência  
 
 ![Níveis de eficiência](./IMAGES/niveis-de-eficiencia.jpg)
+
+Veremos a seguir que as máquinas reais tem eficiências muito abaixo do que esperamos! 😬
