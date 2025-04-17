@@ -72,7 +72,7 @@ Se nesse momento você **ligar a esfera à Terra** (com um fio), as cargas que f
 
 > 🔍 Isso é indução: **um corpo carregado induz uma carga em outro corpo neutro, à distância**.
 
-![Eletrização por indução](./IMAGES/eletrizacao-inducao.png)
+![Eletrização por indução](./IMAGES/eletrizacao_inducao_serto.png)
 
 ---
 
