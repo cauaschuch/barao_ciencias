@@ -11,7 +11,7 @@ Ao esfregar o balão, **ele atrai os elétrons do cabelo**, ficando **negativame
 
 Como cargas opostas se atraem, o cabelo **fica de pé!**
 
-![GIF: cabelo ficando de pé com balão](./IMAGES//video_cabelo_pe_cropado.mp4)
+![GIF: cabelo ficando de pé com balão](./IMAGES//video_cabelo_pe_cropado.GIF)
 
 ---
 
@@ -35,7 +35,7 @@ O atrito pode causar esse movimento de cargas em **vários materiais diferentes*
 
 Pra saber **quem vai perder ou ganhar elétrons**, usamos a **tabela de série triboelétrica**, como essa:
 
-![Tabela triboelétrica](./IMAGES/tabela-triboeletrica.png)
+![Tabela triboelétrica](./IMAGES/tabela_triboeletrica_direitosautorais.png)
 
 ---
 
