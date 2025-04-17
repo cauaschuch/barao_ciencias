@@ -11,7 +11,7 @@ Ao esfregar o balão, **ele atrai os elétrons do cabelo**, ficando **negativame
 
 Como cargas opostas se atraem, o cabelo **fica de pé!**
 
-![GIF: cabelo ficando de pé com balão](./video_cabelo_pe_cropado.mp4)
+![GIF: cabelo ficando de pé com balão](./IMAGES//video_cabelo_pe_cropado.mp4)
 
 ---
 
@@ -25,7 +25,7 @@ Assim, temos:
 - Balão: excesso de elétrons → **carga negativa**  
 - Cabelo: falta de elétrons → **carga positiva**
 
-![Imagem: transferência de cargas cabelo → balão](./mlk_cabelo_pe_cropado.jpeg)
+![Imagem: transferência de cargas cabelo → balão](./IMAGES/mlk_cabelo_pe_cropado.jpeg)
 
 ---
 
