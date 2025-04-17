@@ -56,7 +56,7 @@ Quando você faz esse contato, parte das **cargas elétricas se movem da régua 
 
 > 💡 Nesse processo, **as cargas se distribuem até atingirem o equilíbrio**. Depois do contato, tanto a régua quanto a esfera ficam carregadas — com a **mesma natureza de carga**.
 
-![Eletrização por contato](./IMAGES/eletrizacao-contato.png)
+![Eletrização por contato](./IMAGES/eletrizacao_contato.png)
 
 ---
 
