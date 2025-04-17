@@ -11,7 +11,7 @@ Ao esfregar o balão, **ele atrai os elétrons do cabelo**, ficando **negativame
 
 Como cargas opostas se atraem, o cabelo **fica de pé!**
 
-![GIF: cabelo ficando de pé com balão](./IMAGES//video_cabelo_pe_cropado.GIF)
+![GIF: cabelo ficando de pé com balão](./IMAGES/video_cabelo_pe_cropado_gif.gif)
 
 ---
 
