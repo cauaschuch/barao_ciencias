@@ -25,7 +25,7 @@ Assim, temos:
 - Balão: excesso de elétrons → **carga negativa**  
 - Cabelo: falta de elétrons → **carga positiva**
 
-![Imagem: transferência de cargas cabelo → balão](./IMAGES/cargas-cabelo-balao.png)
+![Imagem: transferência de cargas cabelo → balão](./mlk_cabelo_pe_cropado.jpeg)
 
 ---
 
