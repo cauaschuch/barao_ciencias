@@ -6,7 +6,7 @@ title: Aula 1
 # Aula 1: Eletricidade
 ### O que é eletricidade?:
 
-Eletricidade é o conceito que utilizamos para nos referir ao comportamento de cargas elétricas, como elas se movimentam e/ou como interagem entre si. A eletricidade é a principal forma de energia utilizável que temos acesso. Por exemplo, no nosso dia-a-dia, podemos utilizar a energia elétrica fornecida pela concessionária da região, que chega até as nossas casas e escolas, energizando as tomadas e assim possibilitando que liguemos diversos equipamentos como lâmpadas, geladeiras, computadores, fornos elétricos, etc.
+Eletricidade é o conceito que utilizamos para nos referir ao comportamento de **cargas elétricas**, como elas se movimentam e/ou como interagem entre si. A eletricidade é a principal forma de energia utilizável que temos acesso. Por exemplo, no nosso dia-a-dia, podemos utilizar a energia elétrica fornecida pela concessionária da região, que chega até as nossas casas e escolas, energizando as tomadas e assim possibilitando que liguemos diversos equipamentos como lâmpadas, geladeiras, computadores, fornos elétricos, etc.
 
 ### Cargas elétricas:
 
@@ -50,17 +50,29 @@ Tudo bem, falamos sobre a existência desses dois tipos de carga, mas essa ainda
 
 ### Os átomos:
 
-Os átomos são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os prótons, neutrons e elétrons. Prótons são partículas com carga positiva $$+e$$, onde $$ e \approx 1,602 \times 10^{-19}  C $$ e tem massa $$ m \approx 1 u $$, onde $$u = \frac{m_{C}}{12}$ ($m_{C}$$ é a massa de um átomo de carbono). Os neutrons são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. Já os elétrons tem carga negativa $$-e$$ (aproximadamente $$-1,602 \times 10^{-19}  C$$) e massa aproximada de $$\frac{1u}{1836}$$. Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, desconsideramos a massa dos elétrons uma vez que ela é muito baixa. 
+Os **átomos** são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os **prótons**, **neutrons** e **elétrons**. 
 
-Além disso, os átomos tem 2 regiões principais: o núcleo e a eletrosfera. O núcleo dos átomos é eletricamente positivo, é onde se concentram um ou mais prótons e pode ou não possuir neutrons também. A eletrosfera é a região envolta do núcleo atômico onde habitam os elétrons. O número de prótons em um átomo define qual elemento da tabela periódica aquele átomo representa.
+ - **Prótons** são partículas com carga positiva $$+e$$, onde $$ e \approx 1,602 \times 10^{-19}  C $$ e tem massa $$ m \approx 1 u $$, onde $$u = \frac{m_{C}}{12}$$ ($$m_{C}$$ é a massa de um átomo de carbono). 
+
+ - Os **neutrons** são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. 
+
+ - Já os **elétrons** tem carga negativa $$-e$$ (aproximadamente $$-1,602 \times 10^{-19}  C$$) e massa aproximada de $$\frac{1u}{1836}$$. 
+
+Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, desconsideramos a massa dos elétrons uma vez que ela é muito baixa. 
+
+Além disso, os átomos tem 2 regiões principais: o **núcleo** e a **eletrosfera**. 
+
+ - O **núcleo** dos átomos é **eletricamente positivo**, é onde se concentram um ou mais prótons e pode ou não possuir neutrons também. O número de prótons no núcleo define qual elemento da tabela periódica aquele átomo representa.
+
+ - A **eletrosfera** é a região em volta do núcleo atômico onde habitam os elétrons.
 
 <img src="IMAGES/image-1.png" alt="alt text" style="width:40%;">
 
-Quando um átomo tem o mesmo número de prótons e elétrons, como vimos anteriormente, ele é eletricamente neutro, pois apresenta carga líquida nula. Quando um átomo tem números diferentes de prótons e elétrons, ele pode ser eletricamente positivo ou negativo e passa a ser um íon.
+Quando um átomo tem o mesmo número de prótons e elétrons, como vimos anteriormente, ele é eletricamente neutro, pois apresenta carga líquida nula. Quando um átomo tem números diferentes de prótons e elétrons, ele pode ser eletricamente positivo ou negativo e passa a ser um **íon**.
 
-Para ter um número diferente de elétrons e prótons e se tornar um íon, um átomo deve perder ou ganhar elétrons. Quando um átomo ganha um ou mais elétrons, ele passa a ter carga líquida negativa, pois tem mais cargas negativas que cargas positivas. Íons com carga negativa são chamados de ânions.
+Para ter um número diferente de elétrons e prótons e se tornar um íon, um átomo deve perder ou ganhar elétrons. Quando um átomo ganha um ou mais elétrons, ele passa a ter carga líquida negativa, pois tem mais cargas negativas que cargas positivas. Íons com carga negativa são chamados de **ânions**.
 
-Agora, quando um átomo perde elétrons, ele passa a ter carga líquida positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de cátions.
+Agora, quando um átomo perde elétrons, ele passa a ter carga líquida positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de **cátions**.
 
 Vamos ver a física atômica em ação! Monte um átomo na simulação abaixo:
 
