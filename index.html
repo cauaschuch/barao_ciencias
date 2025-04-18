@@ -4,7 +4,7 @@ title: Página inicial
 ---
 
 <!-- Banner com texto sobreposto -->
-<section class="banner">
+<section class="banner full-height full-width">
   <div class="banner-overlay">
     <h1>Sobre</h1>
     <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática dos alunos da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
@@ -15,26 +15,40 @@ title: Página inicial
 </section>
 
 <!-- Containers com blocos -->
-<section class="container">
+<section class="container full-height full-width">
   <h2>Aulas</h2>
   <div class="card-grid">
-    <a href="/ciencias.html" class="card">Ciências</a>
-    <a href="/geografia.html" class="card">Geografia</a>
-    <a href="/matematica.html" class="card">Matemática</a>
+    <a href="/ciencias.html" class="card">🧪 Ciências</a>
+    <a href="/geografia.html" class="card">🌍 Geografia</a>
+    <a href="/matematica.html" class="card">➗ Matemática</a>
   </div>
 </section>
 
-<section class="container">
+<section class="container full-height full-width">
   <h2>Extras</h2>
   <div class="card-grid">
-    <a href="/extras.html" class="card">Conteúdos Extras</a>
-    <a href="/projetos.html" class="card">Projetos</a>
-    <a href="/interativos.html" class="card">Recursos Interativos</a>
+    <a href="/extras.html" class="card">📚 Conteúdos Extras</a>
+    <a href="/projetos.html" class="card">🔧 Projetos</a>
+    <a href="/interativos.html" class="card">🎮 Recursos Interativos</a>
   </div>
 </section>
 
 <!-- Estilos customizados -->
 <style>
+/* Ocupa altura e largura total da tela */
+.full-height {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.full-width {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+
 /* Banner */
 .banner {
   background-image: url('IMAGES/escola-barao-foto.jpg');
@@ -44,48 +58,55 @@ title: Página inicial
   padding: 5rem 2rem;
   position: relative;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  box-sizing: border-box;
 }
 
 .banner-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
-  max-width: 800px;
+  max-width: 900px;
   margin: auto;
   border-radius: 1rem;
 }
 
 /* Containers e blocos */
 .container {
-  padding: 2rem;
-  max-width: 960px;
-  margin: auto;
+  padding: 3rem 2rem;
+  text-align: center;
+  box-sizing: border-box;
 }
 
 .container h2 {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   color: #333;
+  font-size: 2.2rem;
 }
 
 .card-grid {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
+  justify-content: space-evenly;
+  gap: 2rem;
 }
 
 .card {
-  flex: 1 1 200px;
+  flex: 1 1 250px;
+  max-width: 300px;
   background: #f1f1f1;
-  border-radius: 8px;
-  padding: 1.5rem;
+  border-radius: 12px;
+  padding: 2rem;
   text-align: center;
   text-decoration: none;
   color: #333;
   font-weight: bold;
-  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
-  transition: background 0.3s ease;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .card:hover {
-  background: #ddd;
+  background-color: #e0e0e0;
+  transform: scale(1.05);
 }
 </style>
+
