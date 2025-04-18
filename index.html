@@ -1,0 +1,91 @@
+---
+layout: default
+title: Página inicial
+---
+
+<!-- Banner com texto sobreposto -->
+<section class="banner">
+  <div class="banner-overlay">
+    <h1>Sobre</h1>
+    <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática dos alunos da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
+    <p>A iniciativa é fruto de uma parceria entre as professoras <strong>Mari Rosso</strong>, <strong>Marla Tedeschi</strong> e <strong>Cristina Bottega</strong> com estudantes da <strong>Universidade de São Paulo (USP)</strong>, dentro da disciplina <strong>LOM3095: Tecnologias Limpas para Geração de Energia</strong>, da Escola de Engenharia de Lorena (EEL-USP).</p>
+    <p>Aqui você encontrará materiais de apoio, projetos, recursos interativos e conteúdos extras para tornar o aprendizado mais acessível, divertido e conectado com o dia a dia.</p>
+    <p><em>Sintam-se em casa!</em></p>
+  </div>
+</section>
+
+<!-- Containers com blocos -->
+<section class="container">
+  <h2>Aulas</h2>
+  <div class="card-grid">
+    <a href="/ciencias.html" class="card">Ciências</a>
+    <a href="/geografia.html" class="card">Geografia</a>
+    <a href="/matematica.html" class="card">Matemática</a>
+  </div>
+</section>
+
+<section class="container">
+  <h2>Extras</h2>
+  <div class="card-grid">
+    <a href="/extras.html" class="card">Conteúdos Extras</a>
+    <a href="/projetos.html" class="card">Projetos</a>
+    <a href="/interativos.html" class="card">Recursos Interativos</a>
+  </div>
+</section>
+
+<!-- Estilos customizados -->
+<style>
+/* Banner */
+.banner {
+  background-image: url('/IMAGES/escola-barao-foto.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+  border-radius: 1rem;
+}
+
+/* Containers e blocos */
+.container {
+  padding: 2rem;
+  max-width: 960px;
+  margin: auto;
+}
+
+.container h2 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 1 200px;
+  background: #f1f1f1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+  transition: background 0.3s ease;
+}
+
+.card:hover {
+  background: #ddd;
+}
+</style>
