@@ -208,13 +208,12 @@ Observe como parte da energia vai para a barra de energia térmica.
 A altura máxima vai diminuindo a cada ciclo, simulando perda de energia mecânica para o ambiente (como no exemplo real).
 Assim como a mãe de Dênis, temos que somar tudo para garantir que a energia total não desapareceu — apenas mudou de forma ou de lugar.
 
-<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html"
+<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html?locale=pt_BR"
         width="800"
         height="600"
         allowfullscreen>
 </iframe>
 
-### 🌀 A Abstração da Energia
 Por fim, é importante lembrar que a energia, embora seja um conceito fundamental, não sabemos o que ela é de fato. Ela não se apresenta em unidades fixas e visíveis. É uma ideia abstrata: usamos fórmulas para calcular e, ao somar tudo, o total permanece constante.
 
 📌 Energia é uma abstração matemática.
