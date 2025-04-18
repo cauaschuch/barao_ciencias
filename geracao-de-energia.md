@@ -7,5 +7,6 @@ title: Geração de energia
 
 - [Energia e sua conservação](./geracao-01.md)
 - [Transformação de energia](./geracao-03.md)
+- [Teste](./geracao-02.md)
 
 
