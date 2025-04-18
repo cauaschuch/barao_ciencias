@@ -23,12 +23,12 @@ Cargas positivas e negativas se atraem, enquanto cargas de mesma natureza se rep
 #### Lei de Coulomb:
 
 
-$F = k \cdot \frac{{|q_1 \cdot q_2|}}{{r^2}}$
+$$F = k \cdot \frac{{|q_1 \cdot q_2|}}{{r^2}}$$
 
 #### 📌 Onde:
 
 - **F** = Força elétrica entre as cargas (em **newtons**, N)  
-- **k** = Constante eletrostática do vácuo = \( $8{,}99$ $\times$ $10^9$ $N·m^2/$ $C^2$\)  
+- **k** = Constante eletrostática do vácuo = \( $$8{,}99$$ $$\times$$ $$10^9$$ $$N·m^2/$$ $$C^2$$\)  
 - **q₁** e **q₂** = Valores das cargas elétricas (em **coulombs**, C)  
 - **r** = Distância entre as cargas (em **metros**, m)  
 
@@ -50,7 +50,7 @@ Tudo bem, falamos sobre a existência desses dois tipos de carga, mas essa ainda
 
 ### Os átomos:
 
-Os átomos são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os prótons, neutrons e elétrons. Prótons são partículas com carga positiva $$+e$$, onde $$e \approx 1,602 \times 10^{-19}  C$$ e tem massa $$m \approx 1 u$$, onde $$u = \frac{m_{C}}{12}$ ($m_{C}$$ é a massa de um átomo de carbono). Os neutrons são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. Já os elétrons tem carga negativa $-e$ (aproximadamente $$-1,602 \times 10^{-19}  C$$) e massa aproximada de $$\frac{1u}{1836}$$. Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, desconsideramos a massa dos elétrons uma vez que ela é muito baixa. 
+Os átomos são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os prótons, neutrons e elétrons. Prótons são partículas com carga positiva $$+e$$, onde $$ e \approx 1,602 \times 10^{-19}  C $$ e tem massa $$ m \approx 1 u $$, onde $$u = \frac{m_{C}}{12}$ ($m_{C}$$ é a massa de um átomo de carbono). Os neutrons são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. Já os elétrons tem carga negativa $$-e$$ (aproximadamente $$-1,602 \times 10^{-19}  C$$) e massa aproximada de $$\frac{1u}{1836}$$. Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, desconsideramos a massa dos elétrons uma vez que ela é muito baixa. 
 
 Além disso, os átomos tem 2 regiões principais: o núcleo e a eletrosfera. O núcleo dos átomos é eletricamente positivo, é onde se concentram um ou mais prótons e pode ou não possuir neutrons também. A eletrosfera é a região envolta do núcleo atômico onde habitam os elétrons. O número de prótons em um átomo define qual elemento da tabela periódica aquele átomo representa.
 
@@ -62,8 +62,8 @@ Para ter um número diferente de elétrons e prótons e se tornar um íon, um á
 
 Agora, quando um átomo perde elétrons, ele passa a ter carga líquida positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de cátions.
 
+Vamos ver a física atômica em ação! Monte um átomo na simulação abaixo:
+
+<iframe src="https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html?locale=pt_BR" width="100%" height="500px"></iframe>
+
 ---
-
-### Condutores e Isolantes:
-
-Como discutimos antes, a matéria é constituida de átomos, e os objetos que utilizamos no nosso dia-a-dia apresentam milhares de bilhões de átomos, assim como o nosso próprio corpo. Estima-se que um corpo humano adulto de 70 kg tenha cerca 7 octilhões de átomos, ou seja, 7.000.000.000.000.000.000.000.000.000 átomos. Dependendo dos átomos presentes nos materiais dos objetos e como eles se organizam, podemos encontrar essencialmente 2 tipos de materiais: condutores e isolantes.
