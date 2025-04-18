@@ -1,0 +1,68 @@
+---
+layout: default
+title: Extras
+---
+
+<h1>Extras</h1>
+
+<div class="accordion">
+
+  <button class="accordion-toggle">Bloco 1: Curiosidades</button>
+  <div class="accordion-content">
+    <p>Este é o conteúdo do primeiro bloco. Pode ser texto, código ou imagens.</p>
+  </div>
+
+  <button class="accordion-toggle">Bloco 2: Dicas úteis</button>
+  <div class="accordion-content">
+    <p>Aqui vão dicas rápidas sobre comandos, sites, atalhos, etc.</p>
+  </div>
+
+  <button class="accordion-toggle">Bloco 3: Links interessantes</button>
+  <div class="accordion-content">
+    <ul>
+      <li><a href="https://arxiv.org" target="_blank">arXiv</a></li>
+      <li><a href="https://quantum-country.com" target="_blank">Quantum Country</a></li>
+    </ul>
+  </div>
+
+</div>
+
+<style>
+.accordion-toggle {
+  width: 100%;
+  background-color: #eee;
+  color: #333;
+  cursor: pointer;
+  padding: 1rem;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid #ccc;
+}
+
+.accordion-toggle:hover {
+  background-color: #ddd;
+}
+
+.accordion-content {
+  padding: 0 1rem;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ccc;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const toggles = document.querySelectorAll('.accordion-toggle');
+  toggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const content = toggle.nextElementSibling;
+      content.style.display = content.style.display === 'block' ? 'none' : 'block';
+    });
+  });
+});
+</script>
