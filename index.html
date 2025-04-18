@@ -3,36 +3,40 @@ layout: default
 title: Página inicial
 ---
 
-<!-- Banner com texto sobreposto -->
-<section class="banner">
-  <div class="banner-overlay">
-    <h1>Sobre</h1>
-    <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática dos alunos da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
-    <p>A iniciativa é fruto de uma parceria entre as professoras <strong>Mari Rosso</strong>, <strong>Marla Tedeschi</strong> e <strong>Cristina Bottega</strong> com estudantes da <strong>Universidade de São Paulo (USP)</strong>, dentro da disciplina <strong>LOM3095: Tecnologias Limpas para Geração de Energia</strong>, da Escola de Engenharia de Lorena (EEL-USP).</p>
-    <p>Aqui você encontrará materiais de apoio, projetos, recursos interativos e conteúdos extras para tornar o aprendizado mais acessível, divertido e conectado com o dia a dia.</p>
-    <p><em>Sintam-se em casa!</em></p>
-  </div>
-</section>
+<div class="wrapper">
 
-<!-- Container: Aulas -->
-<section class="container aulas">
-  <h2>Aulas</h2>
-  <div class="card-grid">
-    <a href="/ciencias.html" class="card">🧪 Ciências</a>
-    <a href="/geografia.html" class="card">🌍 Geografia</a>
-    <a href="/matematica.html" class="card">➗ Matemática</a>
-  </div>
-</section>
+  <!-- Banner com texto sobreposto -->
+  <section class="banner">
+    <div class="banner-overlay">
+      <h1>Sobre</h1>
+      <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática dos alunos da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
+      <p>A iniciativa é fruto de uma parceria entre as professoras <strong>Mari Rosso</strong>, <strong>Marla Tedeschi</strong> e <strong>Cristina Bottega</strong> com estudantes da <strong>Universidade de São Paulo (USP)</strong>, dentro da disciplina <strong>LOM3095: Tecnologias Limpas para Geração de Energia</strong>, da Escola de Engenharia de Lorena (EEL-USP).</p>
+      <p>Aqui você encontrará materiais de apoio, projetos, recursos interativos e conteúdos extras para tornar o aprendizado mais acessível, divertido e conectado com o dia a dia.</p>
+      <p><em>Sintam-se em casa!</em></p>
+    </div>
+  </section>
 
-<!-- Container: Extras -->
-<section class="container extras">
-  <h2>Extras</h2>
-  <div class="card-grid">
-    <a href="/extras.html" class="card">📚 Conteúdos Extras</a>
-    <a href="/projetos.html" class="card">🔧 Projetos</a>
-    <a href="/interativos.html" class="card">🎮 Recursos Interativos</a>
-  </div>
-</section>
+  <!-- Container: Aulas -->
+  <section class="container aulas">
+    <h2>Aulas</h2>
+    <div class="card-grid">
+      <a href="/ciencias.html" class="card">🧪 Ciências</a>
+      <a href="/geografia.html" class="card">🌍 Geografia</a>
+      <a href="/matematica.html" class="card">➗ Matemática</a>
+    </div>
+  </section>
+
+  <!-- Container: Extras -->
+  <section class="container extras">
+    <h2>Extras</h2>
+    <div class="card-grid">
+      <a href="/extras.html" class="card">📚 Conteúdos Extras</a>
+      <a href="/projetos.html" class="card">🔧 Projetos</a>
+      <a href="/interativos.html" class="card">🎮 Recursos Interativos</a>
+    </div>
+  </section>
+
+</div>
 
 <!-- Estilos -->
 <style>
@@ -56,14 +60,11 @@ html, body {
   padding: 5rem 2rem;
   position: relative;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-  width: 100%;
 }
 
 .banner-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
-  max-width: 800px;
-  margin: auto;
   border-radius: 1rem;
 }
 
@@ -71,7 +72,6 @@ html, body {
 .container {
   padding: 3rem 2rem;
   text-align: center;
-  width: 100%;
 }
 
 /* Cores diferentes para cada container */
