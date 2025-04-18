@@ -3,10 +3,9 @@ layout: default
 title: Página inicial
 ---
 
-<div class="wrapper">
-
-  <!-- Banner com texto sobreposto -->
-  <section class="banner">
+<!-- Banner de largura total -->
+<section class="banner">
+  <div class="wrapper">
     <div class="banner-overlay">
       <h1>Sobre</h1>
       <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática dos alunos da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
@@ -14,7 +13,11 @@ title: Página inicial
       <p>Aqui você encontrará materiais de apoio, projetos, recursos interativos e conteúdos extras para tornar o aprendizado mais acessível, divertido e conectado com o dia a dia.</p>
       <p><em>Sintam-se em casa!</em></p>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Seções com conteúdo centralizado -->
+<div class="wrapper">
 
   <!-- Container: Aulas -->
   <section class="container aulas">
@@ -51,7 +54,7 @@ html, body {
   box-sizing: border-box;
 }
 
-/* Banner */
+/* Banner de largura total */
 .banner {
   background-image: url('IMAGES/escola-barao-foto.jpg');
   background-size: cover;
@@ -60,6 +63,7 @@ html, body {
   padding: 5rem 2rem;
   position: relative;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  width: 100%;
 }
 
 .banner-overlay {
