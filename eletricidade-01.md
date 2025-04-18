@@ -22,9 +22,8 @@ Cargas positivas e negativas se atraem, enquanto cargas de mesma natureza se rep
 
 #### Lei de Coulomb:
 
-$$
-F = k \cdot \frac{{|q_1 \cdot q_2|}}{{r^2}}
-$$
+
+$F = k \cdot \frac{{|q_1 \cdot q_2|}}{{r^2}}$
 
 #### 📌 Onde:
 
@@ -39,6 +38,11 @@ $$
 
 - A força é **atrativa** se as cargas forem **opostas** (positivo e negativo).
 - A força é **repulsiva** se as cargas forem **de mesma natureza** (positivo e positivo ou negativo e negativo).
+
+Confira a simulação abaixo para ver a Lei de Coulomb em ação!
+
+<iframe src="https://phet.colorado.edu/sims/html/coulombs-law/latest/coulombs-law_all.html?locale=pt_BR" width="100%" height="500px"></iframe>
+
 
 Tudo bem, falamos sobre a existência desses dois tipos de carga, mas essa ainda não é uma resposta satisfatória para a pergunta que nos fizemos. Talvez uma melhor pergunta para entendermos o que são as cargas elétricas seja nos perguntar "de onde essas cargas vem?". A resposta para essa pergunta está nos átomos!
 
@@ -63,4 +67,3 @@ Agora, quando um átomo perde elétrons, ele passa a ter carga líquida positiva
 ### Condutores e Isolantes:
 
 Como discutimos antes, a matéria é constituida de átomos, e os objetos que utilizamos no nosso dia-a-dia apresentam milhares de bilhões de átomos, assim como o nosso próprio corpo. Estima-se que um corpo humano adulto de 70 kg tenha cerca 7 octilhões de átomos, ou seja, 7.000.000.000.000.000.000.000.000.000 átomos. Dependendo dos átomos presentes nos materiais dos objetos e como eles se organizam, podemos encontrar essencialmente 2 tipos de materiais: condutores e isolantes.
-
