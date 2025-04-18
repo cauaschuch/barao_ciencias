@@ -23,7 +23,7 @@ Cargas positivas e negativas se atraem, enquanto cargas de mesma natureza se rep
 #### Lei de Coulomb:
 
 
-$$F = k \cdot \frac{{|q_1 \cdot q_2|}}{{r^2}}$$
+$$F = k \cdot \frac{|q_1 \cdot q_2|}{r^2}$$
 
 #### 📌 Onde:
 
