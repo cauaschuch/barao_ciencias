@@ -41,7 +41,6 @@ title: Página inicial
 
 </div>
 
-<!-- Estilos -->
 <style>
 /* Reset e base */
 html, body {
@@ -54,6 +53,11 @@ html, body {
   box-sizing: border-box;
 }
 
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 2rem;
+}
+
 /* Banner de largura total */
 .banner {
   background-image: url('IMAGES/escola-barao-foto.jpg');
@@ -64,10 +68,11 @@ html, body {
   position: relative;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
   width: 100%;
+  border-radius: 0 0 1rem 1rem;
 }
 
 .banner-overlay {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3); /* Menos escuro */
   padding: 2rem;
   border-radius: 1rem;
 }
@@ -76,6 +81,8 @@ html, body {
 .container {
   padding: 3rem 2rem;
   text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
 }
 
 /* Cores diferentes para cada container */
@@ -121,3 +128,4 @@ html, body {
   transform: scale(1.05);
 }
 </style>
+
