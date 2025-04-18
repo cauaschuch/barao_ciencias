@@ -4,7 +4,7 @@ title: Página inicial
 ---
 
 <!-- Banner com texto sobreposto -->
-<section class="banner full-height full-width">
+<section class="banner">
   <div class="banner-overlay">
     <h1>Sobre</h1>
     <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática dos alunos da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
@@ -14,8 +14,8 @@ title: Página inicial
   </div>
 </section>
 
-<!-- Containers com blocos -->
-<section class="container full-height full-width">
+<!-- Container: Aulas -->
+<section class="container aulas">
   <h2>Aulas</h2>
   <div class="card-grid">
     <a href="/ciencias.html" class="card">🧪 Ciências</a>
@@ -24,7 +24,8 @@ title: Página inicial
   </div>
 </section>
 
-<section class="container full-height full-width">
+<!-- Container: Extras -->
+<section class="container extras">
   <h2>Extras</h2>
   <div class="card-grid">
     <a href="/extras.html" class="card">📚 Conteúdos Extras</a>
@@ -33,64 +34,58 @@ title: Página inicial
   </div>
 </section>
 
-<!-- Estilos customizados -->
+<!-- Estilos -->
 <style>
-/* Ocupa altura e largura total da tela */
-.full-height {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.full-width {
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-}
-
 /* Banner */
 .banner {
-  background-image: url('IMAGES/escola-barao-foto.jpg');
+  background-image: url('/IMAGES/escola-barao-foto.jpg');
   background-size: cover;
   background-position: center;
   color: white;
   padding: 5rem 2rem;
   position: relative;
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
-  box-sizing: border-box;
 }
 
 .banner-overlay {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 2rem;
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
   border-radius: 1rem;
 }
 
-/* Containers e blocos */
+/* Containers */
 .container {
   padding: 3rem 2rem;
   text-align: center;
-  box-sizing: border-box;
+}
+
+/* Cores diferentes para cada container */
+.container.aulas {
+  background-color: #f0f9ff;
+}
+
+.container.extras {
+  background-color: #fff8e6;
 }
 
 .container h2 {
   margin-bottom: 2rem;
   color: #333;
-  font-size: 2.2rem;
+  font-size: 2rem;
 }
 
+/* Grid e cards */
 .card-grid {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  gap: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .card {
-  flex: 1 1 250px;
+  flex: 1 1 240px;
   max-width: 300px;
   background: #f1f1f1;
   border-radius: 12px;
@@ -109,4 +104,3 @@ title: Página inicial
   transform: scale(1.05);
 }
 </style>
-
