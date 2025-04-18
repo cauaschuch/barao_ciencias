@@ -32,6 +32,7 @@ A **corrente elétrica** é como o **fluxo da água correndo pelo cano**.
 Se abrirmos a torneira da caixa d’água, a água começa a fluir.  
 Na eletricidade, quando há tensão, os elétrons começam a "fluir" pelo fio.  
 Isso é a **corrente**, medida em **ampères (A)**.
+Repare que, nessa analogia, quanto maior o cano, mais flúido flui por ele, então maior a corrente.
 
 
 ![Imagem: analogia hidráulica corrente](./IMAGES/image_corrente.jpg)
