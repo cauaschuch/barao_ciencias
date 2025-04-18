@@ -10,9 +10,15 @@ Eletricidade é o conceito que utilizamos para nos referir ao comportamento de *
 
 ### Cargas elétricas:
 
-Para entender como funciona a eletricidade, precisamos compreender primeiramente a pergunta "o que são as cargas elétricas?". Na natureza existem 2 tipos de cargas: as positivas (+) e as negativas (-). Corpos com números iguais de cargas positivas e negativas são chamados de corpos eletricamente neutros e tem carga líquida igual a 0. A unidade de carga elétrica no sistema internacional de unidades é o Coulomb (C).
+Para entender como funciona a eletricidade, precisamos compreender primeiramente a pergunta "o que são as cargas elétricas?". Na natureza existem 2 tipos de cargas: as **positivas (+)** e as **negativas (-)**. 
 
-A carga líquida é a soma de cargas em um corpo. Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga líquida pode ser calculada pela soma das cargas, assim $$Q_{liq} = +1 -1 = 0$$. Assim podemos dizer que essa esfera é eletricamente neutra. 
+ - Corpos com números iguais de cargas positivas e negativas são chamados de corpos eletricamente neutros e tem carga líquida igual a 0.
+
+ - A unidade de carga elétrica no sistema internacional de unidades é o Coulomb (C).
+
+ - A carga líquida é a soma de cargas em um corpo. 
+
+Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga líquida pode ser calculada pela soma das cargas, assim $$Q_{liq} = +1 -1 = 0$$. Assim podemos dizer que essa esfera é eletricamente neutra. 
 
 <img src="IMAGES/image.png" alt="alt text" style="width:50%;">
 
