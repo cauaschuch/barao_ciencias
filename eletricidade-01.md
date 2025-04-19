@@ -79,9 +79,11 @@ Além disso, os átomos tem 2 regiões principais: o **núcleo** e a **eletrosfe
 
 Quando um átomo tem o mesmo número de prótons e elétrons, como vimos anteriormente, ele é eletricamente neutro, pois apresenta carga total nula. Quando um átomo tem números diferentes de prótons e elétrons, ele pode ser eletricamente positivo ou negativo e passa a ser um **íon**.
 
-Para ter um número diferente de elétrons e prótons e se tornar um íon, um átomo deve perder ou ganhar elétrons. Quando um átomo ganha um ou mais elétrons, ele passa a ter carga total negativa, pois tem mais cargas negativas que cargas positivas. Íons com carga negativa são chamados de **ânions**.
+Para ter um número diferente de elétrons e prótons e se tornar um íon, um átomo deve perder ou ganhar elétrons. 
 
-Agora, quando um átomo perde elétrons, ele passa a ter carga total positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de **cátions**.
+- Quando um átomo ganha um ou mais elétrons, ele passa a ter carga total negativa, pois tem mais cargas negativas que cargas positivas. Íons com carga negativa são chamados de **ânions**.
+
+- Agora, quando um átomo perde elétrons, ele passa a ter carga total positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de **cátions**.
 
 Vamos ver a física atômica em ação! Lembre-se do que falamos, clique no botão "ÁTOMO" e monte um átomo (ou um íon) na simulação abaixo! No lado direito da tela veja qual átomo da tabela periódica você montou.
 
