@@ -8,7 +8,7 @@ title: Aula 1
 
 Eletricidade é como nos referimos ao comportamento de **cargas elétricas**, como elas se movimentam e interagem entre si! 
 
-A eletricidade é a principal forma de energia utilizável que temos acesso. Por exemplo, no nosso dia-a-dia, podemos utilizar a energia elétrica fornecida pela concessionária da região, que chega até as nossas casas e escolas, energizando as tomadas e assim possibilitando que liguemos diversos equipamentos como lâmpadas, geladeiras, computadores, fornos elétricos, etc.
+A eletricidade é a principal forma de energia utilizável que temos acesso. Por exemplo, no nosso dia-a-dia, podemos utilizar a energia elétrica fornecida pela concessionária da região, que chega até as nossas casas e escolas, energizando as tomadas e assim possibilitando que liguemos diversos equipamentos como lâmpadas, geladeiras, computadores, fornos elétricos etc.
 
 <img src="IMAGES/power-lines-jump-rope.gif" alt="alt text" style="width:50%;">
 
