@@ -16,19 +16,19 @@ A eletricidade é a principal forma de energia utilizável que temos acesso. Por
 
 Para entender como funciona a eletricidade, precisamos compreender primeiramente a pergunta "o que são as cargas elétricas?". Na natureza existem 2 tipos de cargas: as **positivas (+)** e as **negativas (-)**. 
 
- - Corpos com números iguais de cargas positivas e negativas são chamados de corpos **eletricamente neutros** e tem **carga líquida** igual a 0.
+ - Corpos com números iguais de cargas positivas e negativas são chamados de corpos **eletricamente neutros** e tem **carga total** igual a 0.
 
  - A unidade de carga elétrica no sistema internacional de unidades é o **Coulomb (C)**.
 
- - A **carga líquida** é a soma de cargas em um corpo. 
+ - A **carga total** é a soma de cargas em um corpo. 
 
-Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga líquida pode ser calculada pela soma das cargas, assim $$Q_{liq} = +1 -1 = 0$$. Assim podemos dizer que essa esfera é eletricamente neutra. 
+Vamos supor que tenhamos a esfera abaixo com uma carga positiva +1 e uma carga negativa -1. A carga total pode ser calculada pela soma das cargas, assim $$Q_{liq} = +1 -1 = 0$$. Assim podemos dizer que essa esfera é eletricamente neutra. 
 
 <img src="IMAGES/image.png" alt="alt text" style="width:50%;">
 
- - Corpos com mais cargas positivas que cargas negativas, são corpos **eletricamente positivos** e tem carga líquida maior que 0.
+ - Corpos com mais cargas positivas que cargas negativas, são corpos **eletricamente positivos** e tem carga total maior que 0.
    
- - De maneira similar, corpos com mais cargas negativas que cargas positivas são corpos **eletricamente negativos** e tem carga líquida menor que 0. 
+ - De maneira similar, corpos com mais cargas negativas que cargas positivas são corpos **eletricamente negativos** e tem carga total menor que 0. 
 
  - Cargas positivas e negativas se atraem, enquanto cargas de mesma natureza se repelem. 
 
@@ -61,13 +61,13 @@ Tudo bem, falamos sobre a existência desses dois tipos de carga, mas essa ainda
 
 Os **átomos** são unidades fundamentais de formação da matéria e são compostos por 3 partículas fundamentais: os **prótons**, **neutrons** e **elétrons**. 
 
- - **Prótons** são partículas com carga positiva $$+e$$, onde $$e$$ é o que nós chamamos de **carga elementar**. Prótons tem massa $$ m \approx 1 u $$, onde $$u$$ é 1/12 da massa de um átomo de carbono). 
+ - **Prótons** são partículas com carga positiva $$+e$$, onde $$e$$ é o que nós chamamos de **carga elementar**. Prótons tem massa $$ m \approx 1 u $$, onde $$u$$ é a unidade fundamental de massa atômica. 
 
  - Os **neutrons** são partículas eletricamente neutras e tem aproximadamente a mesma massa do próton. 
 
  - Já os **elétrons** tem carga negativa $$-e$$ e massa aproximada de $$\frac{1u}{1836}$$. 
 
-Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, que é muito utilizado na química, desconsideramos a massa dos elétrons uma vez que ela é muito muito muito baixa. 
+Repare que os prótons e elétrons tem a mesma carga, com sinal trocado. Em muitos cálculos de massa atômica, muito utilizados na química e na física, desconsideramos a massa dos elétrons uma vez que ela é muito muito muito baixa. 
 
 Além disso, os átomos tem 2 regiões principais: o **núcleo** e a **eletrosfera**. 
 
@@ -77,13 +77,13 @@ Além disso, os átomos tem 2 regiões principais: o **núcleo** e a **eletrosfe
 
 <img src="IMAGES/image-1.png" alt="alt text" style="width:40%;">
 
-Quando um átomo tem o mesmo número de prótons e elétrons, como vimos anteriormente, ele é eletricamente neutro, pois apresenta carga líquida nula. Quando um átomo tem números diferentes de prótons e elétrons, ele pode ser eletricamente positivo ou negativo e passa a ser um **íon**.
+Quando um átomo tem o mesmo número de prótons e elétrons, como vimos anteriormente, ele é eletricamente neutro, pois apresenta carga total nula. Quando um átomo tem números diferentes de prótons e elétrons, ele pode ser eletricamente positivo ou negativo e passa a ser um **íon**.
 
-Para ter um número diferente de elétrons e prótons e se tornar um íon, um átomo deve perder ou ganhar elétrons. Quando um átomo ganha um ou mais elétrons, ele passa a ter carga líquida negativa, pois tem mais cargas negativas que cargas positivas. Íons com carga negativa são chamados de **ânions**.
+Para ter um número diferente de elétrons e prótons e se tornar um íon, um átomo deve perder ou ganhar elétrons. Quando um átomo ganha um ou mais elétrons, ele passa a ter carga total negativa, pois tem mais cargas negativas que cargas positivas. Íons com carga negativa são chamados de **ânions**.
 
-Agora, quando um átomo perde elétrons, ele passa a ter carga líquida positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de **cátions**.
+Agora, quando um átomo perde elétrons, ele passa a ter carga total positiva, pois tem mais cargas positivas que cargas negativas. Íons com carga positiva são chamados de **cátions**.
 
-Vamos ver a física atômica em ação! Lembre-se do que falamos, clique no botão "ÁTOMO" e monte um átomo (ou um íon) na simulação abaixo:
+Vamos ver a física atômica em ação! Lembre-se do que falamos, clique no botão "ÁTOMO" e monte um átomo (ou um íon) na simulação abaixo! No lado direito da tela veja qual átomo da tabela periódica você montou.
 
 <iframe src="https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_all.html?locale=pt_BR" width="100%" height="500px"></iframe>
 
