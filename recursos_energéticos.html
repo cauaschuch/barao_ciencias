@@ -1,0 +1,118 @@
+---
+layout: default
+title: Página inicial
+---
+
+<!-- Seções com conteúdo centralizado -->
+<div class="wrapper">
+
+  <!-- Container: Fontes de Energia Renováveis -->
+  <section class="container Fontes de Energia Renováveis">
+    <h2>Aulas</h2>
+    <div class="card-grid">
+      <a href="/solar.html" class="card"> Solar </a>
+      <a href="/eollica.html" class="card"> Eólica </a>
+      <a href="/hidreletrica.html" class="card"> Hidrelétrica </a>
+      <a href="/biomassa.html" class="card"> Biomassa </a>
+      <a href="/geotermica.html" class="card"> Geotérmica </a>
+      <a href="/mares.html" class="card"> Energia das Marés </a>
+    </div>
+  </section>
+
+    <!-- Container: Extras -->
+  <section class="container Fontes de Energia Não Renováveis">
+    <h2>Extras</h2>
+    <div class="card-grid">
+      <a href="/petróleo.html" class="card"> Petróleo </a>
+      <a href="/carvao_mineral.html" class="card"> Carvão Mineral </a>
+      <a href="/gas_natural.html" class="card"> Gás natural </a>
+    </div>
+</section>
+        
+<style>
+/* Reset e base */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Banner de largura total */
+.banner {
+  background-image: url('IMAGES/escola-barao-foto.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.3); /* Menos escuro */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* Containers */
+.container {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+/* Cores diferentes para cada container */
+.container.aulas {
+  background-color: #f0f9ff;
+}
+
+.container.extras {
+  background-color: #fff8e6;
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Grid e cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  flex: 1 1 240px;
+  max-width: 300px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+</style>
