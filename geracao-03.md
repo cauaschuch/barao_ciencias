@@ -32,7 +32,7 @@ Se **houver atrito** (como o ar ou a colisão com o solo), parte dessa energia c
 
 ### 🖥️ Aplicando na Simulação — Teoria em Ação
 
-▶️ 1. Aquecendo um Bloco de Metal
+▶️ **1. Aquecendo um Bloco de Metal**
 
 - Energia elétrica → energia térmica no bloco.
 
@@ -41,12 +41,26 @@ Se **houver atrito** (como o ar ou a colisão com o solo), parte dessa energia c
 - A energia não desaparece, ela muda de forma: de elétrica para térmica.
 
 
-▶️ 2. Esfriando Naturalmente
+▶️ **2. Esfriando Naturalmente**
 - Desligue o aquecedor:
   - A energia térmica do bloco diminui e aumenta no ambiente.
   - Assim como no caso do objeto com atrito, a energia “perdida” vira calor no meio — só que aqui, sem mistério, a simulação mostra isso claramente.
 
 
+<iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+▶️ **3. Bicicleta com Gerador**
+
+- O ciclista aplica força nos pedais, movimentando a bicicleta.
+- Isso cria energia cinética (movimento dos pedais e da roda).
+- O gerador transforma a energia cinética em energia elétrica.
+- Essa energia elétrica se transforma em luz e calor na lâmpada.
+
+> **A energia mecânica (do ciclista) se transforma em energia elétrica no gerador, que depois se transforma em energia térmica e luminosa — e a energia total do sistema se conserva.**
 <iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
         width="800"
         height="600"
