@@ -47,7 +47,7 @@ Com isso, o total era sempre 28. Assim, mesmo sem ver todos os blocos diretament
         <mo>−</mo>
         <mtext>blocos achados</mtext>
         <mo>&times;</mo>
-        <mn>15</mn>
+        <mn>30</mn>
         <mtext>g</mtext>
         <mo>)</mo>
       </mrow>
@@ -78,7 +78,10 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
         <mo>−</mo>
         <mtext>blocos achados</mtext>
         <mo>&times;</mo>
-        <mn>15</mn>
+        <mfrac>
+          <mn>1</mn>
+          <mn>2</mn>
+        </mfrac>
         <mtext>cm</mtext>
         <mo>)</mo>
       </mrow>
