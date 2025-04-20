@@ -10,8 +10,8 @@ Segundo Feynman, a **lei de conservação de energia** diz que, mesmo quando a e
 
 
 
-📌 Lei da Conservação da Energia:
-“A energia não pode ser criada nem destruída — apenas transformada de uma forma para outra. A quantidade total de energia num sistema fechado permanece constante.”
+> 📌 Lei da Conservação da Energia:
+> “A energia não pode ser criada nem destruída — apenas transformada de uma forma para outra. A quantidade total de energia num sistema fechado permanece constante.”
 
 
 ### Como Isso Funciona?
