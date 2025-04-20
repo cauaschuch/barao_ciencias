@@ -14,7 +14,7 @@ Segundo Feynman, a **lei de conservação de energia** diz que, mesmo quando a e
 > “A energia não pode ser criada nem destruída — apenas transformada de uma forma para outra. A quantidade total de energia num sistema fechado permanece constante.”
 
 
-### Como Isso Funciona?
+### ⚙️ Como Isso Funciona?
 Se um objeto está alto, ele tem **energia potencial gravitacional**. Ao cair, essa energia se transforma em **energia cinética** (movimento). No final, se não houver atrito, a soma dessas energias permanece a mesma durante todo o movimento.
 
 - **No ponto mais alto:**
@@ -30,7 +30,24 @@ Se um objeto está alto, ele tem **energia potencial gravitacional**. Ao cair, e
 
 Se **houver atrito** (como o ar ou a colisão com o solo), parte dessa energia cinética **se transforma em energia térmica (calor)**. Vale destacar que, mesmo que a energia “desapareça” de uma forma visível, ela continua existindo, apenas muda de forma.
 
-<iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_en.html"
+### 🖥️ Aplicando na Simulação — Teoria em Ação
+
+▶️ 1. Aquecendo um Bloco de Metal
+
+- Energia elétrica → energia térmica no bloco.
+
+- O aquecedor faz a transformação da energia elétrica em energia térmica.
+  
+- A energia não desaparece, ela muda de forma: de elétrica para térmica.
+
+
+▶️ 2. Esfriando Naturalmente
+- Desligue o aquecedor:
+  - A energia térmica do bloco diminui e aumenta no ambiente.
+  - Assim como no caso do objeto com atrito, a energia “perdida” vira calor no meio — só que aqui, sem mistério, a simulação mostra isso claramente.
+
+
+<iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
         width="800"
         height="600"
         allowfullscreen>
