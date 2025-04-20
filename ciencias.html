@@ -1,0 +1,131 @@
+---
+layout: default
+title: Ciências
+---
+
+<!-- Banner de largura total -->
+<section class="banner">
+  <div class="wrapper">
+    <div class="banner-overlay">
+      <p>Em Ciências, estudamos os conceitos fundamentais sobre eletricidade e energia, desde o que são essas grandezas até como elas se transformam e se conservam nos sistemas físicos. Explore os conteúdos para entender melhor esses fenômenos que fazem parte do nosso cotidiano!</p>
+    </div>
+  </div>
+</section>
+
+<!-- Seções com conteúdo centralizado -->
+<div class="wrapper">
+
+  <!-- Container: Eletricidade -->
+  <section class="container aulas">
+    <h2>Eletricidade</h2>
+    <div class="card-grid">
+      <a href="/eletricidade_oque" class="card"> O que é eletricidade? </a>
+      <a href="/processos_eletrizacao" class="card"> Processos de Eletrização </a>
+      <a href="/corrente_tensao" class="card"> Corrente Elétrica e Tensão </a>
+      <a href="/potencia_eletrica" class="card"> Potência Elétrica </a>
+      <a href="/circuitos_I" class="card"> Circuitos Elétricos: módulo I </a>
+      <a href="/circuitos_II" class="card"> Circuitos Elétricos: módulo II </a>
+      <a href="/materiais_condutores" class="card"> Materiais Isolantes e Condutores </a>
+      <a href="/curiosidades_semicondutores" class="card"> Curiosidades: Semicondutores e Supercondutores </a>
+    </div>
+  </section>
+
+  <!-- Container: Energia e Conservação -->
+  <section class="container extras">
+    <h2>Energia e Conservação</h2>
+    <div class="card-grid">
+      <a href="/o_que_e_energia" class="card"> O que é energia? </a>
+      <a href="/conservacao_energia" class="card"> Conservação de Energia </a>
+      <a href="/transformacao_energia" class="card"> Transformação de Energia </a>
+    </div>
+  </section>
+
+</div>
+
+<style>
+/* Reset e base */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Banner de largura total */
+.banner {
+  background-image: url('IMAGES/ciencias_banner.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* Containers */
+.container {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+/* Cores diferentes para cada container */
+.container.aulas {
+  background-color: #ffe5e5;
+}
+
+.container.extras {
+  background-color: #ffefcc;
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Grid e cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  flex: 1 1 240px;
+  max-width: 300px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+</style>
