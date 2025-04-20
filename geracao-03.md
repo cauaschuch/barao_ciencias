@@ -34,6 +34,23 @@ Se **houver atrito** (como o ar ou a colisão com o solo), parte dessa energia c
 
 ▶️ **1. Aquecendo um Bloco de Metal**
 
+**Configuração Inicial:**
+- Modo: Introdução
+
+**Ferramentas ativas:**
+- Símbolos de Energia
+
+**Procedimentos:**
+- Posicione o bloco de ferro em um dos aquecedores.
+- Aqueça por alguns instantes.
+
+<iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+**Observe:**
 - Energia elétrica → energia térmica no bloco.
 
 - O aquecedor faz a transformação da energia elétrica em energia térmica.
@@ -42,10 +59,17 @@ Se **houver atrito** (como o ar ou a colisão com o solo), parte dessa energia c
 
 
 ▶️ **2. Esfriando Naturalmente**
-- Desligue o aquecedor:
-  - A energia térmica do bloco diminui e aumenta no ambiente.
-  - Assim como no caso do objeto com atrito, a energia “perdida” vira calor no meio — só que aqui, sem mistério, a simulação mostra isso claramente.
 
+**Configuração Inicial:**
+- Modo: Introdução
+
+**Ferramentas ativas:**
+- Símbolos de Energia
+
+**Procedimentos:**
+- Posicione o bloco de ferro em um dos aquecedores.
+- Aqueça por alguns instantes.
+- Desligue o aquecedor e e aguarde alguns segundos.
 
 <iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
         width="800"
@@ -53,16 +77,35 @@ Se **houver atrito** (como o ar ou a colisão com o solo), parte dessa energia c
         allowfullscreen>
 </iframe>
 
+
+**Observe:**
+- A energia térmica do bloco diminui e aumenta no ambiente.
+- Assim como no caso do objeto com atrito, a energia “perdida” vira calor no meio — só que aqui, sem mistério, a simulação mostra isso claramente.
+
+
+
 ▶️ **3. Bicicleta com Gerador**
 
+**Configuração Inicial:**
+- Modo: Sistemas
+
+**Ferramentas ativas:**
+- Símbolos de Energia
+
+**Procedimentos:**
+- Arraste a barra abaixo da bicicleta para que a peronsagem comece a pedalar.
+
+<iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
+        width="800"
+        height="600"
+        allowfullscreen>
+</iframe>
+
+**Observe:** 
 - O ciclista aplica força nos pedais, movimentando a bicicleta.
 - Isso cria energia cinética (movimento dos pedais e da roda).
 - O gerador transforma a energia cinética em energia elétrica.
 - Essa energia elétrica se transforma em luz e calor na lâmpada.
 
 > **A energia mecânica (do ciclista) se transforma em energia elétrica no gerador, que depois se transforma em energia térmica e luminosa — e a energia total do sistema se conserva.**
-<iframe src="https://phet.colorado.edu/sims/html/energy-forms-and-changes/latest/energy-forms-and-changes_pt_BR.html"
-        width="800"
-        height="600"
-        allowfullscreen>
-</iframe>
+
