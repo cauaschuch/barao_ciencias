@@ -45,7 +45,9 @@ Com isso, o total era sempre 28. Assim, mesmo sem ver todos os blocos diretament
         <mo>(</mo>
         <mtext>peso da caixa</mtext>
         <mo>−</mo>
-        <mn>160</mn>
+        <mtext>blocos achados</mtext>
+        <mo>&times;</mo>
+        <mn>15</mn>
         <mtext>g</mtext>
         <mo>)</mo>
       </mrow>
@@ -74,6 +76,8 @@ Novos desvios parecem surgir, mas a mãe percebe que o nível da água suja na b
         <mo>(</mo>
         <mtext>altura da água</mtext>
         <mo>−</mo>
+        <mtext>blocos achados</mtext>
+        <mo>&times;</mo>
         <mn>15</mn>
         <mtext>cm</mtext>
         <mo>)</mo>
@@ -208,12 +212,11 @@ Observe como parte da energia vai para a barra de energia térmica.
 A altura máxima vai diminuindo a cada ciclo, simulando perda de energia mecânica para o ambiente (como no exemplo real).
 Assim como a mãe de Dênis, temos que somar tudo para garantir que a energia total não desapareceu — apenas mudou de forma ou de lugar.
 
-<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_en.html?locale=pt_BR"
+<iframe src="https://phet.colorado.edu/sims/html/energy-skate-park/latest/energy-skate-park_pt_BR.html"
         width="800"
         height="600"
         allowfullscreen>
 </iframe>
-
 Por fim, é importante lembrar que a energia, embora seja um conceito fundamental, não sabemos o que ela é de fato. Ela não se apresenta em unidades fixas e visíveis. É uma ideia abstrata: usamos fórmulas para calcular e, ao somar tudo, o total permanece constante.
 
 📌 Energia é uma abstração matemática.
