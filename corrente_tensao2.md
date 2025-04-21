@@ -55,4 +55,28 @@ Quanto **maior a resistência**, **menor é a corrente** (se a tensão for a mes
 
 ![Imagem: analogia hidráulica resistencia](./IMAGES/image_resistencia.jpg)
 
+### ⚖️ Lei de Ohm
+
+Se o leitor ficou atento, é possível perceber que a **quantidade de água que flui no encanamento** da nossa analogia (**corrente**) depende diretamente da **largura dos canos** (**resistência**).  
+
+🔌 Isso se traduz na elétrica pelo que chamamos de **Lei de Ohm**, que pode ser escrita assim:
+
+\( U = R \cdot I \)
+
+Onde:
+- **U** é a tensão (em volts, V)  
+- **R** é a resistência (em ohms, Ω)  
+- **I** é a corrente (em ampères, A)
+
+---
+
+> 💬 Ou seja: **se aumentarmos a resistência e mantivermos a tensão, a corrente diminui**.  
+> E **se aumentarmos a tensão e mantivermos a resistência, a corrente aumenta**.
+
+É como na água:  
+- Se colocarmos um **cano mais largo**, passa mais água.  
+- Se **aumentarmos a pressão**, também passa mais água.  
+- Mas se o cano for **estreito**, a água vai fluir devagar, mesmo com pressão.
+
+![Imagem: Lei de OHM](./IMAGES/imagem_ohm.jpg)
 
