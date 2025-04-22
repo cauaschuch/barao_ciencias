@@ -1,10 +1,9 @@
 ---
 layout: default
-title: Aula 1
+title: O que é eletricidade?
 ---
 
-# Aula 1: Eletricidade
-### O que é eletricidade?:
+# O que é eletricidade?:
 
 Eletricidade é como nos referimos ao comportamento de **cargas elétricas**, como elas se movimentam e interagem entre si! 
 
