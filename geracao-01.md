@@ -169,7 +169,7 @@ Imagine um skatista numa pista em forma de “U” (half-pipe). Ao se soltar do 
 
 **Configuração Inicial:**
 
-- Modo: "Graphs"
+- Modo: Gráfico
   
 - Personagem: Qualquer skatista (de preferência o padrão)
   
@@ -182,11 +182,11 @@ Depois adicione atrito para ver a energia se dissipando como calor.
 
 **Ferramentas ativas:**
 
- - ✅ Kinetic (Cinética)
+ - ✅ Cinética
 
- - ✅ Potential (Potencial)
+ - ✅ Potencial
 
- - ✅ Thermal (Térmica)
+ - ✅ Térmica
  
  - ✅ Total
 
