@@ -33,7 +33,7 @@ Neste circuito temos apenas uma **pilha de 9V conectada diretamente a um LED**.
 
 Isso acontece porque **a corrente está alta demais**, como se tivéssemos aberto totalmente a torneira da analogia — muita água, muita pressão, e o LED **não suporta tanto fluxo** de elétrons. Sem um **resistor**, o LED é danificado.
 
-<iframe src="https://www.tinkercad.com/embed/7L1lLMPzOR5?editbtn=1" width="100%" height="400px"></iframe>
+<iframe src="https://www.tinkercad.com/things/7L1lLMPzOR5-pilha-led" width="100%" height="400px"></iframe>
 
 ---
 
@@ -45,7 +45,7 @@ Agora colocamos um **resistor em série com o LED**.
 
 O resistor **limita o fluxo de corrente**, como se apertássemos a torneira para sair só um fiozinho de água — o suficiente para acender o LED com segurança, sem danificá-lo.
 
-<iframe src="https://www.tinkercad.com/embed/8Zn2I2ONTM7?editbtn=1" width="100%" height="400px"></iframe>
+<iframe src="https://www.tinkercad.com/things/8Zn2I2ONTM7-bateria-led-resistor" width="100%" height="400px"></iframe>
 
 ---
 
@@ -62,7 +62,7 @@ Cada resistor tem um **voltímetro conectado** que mostra a **queda de tensão**
 🧠 Explicação com a analogia da água:  
 É como ter dois canos apertados um depois do outro. Cada um “freia” um pouco o fluxo da água, **compartilhando a pressão total**. Por isso, a tensão **se divide** entre os dois resistores.
 
-<iframe src="https://www.tinkercad.com/embed/lKEea0ZoRiK?editbtn=1" width="100%" height="400px"></iframe>
+<iframe src="https://www.tinkercad.com/things/lKEea0ZoRiK-bateria-led-multimetro-resistoresserie" width="100%" height="400px"></iframe>
 
 ---
 
@@ -76,7 +76,7 @@ Agora temos dois resistores em paralelo, com um multímetro em cada ramo para me
 🧠 Analogia: é como se tivéssemos **dois canos paralelos**, ambos recebendo a mesma pressão da água (a mesma tensão), mas cada um conduzindo parte do fluxo total.  
 A tensão é igual nos dois caminhos, mas a corrente se **divide** entre eles.
 
-<iframe src="https://www.tinkercad.com/embed/jYe5MDlgafO?editbtn=1" width="100%" height="400px"></iframe>
+<iframe src="https://www.tinkercad.com/things/jYe5MDlgafO-bateria-led-resistoresparalelo" width="100%" height="400px"></iframe>
 
 ---
 
