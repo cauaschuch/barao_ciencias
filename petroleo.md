@@ -40,4 +40,12 @@ title: Petróleo
 </iframe>
 
 
+<h2>⚠️ Problemas Ambientais Causados pelo Petróleo</h2>
 
+<p>Embora o petróleo seja muito útil, seu uso causa problemas para o meio ambiente, como por exemplo:</p>
+
+<ul>
+  <li><strong>Derramamentos no mar:</strong> Quando o petróleo vaza no oceano, ele forma manchas escuras que prejudicam peixes, tartarugas e aves, dificultando sua respiração e locomoção.</li>
+  <li><strong>Poluição do ar:</strong> Queimar petróleo libera fumaça que polui o ar, podendo causar doenças respiratórias e contribuir para o aquecimento do planeta.</li>
+  <li><strong>Chuva ácida:</strong> A fumaça do petróleo pode se misturar com a água das nuvens, formando uma chuva que prejudica plantas, solos e construções.</li>
+</ul>
