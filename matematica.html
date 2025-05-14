@@ -1,0 +1,125 @@
+---
+layout: default
+title: Matemática
+---
+
+<!-- Banner de largura total -->
+<section class="banner">
+  <div class="wrapper">
+    <div class="banner-overlay">
+      <p>Na Matemática, desenvolvemos habilidades para compreender e resolver problemas utilizando linguagem simbólica, fórmulas e raciocínio lógico. Explore os temas para aprofundar seu conhecimento e aplicar a matemática no dia a dia!</p>
+    </div>
+  </div>
+</section>
+
+<!-- Seções com conteúdo centralizado -->
+<div class="wrapper">
+
+  <!-- Container: Fundamentos -->
+  <section class="container aulas">
+    <h2>Fundamentos Matemáticos</h2>
+    <div class="card-grid">
+      <a href="/barao_matematica/notacao_cientifica" class="card"> Notação Científica </a>
+      <a href="/barao_matematica/substituicao_de_variaveis" class="card"> Substituição em Fórmulas </a>
+    </div>
+  </section>
+
+  <!-- Container: Análise e Equações -->
+  <section class="container extras">
+    <h2>Equações e Estatística</h2>
+    <div class="card-grid">
+      <a href="/barao_matematica/sistemas_de_equacoes" class="card"> Sistemas de Equações </a>
+      <a href="/barao_matematica/solucao_geometrica" class="card"> Solução Geométrica de Sistemas </a>
+      <a href="/barao_matematica/media_moda_mediana" class="card"> Média, Moda e Mediana </a>
+    </div>
+  </section>
+
+</div>
+
+<style>
+/* Reset e base */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Banner de largura total */
+.banner {
+  background-image: url('IMAGES/matematica_banner.png'); /* Atualize com seu banner */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* Containers */
+.container {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+/* Cores diferentes para cada container */
+.container.aulas {
+  background-color: #d5ecff;
+}
+
+.container.extras {
+  background-color: #e3ffd5;
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Grid e cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  flex: 1 1 240px;
+  max-width: 300px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+</style>
