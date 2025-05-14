@@ -22,7 +22,7 @@ title: Carvão
 
 <h2>🔥 Mas tem um problema...</h2>
 
-<p>Quando o carvão é queimado para fazer energia, ele solta muita fumaça no ar. Essa fumaça tem um gás chamado <strong>gás carbônico (CO2)</strong>, que deixa o planeta mais quente.</p>
+<p>Quando o carvão é queimado para fazer energia, ele solta muita fumaça no ar. Essa fumaça tem um gás chamado <strong>gás carbônico (CO2)</strong>, que deixa o planeta mais quente. Atualmente, o carvão mineral representa cerca de 1,75% da matriz elétrica brasileira, conforme dados da Agência Nacional de Energia Elétrica (ANEEL). Nesse mapa podemos ver que o Brasil está muito bem comparado aos outros países a questão de emisão de gás carbônico!</p>
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="IMAGES/CO2_MUNDO.png" alt="Mapa de CO2 no Mundo" style="max-width: 100%; border-radius: 8px;">
