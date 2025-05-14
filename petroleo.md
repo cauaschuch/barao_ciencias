@@ -19,6 +19,12 @@ title: Petróleo
     allowfullscreen>
 </iframe>
 
+<h2>🧴 Petróleo no Dia a Dia</h2>
+
+<p>Sabia que o petróleo está em muitos produtos que usamos todos os dias? Como brinquedos, roupas, remédios e até escova de dentes!</p>
+
+<p><strong>Quer descobrir mais?</strong> Visite esta página da Petrobras feita especialmente para mostrar os <a href="https://www.nossaenergia.petrobras.com.br/w/nossas-atividades/produtos-do-dia-a-dia-e-petroquimicos-conheca-os-principais-derivados-do-petroleo" target="_blank" rel="noopener noreferrer">Produtos do Dia a Dia e Petroquímicos</a>.</p>
+
 
 <h2>🌍 Mapa Interativo do Petróleo</h2>
 
