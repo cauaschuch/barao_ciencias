@@ -3,11 +3,19 @@ layout: default
 title: Gás Natural
 ---
 
-<h1>💨 O que é o Gás Natural?</h1>
+<h2>🔍 Gás Natural x GLP: Qual é a diferença?</h2>
 
-<p>O gás natural é uma mistura de gases que sai do subsolo, junto com o petróleo. Ele é usado para cozinhar, gerar eletricidade e até para mover veículos.</p>
+<p>Você sabia que existem diferentes tipos de gás que usamos em casa e na cidade?</p>
 
-<p>É considerado um combustível mais "limpo" do que o carvão e o petróleo, porque libera menos fumaça (CO2) quando é queimado. Mas mesmo assim, ainda polui o ar e pode causar problemas ao meio ambiente.</p>
+<ul>
+  <li><strong>Gás Natural:</strong> vem do subsolo, é transportado por canos e chega direto nas casas e empresas. É usado para aquecer água, cozinhar e gerar energia.</li>
+  <li><strong>GLP (Gás de Botijão):</strong> é o famoso gás de cozinha. Ele é feito de partes do petróleo e vem em botijões (como o gás de 13kg). Usamos principalmente no fogão.</li>
+</ul>
+
+<p>Os dois servem para coisas parecidas, mas o gás natural é mais comum nas cidades grandes porque precisa de encanamento. Já o GLP é usado em casas que não têm gás encanado (CATUÍPE).</p>
+
+
+<p>O gás natural é considerado um combustível mais "limpo" do que o carvão e o petróleo, porque libera menos fumaça (CO2) quando é queimado. Mas mesmo assim, ainda polui o ar e pode causar problemas ao meio ambiente.</p>
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="IMAGES/gas-natural.png" alt="Distribuição de gás natural" style="max-width: 100%; border-radius: 8px;">
