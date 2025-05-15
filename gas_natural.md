@@ -11,7 +11,9 @@ title: Gás Natural
   <li><strong>Gás Natural:</strong> vem do subsolo, é transportado por canos e chega direto nas casas e empresas. É usado para aquecer água, cozinhar e gerar energia.</li>
   <li><strong>GLP (Gás de Botijão):</strong> é o famoso gás de cozinha. Ele é feito de partes do petróleo e vem em botijões (como o gás de 13kg). Usamos principalmente no fogão.</li>
 </ul>
-
+<div style="text-align: center; margin: 20px 0;">
+  <img src="IMAGES/fogao.png" alt="Uso mais conhecido do gás natural e dos nossos botijões de gás (GLP)" style="max-width: 100%; border-radius: 8px;">
+</div>
 <p>Os dois servem para coisas parecidas, mas o gás natural é mais comum nas cidades grandes porque precisa de encanamento. Já o GLP é usado em casas que não têm gás encanado (CATUÍPE).</p>
 
 
