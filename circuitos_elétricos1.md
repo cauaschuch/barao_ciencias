@@ -49,7 +49,7 @@ Veja o diagrama abaixo:
 
 > 💡 A corrente que passa por todos os resistores **é a mesma**.
 
-A resistência total (ou equivalente), chamada de \( R_{\text{eq}} \), representa o efeito combinado de todos os resistores conectados em um circuito.
+A resistência total (ou equivalente), chamada de $$ R_{\text{eq}})$$, representa o efeito combinado de todos os resistores conectados em um circuito.
 
 $$
 R_{\text{eq}} = R_1 + R_2 + R_3 + \dots + R_n
