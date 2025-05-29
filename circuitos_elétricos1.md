@@ -51,9 +51,10 @@ Veja o diagrama abaixo:
 
 A resistência total (ou equivalente), chamada de \( R_{\text{eq}} \), é a **soma de todas as resistências individuais**:
 
-\[
-R_{\text{eq}} = R_1 + R_2 + R_3 + \ldots + R_n
-\]
+$$
+R_{\text{eq}} = R_1 + R_2 + R_3 + \dots + R_n
+$$
+
 
 Ou seja, é como se todos os resistores virassem **um só resistor grandão**!
 
