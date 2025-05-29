@@ -15,70 +15,74 @@ Esse “empurrão” é o que causa o movimento de elétrons — a **corrente el
 > 💡 Pense assim: a bateria está "pressionando" os elétrons a seguir o caminho do fio, como uma bomba empurrando a água num cano.
 
 📸 **Imagem**:  
-
-
----
-
-# 🔧 Circuitos Elétricos - Parte 2: Resistores em Ação
-
-Agora que já sabemos que a corrente elétrica flui graças à tensão fornecida pela bateria, vamos ver o que acontece quando colocamos **componentes no caminho** da corrente.
-
----
-
-## ⚠️ Circuito 1 - Sem resistência
-
-Neste circuito temos apenas uma **pilha de 9V conectada diretamente a um LED**.
-
-> 🚨 Resultado: o LED queimaria!
-
-Isso acontece porque **a corrente está alta demais**, como se tivéssemos aberto totalmente a torneira da analogia — muita água, muita pressão, e o LED **não suporta tanto fluxo** de elétrons. Sem um **resistor**, o LED é danificado.
-
-![Imagem: LED Queimando?](./IMAGES/led_queimando.jpg)
-
----
-
-## ✅ Circuito 2 - Com resistência
-
-Agora colocamos um **resistor em série com o LED**.
-
-> Resultado: tudo funciona bem!
-
-O resistor **limita o fluxo de corrente**, como se apertássemos a torneira para sair só um fiozinho de água — o suficiente para acender o LED com segurança, sem danificá-lo.
-
-![Imagem: Resistor em Série com o LED?](./IMAGES/resistor_s_led.jpg)
-
----
-
-# 🔁 Associação de Resistores
-
-## 🔗 Circuito 3 - Resistores em Série
-
-Neste circuito temos dois resistores em série e um LED.  
-Cada resistor tem um **voltímetro conectado** que mostra a **queda de tensão** em cada um deles.
-
-> 🧪 Resultado: a tensão se divide entre os resistores.  
-> A bateria fornece 9V, mas os voltímetros mostram cerca de **3,55V** em cada resistor.
-
-🧠 Explicação com a analogia da água:  
-É como ter dois canos apertados um depois do outro. Cada um “freia” um pouco o fluxo da água, **compartilhando a pressão total**. Por isso, a tensão **se divide** entre os dois resistores.
-
-![Imagem: Resistores em série?](./IMAGES/resistores_serie)
-
----
-
-## 🧯 Circuito 4 - Resistores em Paralelo
-
-Agora temos dois resistores em paralelo, com um multímetro em cada ramo para medir a corrente.
-
-> 🔍 Resultado: a corrente **se divide** entre os dois caminhos.  
-> Os multímetros mostram correntes de **6,96 mA** em cada ramo.
-
-🧠 Analogia: é como se tivéssemos **dois canos paralelos**, ambos recebendo a mesma pressão da água (a mesma tensão), mas cada um conduzindo parte do fluxo total.  
-A tensão é igual nos dois caminhos, mas a corrente se **divide** entre eles.
-
 ![Imagem: Resistores em paralelo?](./IMAGES/resistores_paralelo)
 
 ---
 
-Esses são os fundamentos básicos que precisamos pra entender como funcionam os **circuitos elétricos simples**. A partir daqui, já conseguimos explorar **ligações mais complexas** e até criar nossos próprios projetos com segurança! ⚙️
+# 🔌 Associações de Resistores
+
+Depois de entender que a **corrente elétrica** é como um fluxo de água que passa por canos (os fios), vamos agora descobrir o que acontece quando colocamos **vários resistores** em um circuito.
+
+Mas antes...  
+## 🧩 Como são os símbolos dos circuitos?
+
+Antes de construir qualquer circuito, usamos **símbolos** para representar os componentes em um desenho chamado **diagrama esquemático**.
+
+- **Resistor:** é representado por um retângulo ou uma "ondinha" assim:
+
+![Imagem: símbolo de resistor](./IMAGES/simbolo_resistor.png)
+
+- **Fonte de tensão (bateria):** é representada por duas linhas, uma maior (polo positivo) e uma menor (polo negativo):
+
+![Imagem: símbolo de bateria](./IMAGES/simbolo_bateria.png)
+
+---
+
+## 🧱 Resistores em Série
+
+Quando colocamos resistores **um depois do outro**, dizemos que eles estão **em série**. É como se fossem várias barreiras seguidas no caminho da corrente elétrica.  
+A corrente passa por todos eles, um por um, **sem se dividir**.
+
+Veja o diagrama abaixo:
+
+![Imagem: resistores em série](./IMAGES/resistores_em_serie.png)
+
+> 💡 A corrente que passa por todos os resistores **é a mesma**.
+
+A resistência total (ou equivalente), chamada de \( R_{\text{eq}} \), é a **soma de todas as resistências individuais**:
+
+\[
+R_{\text{eq}} = R_1 + R_2 + R_3 + \ldots + R_n
+\]
+
+Ou seja, é como se todos os resistores virassem **um só resistor grandão**!
+
+---
+
+## 🌊 Resistores em Paralelo
+
+Agora, se colocamos os resistores **lado a lado**, em caminhos diferentes para a corrente passar, dizemos que eles estão **em paralelo**.  
+É como se fossem **túneis diferentes para a água correr**!
+
+Veja o diagrama:
+
+![Imagem: resistores em paralelo](./IMAGES/resistores_em_paralelo.png)
+
+> ⚡ A corrente **se divide** entre os caminhos, mas todos os resistores recebem a **mesma tensão**.
+
+A resistência equivalente nesse caso é diferente. A fórmula é:
+
+\[
+\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots + \frac{1}{R_n}
+\]
+
+Ou seja, quanto mais resistores em paralelo, **menor será a resistência total**. Parece mágica, mas é só física! 😊
+
+---
+
+## 🧪 Vamos testar na prática?
+
+Você pode montar esses circuitos em simuladores como o Tinkercad e ver a corrente e a tensão em tempo real.  
+É como brincar de montar e testar seus próprios experimentos de eletricidade!
+
 
