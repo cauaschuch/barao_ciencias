@@ -49,7 +49,7 @@ Veja o diagrama abaixo:
 
 > 💡 A corrente que passa por todos os resistores **é a mesma**.
 
-A resistência total (ou equivalente), chamada de \( R_{\text{eq}} \), é a **soma de todas as resistências individuais**:
+A resistência total (ou equivalente), chamada de \( R_{\text{eq}} \), representa o efeito combinado de todos os resistores conectados em um circuito.
 
 $$
 R_{\text{eq}} = R_1 + R_2 + R_3 + \dots + R_n
@@ -73,9 +73,10 @@ Veja o diagrama:
 
 A resistência equivalente nesse caso é diferente. A fórmula é:
 
-\[
-\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots + \frac{1}{R_n}
-\]
+$$
+\frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \dots + \frac{1}{R_n}
+$$
+
 
 Ou seja, quanto mais resistores em paralelo, **menor será a resistência total**. Parece mágica, mas é só física! 😊
 
