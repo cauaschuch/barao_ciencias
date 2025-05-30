@@ -8,7 +8,7 @@ A protoboard é como um tabuleiro onde podemos conectar os componentes eletrôni
 - Os **furos em linha vertical** no meio conectam os componentes entre si.
 - Isso ajuda a gente a montar circuitos de forma fácil e organizada!
 
-![Imagem: Ligações da protoboard](./IMAGES/protoboard.jpeg)
+![Imagem: Ligações da protoboard](./IMAGES/protoboard.jpg)
 
 ---
 
