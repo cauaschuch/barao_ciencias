@@ -15,7 +15,7 @@ Esse “empurrão” é o que causa o movimento de elétrons — a **corrente el
 > 💡 Pense assim: a bateria está "pressionando" os elétrons a seguir o caminho do fio, como uma bomba empurrando a água num cano.
 
 📸 **Imagem**:  
-![Imagem: Corrente Tensão, Analogia](./IMAGES/corrente_tensão.png)
+![Imagem: Corrente Tensão, Analogia](./IMAGES/corrente_tensão.jpeg)
 
 ---
 
@@ -30,11 +30,11 @@ Antes de construir qualquer circuito, usamos **símbolos** para representar os c
 
 - **Resistor:** é representado por um retângulo ou uma "ondinha" assim:
 
-![Imagem: símbolo de resistor](./IMAGES/simbolo_resistor.png)
+![Imagem: símbolo de resistor](./IMAGES/simbolo_resistor.jpeg)
 
 - **Fonte de tensão (bateria):** é representada por duas linhas, uma maior (polo positivo) e uma menor (polo negativo):
 
-![Imagem: símbolo de bateria](./IMAGES/simbolo_bateria.png)
+![Imagem: símbolo de bateria](./IMAGES/simbolo_bateria.jpeg)
 
 ---
 
@@ -45,7 +45,7 @@ A corrente passa por todos eles, um por um, **sem se dividir**.
 
 Veja o diagrama abaixo:
 
-![Imagem: resistores em série](./IMAGES/resistores_em_serie.png)
+![Imagem: resistores em série](./IMAGES/resistores_em_serie.jpeg)
 
 > 💡 A corrente que passa por todos os resistores **é a mesma**.
 
@@ -67,7 +67,7 @@ Agora, se colocamos os resistores **lado a lado**, em caminhos diferentes para a
 
 Veja o diagrama:
 
-![Imagem: resistores em paralelo](./IMAGES/resistores_em_paralelo.png)
+![Imagem: resistores em paralelo](./IMAGES/resistores_em_paralelo.jpeg)
 
 > ⚡ A corrente **se divide** entre os caminhos, mas todos os resistores recebem a **mesma tensão**.
 
