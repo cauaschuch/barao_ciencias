@@ -59,7 +59,7 @@ Nenhum calor é perdido. Nada trava o caminho da eletricidade.
 - 🧊 Certos tipos de **cerâmica especial**
 - 🧊 Alguns **metais**, mas só a temperaturas perto do **zero absoluto!** (-273 °C) 🥶
 
-![SC](teclimpasSC.jpg)
+![SC](IMAGES/teclimpasSC.jpg)
 
 ---
 
