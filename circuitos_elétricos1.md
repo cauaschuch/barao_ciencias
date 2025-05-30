@@ -15,7 +15,7 @@ Esse “empurrão” é o que causa o movimento de elétrons — a **corrente el
 > 💡 Pense assim: a bateria está "pressionando" os elétrons a seguir o caminho do fio, como uma bomba empurrando a água num cano.
 
 📸 **Imagem**:  
-![Imagem: Resistores em paralelo?](./IMAGES/resistores_paralelo)
+![Imagem: Corrente Tensão, Analogia](./IMAGES/corrente_tensão.png)
 
 ---
 
