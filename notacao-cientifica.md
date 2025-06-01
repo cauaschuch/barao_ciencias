@@ -5,7 +5,16 @@ title: Notação científica
 
 <h1>🌌 Viagem nas Potências de Dez</h1>
 
-<p>Este vídeo mostra uma incrível viagem do menor ao maior, explorando a escala do universo em potências de dez.</p>
+<p>Estes vídeos mostram uma incrível viagem do menor ao maior, explorando a escala do universo em potências de dez.</p>
+
+
+<iframe width="100%" height="500"
+    src="https://www.youtube.com/embed/vRdbmIat4Sc"
+    title="Potências/Notação cietífica"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+</iframe>
 
 <iframe 
     width="100%" 
