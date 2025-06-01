@@ -242,6 +242,52 @@
             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         }
 
+        .access-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-top: 1.5rem;
+        }
+
+        .access-option {
+            flex: 1;
+            min-width: 250px;
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .access-option i {
+            font-size: 2.5rem;
+            color: var(--secondary);
+            margin-bottom: 1rem;
+        }
+
+        .link-access {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 10px 20px;
+            background: linear-gradient(120deg, var(--secondary), var(--primary));
+            color: white;
+            border-radius: 30px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            width: 100%;
+            max-width: 200px;
+        }
+
+        .link-access:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
         .highlight {
             background: linear-gradient(to right, rgba(243, 156, 18, 0.1), transparent);
             padding: 1rem;
@@ -425,6 +471,10 @@
             .tutorial {
                 padding: 1.5rem;
             }
+            
+            .access-options {
+                flex-direction: column;
+            }
         }
     </style>
 </head>
@@ -454,10 +504,26 @@
                     
                     <p>Nosso objetivo é tornar o aprendizado mais acessível, divertido e conectado ao seu dia a dia.</p>
                     
-                    <div class="qr-container">
-                        <h3>Acesso rápido via QR Code</h3>
-                        <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://cauaschuch.github.io/barao_ciencias/&size=200x200" alt="QR Code">
-                        <p>Use a câmera do seu celular para escanear</p>
+                    <div class="access-options">
+                        <div class="access-option">
+                            <i class="fas fa-qrcode"></i>
+                            <h3>Acesso via QR Code</h3>
+                            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://cauaschuch.github.io/barao_ciencias/&size=200x200" alt="QR Code" style="width: 150px; height: 150px; border: 8px solid white; border-radius: 10px;">
+                            <p>Escaneie com a câmera do celular</p>
+                        </div>
+                        
+                        <div class="access-option">
+                            <i class="fas fa-link"></i>
+                            <h3>Acesso Direto pelo Link</h3>
+                            <p>Clique no botão abaixo para acessar o portal imediatamente:</p>
+                            <a href="https://cauaschuch.github.io/barao_ciencias/" class="link-access">
+                                <i class="fas fa-external-link-alt"></i> Acessar Portal
+                            </a>
+                            <p style="margin-top: 1rem; font-size: 0.9rem;">
+                                <i class="fas fa-info-circle"></i> Copie o link: 
+                                <span style="background: #f1f8ff; padding: 2px 8px; border-radius: 4px; font-family: monospace;">https://cauaschuch.github.io/barao_ciencias/</span>
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -484,6 +550,7 @@
                                 <li>Materiais de apoio</li>
                                 <li>Projetos científicos</li>
                                 <li>Simulações interativas</li>
+                                <li>Experimentos práticos</li>
                             </ul>
                         </div>
                         
@@ -493,6 +560,7 @@
                                 <li>Mapas interativos</li>
                                 <li>Estudos regionais</li>
                                 <li>Conteúdo sobre sustentabilidade</li>
+                                <li>Análise de paisagens</li>
                             </ul>
                         </div>
                         
@@ -502,6 +570,7 @@
                                 <li>Exercícios resolvidos</li>
                                 <li>Jogos educativos</li>
                                 <li>Aplicações práticas</li>
+                                <li>Desafios matemáticos</li>
                             </ul>
                         </div>
                     </div>
@@ -551,4 +620,27 @@
                         <p>Fique atento aos botões e ícones que podem indicar materiais para download, vídeos ou outras interações.</p>
                     </div>
                     <div class="step-image">
-                        <i class="fas fa-mouse-pointer fa
+                        <i class="fas fa-mouse-pointer fa-3x"></i>
+                        <p>Interface intuitiva</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="highlight">
+                <i class="fas fa-graduation-cap"></i>
+                <p><strong>Conecte-se com o Aprendizado:</strong> Utilize o site para revisar matérias, pesquisar para trabalhos, ou explorar temas que te interessam. Os recursos visam conectar o conteúdo didático com situações do cotidiano.</p>
+            </div>
+            
+            <a href="https://cauaschuch.github.io/barao_ciencias/" class="access-button">
+                <i class="fas fa-external-link-alt"></i> Acesse o Portal Agora
+            </a>
+        </div>
+        
+        <footer>
+            <p>Barão Ciências: Seu parceiro para uma jornada de conhecimento mais rica e descomplicada!</p>
+            <p>Folder Educacional &copy; 2023 - Escola Estadual de Ensino Fundamental Barão do Rio Branco, Catuípe/RS</p>
+            <p>Parceria: Professoras Mari Rosso, Marla Tedeschi, Cristina Bottega e Estudantes da USP</p>
+        </footer>
+    </div>
+</body>
+</html>
