@@ -1,445 +1,554 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Folder Interativo - Barão Ciências</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barão Ciências - Portal Educacional</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    :root {
-      --primary: #045c87;
-      --secondary: #0d8bc5;
-      --accent: #f39c12;
-      --light: #f0f8ff;
-      --dark: #333;
-      --success: #27ae60;
-      --warning: #e74c3c;
-    }
+        :root {
+            --primary: #1a5276;
+            --secondary: #2980b9;
+            --accent: #f39c12;
+            --light: #eaf2f8;
+            --dark: #2c3e50;
+            --success: #27ae60;
+            --warning: #e74c3c;
+            --geografia: #16a085;
+            --ciencias: #27ae60;
+            --matematica: #8e44ad;
+        }
 
-    body {
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(135deg, #f0f8ff, #e6f2fa);
-      color: var(--dark);
-      line-height: 1.6;
-      padding: 20px;
-      min-height: 100vh;
-    }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+            color: var(--dark);
+            line-height: 1.6;
+            padding: 0;
+            min-height: 100vh;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23eaf2f8" opacity="0.3"/><path d="M0 0L100 100M100 0L0 100" stroke="%231a5276" stroke-width="1" stroke-opacity="0.1"/></svg>');
+            background-size: 200px;
+        }
 
-    .container {
-      max-width: 1200px;
-      margin: 0 auto;
-    }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-    header {
-      text-align: center;
-      padding: 2rem;
-      background: linear-gradient(120deg, var(--primary), var(--secondary));
-      color: white;
-      border-radius: 15px;
-      margin-bottom: 2rem;
-      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    }
+        header {
+            background: linear-gradient(120deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
 
-    header h1 {
-      font-size: 2.5rem;
-      margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 15px;
-    }
+        header::before {
+            content: "";
+            position: absolute;
+            top: -50px;
+            left: -50px;
+            width: 150px;
+            height: 150px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
 
-    .logo {
-      font-size: 3rem;
-      color: var(--accent);
-    }
+        header::after {
+            content: "";
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            width: 100px;
+            height: 100px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+        }
 
-    .tagline {
-      font-size: 1.2rem;
-      max-width: 800px;
-      margin: 0 auto;
-      opacity: 0.9;
-    }
+        .logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 1rem;
+        }
 
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 25px;
-      margin-bottom: 2rem;
-    }
+        .logo {
+            font-size: 3.5rem;
+            color: var(--accent);
+            animation: pulse 2s infinite;
+        }
 
-    .card {
-      background: white;
-      border-radius: 15px;
-      overflow: hidden;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
 
-    .card:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 12px 20px rgba(0, 0, 0, 0.12);
-    }
+        .tagline {
+            font-size: 1.3rem;
+            max-width: 800px;
+            margin: 0 auto;
+            opacity: 0.9;
+            font-weight: 300;
+        }
 
-    .card-header {
-      background: linear-gradient(120deg, var(--secondary), var(--primary));
-      color: white;
-      padding: 1.2rem;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-    }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-bottom: 2rem;
+        }
 
-    .card-header i {
-      font-size: 1.8rem;
-    }
+        .card {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            position: relative;
+        }
 
-    .card-body {
-      padding: 1.5rem;
-    }
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
 
-    .card h3 {
-      margin-bottom: 1rem;
-      color: var(--primary);
-      border-bottom: 2px solid var(--light);
-      padding-bottom: 0.5rem;
-    }
+        .card-header {
+            background: linear-gradient(120deg, var(--secondary), var(--primary));
+            color: white;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
 
-    .card ul {
-      list-style-type: none;
-      padding-left: 0;
-    }
+        .card-header i {
+            font-size: 1.8rem;
+        }
 
-    .card li {
-      padding: 0.8rem 0;
-      border-bottom: 1px dashed #e0e0e0;
-      display: flex;
-      align-items: flex-start;
-      gap: 10px;
-    }
+        .card-body {
+            padding: 1.8rem;
+        }
 
-    .card li:last-child {
-      border-bottom: none;
-    }
+        .card h3 {
+            margin-bottom: 1.2rem;
+            color: var(--primary);
+            border-bottom: 2px solid var(--light);
+            padding-bottom: 0.8rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-    .card li i {
-      color: var(--success);
-      margin-top: 4px;
-    }
+        .card ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
 
-    .qr-container {
-      text-align: center;
-      padding: 1.5rem;
-      background: #e6f2fa;
-      border-radius: 15px;
-      margin-top: 1.5rem;
-    }
+        .card li {
+            padding: 0.9rem 0;
+            border-bottom: 1px dashed #e0e0e0;
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+        }
 
-    .qr-container img {
-      max-width: 180px;
-      display: block;
-      margin: 0 auto 1rem;
-      border: 8px solid white;
-      border-radius: 12px;
-    }
+        .card li:last-child {
+            border-bottom: none;
+        }
 
-    .tutorial {
-      background: white;
-      border-radius: 15px;
-      padding: 2rem;
-      margin-bottom: 2rem;
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
-    }
+        .card li i {
+            color: var(--success);
+            margin-top: 5px;
+            min-width: 24px;
+        }
 
-    .tutorial-header {
-      text-align: center;
-      margin-bottom: 2rem;
-      color: var(--primary);
-    }
+        .disciplinas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 1.5rem;
+        }
 
-    .tutorial-header h2 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-    }
+        .disciplina-card {
+            background: white;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+            border-top: 4px solid;
+        }
 
-    .tutorial-steps {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-      gap: 25px;
-    }
+        .disciplina-card:hover {
+            transform: scale(1.03);
+        }
 
-    .step {
-      background: #f9f9f9;
-      border-radius: 12px;
-      padding: 1.5rem;
-      border-left: 4px solid var(--accent);
-    }
+        .ciencias {
+            border-top-color: var(--ciencias);
+        }
 
-    .step-number {
-      display: inline-block;
-      background: var(--accent);
-      color: white;
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 32px;
-      margin-bottom: 1rem;
-      font-weight: bold;
-    }
+        .geografia {
+            border-top-color: var(--geografia);
+        }
 
-    .step h4 {
-      color: var(--primary);
-      margin-bottom: 0.8rem;
-      font-size: 1.2rem;
-    }
+        .matematica {
+            border-top-color: var(--matematica);
+        }
 
-    .step-image {
-      height: 180px;
-      background: linear-gradient(45deg, #e0f7fa, #bbdefb);
-      border-radius: 10px;
-      margin: 1rem 0;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: var(--primary);
-      font-weight: bold;
-      font-size: 1.1rem;
-      text-align: center;
-      padding: 20px;
-    }
+        .disciplina-card h4 {
+            font-size: 1.3rem;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
 
-    .tip-box {
-      background: #fff8e1;
-      border-left: 4px solid var(--accent);
-      padding: 1.2rem;
-      border-radius: 0 8px 8px 0;
-      margin: 1.5rem 0;
-    }
+        .disciplina-card ul {
+            padding-left: 20px;
+        }
 
-    .tip-box i {
-      color: var(--accent);
-      margin-right: 10px;
-    }
+        .disciplina-card li {
+            margin-bottom: 0.7rem;
+        }
 
-    .contact {
-      text-align: center;
-      padding: 2rem;
-      background: linear-gradient(120deg, var(--primary), var(--secondary));
-      color: white;
-      border-radius: 15px;
-      margin-top: 2rem;
-    }
+        .qr-container {
+            text-align: center;
+            padding: 1.8rem;
+            background: linear-gradient(135deg, var(--light), #d6eaf8);
+            border-radius: 15px;
+            margin-top: 1.5rem;
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+        }
 
-    .contact h3 {
-      margin-bottom: 1.5rem;
-      font-size: 1.8rem;
-    }
+        .qr-container img {
+            max-width: 200px;
+            display: block;
+            margin: 0 auto 1.5rem;
+            border: 10px solid white;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
 
-    .contact-buttons {
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      flex-wrap: wrap;
-      margin-top: 1.5rem;
-    }
+        .highlight {
+            background: linear-gradient(to right, rgba(243, 156, 18, 0.1), transparent);
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1.5rem 0;
+            border-left: 4px solid var(--accent);
+        }
 
-    .contact-btn {
-      background: white;
-      color: var(--primary);
-      padding: 0.8rem 1.5rem;
-      border-radius: 50px;
-      text-decoration: none;
-      font-weight: bold;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      transition: all 0.3s ease;
-    }
+        .highlight i {
+            color: var(--accent);
+            margin-right: 10px;
+        }
 
-    .contact-btn:hover {
-      transform: scale(1.05);
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
-    }
+        .tutorial {
+            background: white;
+            border-radius: 15px;
+            padding: 2.5rem;
+            margin-bottom: 2rem;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+        }
 
-    footer {
-      text-align: center;
-      padding: 2rem 0;
-      color: var(--primary);
-      font-weight: 500;
-      margin-top: 2rem;
-    }
+        .tutorial-header {
+            text-align: center;
+            margin-bottom: 2.5rem;
+            color: var(--primary);
+        }
 
-    @media (max-width: 768px) {
-      .grid-container {
-        grid-template-columns: 1fr;
-      }
-      
-      .tutorial-steps {
-        grid-template-columns: 1fr;
-      }
-      
-      .contact-buttons {
-        flex-direction: column;
-        align-items: center;
-      }
-    }
-  </style>
+        .tutorial-header h2 {
+            font-size: 2.2rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .tutorial-steps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .step {
+            background: #f8f9fa;
+            border-radius: 12px;
+            padding: 1.8rem;
+            border-left: 5px solid var(--accent);
+            transition: all 0.3s ease;
+        }
+
+        .step:hover {
+            background: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .step-number {
+            display: inline-block;
+            background: var(--accent);
+            color: white;
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 36px;
+            margin-bottom: 1.2rem;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+
+        .step h4 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+            font-size: 1.3rem;
+        }
+
+        .step-image {
+            height: 160px;
+            background: linear-gradient(45deg, #e0f7fa, #bbdefb);
+            border-radius: 10px;
+            margin: 1.2rem 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: var(--primary);
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-align: center;
+            padding: 15px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .step-image::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="%231a5276" stroke-width="1" stroke-opacity="0.1" stroke-dasharray="5,5"/></svg>');
+            opacity: 0.3;
+        }
+
+        .step-image i {
+            font-size: 3rem;
+            margin-bottom: 15px;
+            color: var(--secondary);
+        }
+
+        .access-button {
+            display: block;
+            width: 100%;
+            max-width: 400px;
+            margin: 2rem auto;
+            text-align: center;
+            background: linear-gradient(120deg, var(--secondary), var(--primary));
+            color: white;
+            padding: 1.2rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.3rem;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .access-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+        }
+
+        .access-button::after {
+            content: "";
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+            transform: rotate(30deg);
+        }
+
+        footer {
+            text-align: center;
+            padding: 2.5rem 0;
+            color: var(--primary);
+            font-weight: 500;
+            margin-top: 2rem;
+            background: white;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+            box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        @media (max-width: 768px) {
+            .grid-container, .tutorial-steps, .disciplinas {
+                grid-template-columns: 1fr;
+            }
+            
+            header {
+                padding: 1.5rem 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            .tagline {
+                font-size: 1.1rem;
+            }
+            
+            .tutorial {
+                padding: 1.5rem;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <header>
-      <h1><i class="fas fa-atom logo"></i> Folder Interativo - Barão Ciências</h1>
-      <p class="tagline">Seu guia completo para explorar o portal de ciências do Barão</p>
-    </header>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <i class="fas fa-graduation-cap logo"></i>
+                <h1>Barão Ciências</h1>
+            </div>
+            <p class="tagline">Desvendando a Ciência, Geografia e Matemática de forma interativa e divertida</p>
+        </header>
 
-    <div class="grid-container">
-      <div class="card">
-        <div class="card-header">
-          <i class="fas fa-door-open"></i>
-          <h2>Acesso ao Site</h2>
-        </div>
-        <div class="card-body">
-          <h3>Como acessar?</h3>
-          <ul>
-            <li><i class="fas fa-check-circle"></i> Abra seu navegador (Chrome, Firefox, Edge)</li>
-            <li><i class="fas fa-check-circle"></i> Digite no campo de endereço:</li>
-            <li class="highlight">https://cauaschuch.github.io/barao_ciencias/</li>
-            <li><i class="fas fa-check-circle"></i> Pressione <code>Enter</code></li>
-          </ul>
-          
-          <div class="qr-container">
-            <h3>Acesso rápido via QR Code</h3>
-            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://cauaschuch.github.io/barao_ciencias/&size=200x200" alt="QR Code">
-            <p>Use a câmera do seu celular para escanear</p>
-          </div>
-        </div>
-      </div>
+        <div class="grid-container">
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-book-open"></i>
+                    <h2>Visão Geral</h2>
+                </div>
+                <div class="card-body">
+                    <p>Bem-vindo ao <strong>Barão Ciências</strong>, um portal de apoio educacional dedicado aos alunos do 8º ano A da Escola Estadual de Ensino Fundamental Barão do Rio Branco, em Catuípe/RS.</p>
+                    
+                    <div class="highlight">
+                        <i class="fas fa-lightbulb"></i>
+                        <p>Este site é fruto de uma parceria inovadora entre as professoras Mari Rosso, Marla Tedeschi e Cristina Bottega, e estudantes da Universidade de São Paulo (USP).</p>
+                    </div>
+                    
+                    <p>Nosso objetivo é tornar o aprendizado mais acessível, divertido e conectado ao seu dia a dia.</p>
+                    
+                    <div class="qr-container">
+                        <h3>Acesso rápido via QR Code</h3>
+                        <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://cauaschuch.github.io/barao_ciencias/&size=200x200" alt="QR Code">
+                        <p>Use a câmera do seu celular para escanear</p>
+                    </div>
+                </div>
+            </div>
 
-      <div class="card">
-        <div class="card-header">
-          <i class="fas fa-sitemap"></i>
-          <h2>Mapa do Site</h2>
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-compass"></i>
+                    <h2>O Que Você Vai Encontrar</h2>
+                </div>
+                <div class="card-body">
+                    <ul>
+                        <li><i class="fas fa-check-circle"></i> Apoio completo para as aulas de Ciências, Geografia e Matemática do 8º ano A</li>
+                        <li><i class="fas fa-check-circle"></i> Materiais didáticos que complementam o ensino em sala de aula</li>
+                        <li><i class="fas fa-check-circle"></i> Ferramentas interativas para um aprendizado mais engajador</li>
+                        <li><i class="fas fa-check-circle"></i> Conteúdo adicional para curiosos e para quem busca aprofundamento</li>
+                        <li><i class="fas fa-check-circle"></i> Projetos desenvolvidos em sala com recursos online</li>
+                        <li><i class="fas fa-check-circle"></i> Conexão entre conteúdo didático e situações do cotidiano</li>
+                    </ul>
+                    
+                    <div class="disciplinas">
+                        <div class="disciplina-card ciencias">
+                            <h4><i class="fas fa-leaf"></i> Ciências</h4>
+                            <ul>
+                                <li>Materiais de apoio</li>
+                                <li>Projetos científicos</li>
+                                <li>Simulações interativas</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="disciplina-card geografia">
+                            <h4><i class="fas fa-globe-americas"></i> Geografia</h4>
+                            <ul>
+                                <li>Mapas interativos</li>
+                                <li>Estudos regionais</li>
+                                <li>Conteúdo sobre sustentabilidade</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="disciplina-card matematica">
+                            <h4><i class="fas fa-calculator"></i> Matemática</h4>
+                            <ul>
+                                <li>Exercícios resolvidos</li>
+                                <li>Jogos educativos</li>
+                                <li>Aplicações práticas</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card-body">
-          <h3>Navegação Principal</h3>
-          <ul>
-            <li><i class="fas fa-book"></i> <strong>Disciplinas:</strong> Conteúdos de Física, Química, Biologia, Matemática</li>
-            <li><i class="fas fa-download"></i> <strong>Materiais Didáticos:</strong> Listas, resumos e apostilas para download</li>
-            <li><i class="fas fa-flask"></i> <strong>Projetos & Eventos:</strong> Feiras, olimpíadas e experiências</li>
-            <li><i class="fas fa-video"></i> <strong>Vídeos Educativos:</strong> Demonstrações e aulas em vídeo</li>
-            <li><i class="fas fa-images"></i> <strong>Galeria:</strong> Fotos de projetos e eventos</li>
-          </ul>
-          
-          <div class="tip-box">
-            <i class="fas fa-lightbulb"></i>
-            <strong>Dica:</strong> Use o menu superior para navegar rapidamente entre as seções
-          </div>
-        </div>
-      </div>
 
-      <div class="card">
-        <div class="card-header">
-          <i class="fas fa-graduation-cap"></i>
-          <h2>Recursos Especiais</h2>
-        </div>
-        <div class="card-body">
-          <h3>Funcionalidades Úteis</h3>
-          <ul>
-            <li><i class="fas fa-search"></i> <strong>Busca Inteligente:</strong> Encontre conteúdos específicos</li>
-            <li><i class="fas fa-filter"></i> <strong>Filtros por Disciplina:</strong> Organize por matéria ou tema</li>
-            <li><i class="fas fa-bookmark"></i> <strong>Favoritos:</strong> Salve materiais para acesso rápido</li>
-            <li><i class="fas fa-bell"></i> <strong>Notificações:</strong> Fique sabendo de novos conteúdos</li>
-            <li><i class="fas fa-mobile-alt"></i> <strong>Design Responsivo:</strong> Acesse de qualquer dispositivo</li>
-          </ul>
-          
-          <div class="tip-box">
-            <i class="fas fa-lightbulb"></i>
-            <strong>Dica:</strong> Use Ctrl+F para buscar palavras-chave em qualquer página
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="tutorial">
-      <div class="tutorial-header">
-        <h2><i class="fas fa-graduation-cap"></i> Tutoriais Passo a Passo</h2>
-        <p>Aprenda a usar os principais recursos do site</p>
-      </div>
-      
-      <div class="tutorial-steps">
-        <div class="step">
-          <div class="step-number">1</div>
-          <h4>Como Encontrar Materiais</h4>
-          <p>1. Acesse a seção "Disciplinas" no menu superior</p>
-          <p>2. Selecione a matéria desejada</p>
-          <p>3. Escolha o tópico específico</p>
-          <p>4. Clique nos materiais disponíveis</p>
-          <div class="step-image">
-            <i class="fas fa-book-open fa-3x"></i>
-            <p>Imagem ilustrativa da navegação</p>
-          </div>
-        </div>
-        
-        <div class="step">
-          <div class="step-number">2</div>
-          <h4>Como Baixar Arquivos</h4>
-          <p>1. Localize o material desejado</p>
-          <p>2. Clique no botão de download</p>
-          <p>3. Escolha o formato (PDF, DOC)</p>
-          <p>4. Salve em seu dispositivo</p>
-          <div class="step-image">
-            <i class="fas fa-file-download fa-3x"></i>
-            <p>Exemplo de botão de download</p>
-          </div>
-        </div>
-        
-        <div class="step">
-          <div class="step-number">3</div>
-          <h4>Como Acompanhar Projetos</h4>
-          <p>1. Vá para "Projetos & Eventos"</p>
-          <p>2. Selecione o projeto de interesse</p>
-          <p>3. Veja fotos, vídeos e descrições</p>
-          <p>4. Confira datas e participantes</p>
-          <div class="step-image">
-            <i class="fas fa-project-diagram fa-3x"></i>
-            <p>Visualização de projetos</p>
-          </div>
-        </div>
-      </div>
-      
-      <div class="tip-box">
-        <i class="fas fa-lightbulb"></i>
-        <strong>Dica Avançada:</strong> Crie uma conta para salvar seu progresso, favoritar conteúdos e receber notificações de novos materiais.
-      </div>
-    </div>
-    
-    <div class="contact">
-      <h3><i class="fas fa-question-circle"></i> Precisa de Ajuda?</h3>
-      <p>Entre em contato com nossa equipe de suporte</p>
-      
-      <div class="contact-buttons">
-        <a href="mailto:suporte@baraociencias.com" class="contact-btn">
-          <i class="fas fa-envelope"></i> E-mail
-        </a>
-        <a href="#" class="contact-btn">
-          <i class="fas fa-comments"></i> Chat Online
-        </a>
-        <a href="#" class="contact-btn">
-          <i class="fas fa-file-alt"></i> FAQ
-        </a>
-      </div>
-    </div>
-    
-    <footer>
-      <p>Folder Educacional &copy; 2023 - Barão Ciências | Atualizado em: Junho/2023</p>
-    </footer>
-  </div>
-</body>
-</html>
+        <div class="tutorial">
+            <div class="tutorial-header">
+                <h2><i class="fas fa-book-reader"></i> Como Usar o Portal</h2>
+                <p>Guia passo a passo para explorar todos os recursos</p>
+            </div>
+            
+            <div class="tutorial-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h4>Acesse as Disciplinas</h4>
+                    <p>No menu principal, você encontrará seções dedicadas a <strong>Ciências</strong>, <strong>Geografia</strong> e <strong>Matemática</strong>. Clique na disciplina desejada para explorar o conteúdo específico.</p>
+                    <div class="step-image">
+                        <i class="fas fa-book fa-3x"></i>
+                        <p>Menu de disciplinas</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h4>Explore o Conteúdo</h4>
+                    <p>Dentro de cada disciplina, o site oferece uma variedade de recursos para auxiliar nos seus estudos:</p>
+                    <ul>
+                        <li><strong>Materiais de Apoio:</strong> Textos, resumos e informações relevantes</li>
+                        <li><strong>Projetos:</strong> Descrições e recursos para projetos desenvolvidos em sala</li>
+                        <li><strong>Recursos Interativos:</strong> Atividades, jogos ou simulações</li>
+                        <li><strong>Conteúdo Extra:</strong> Informações adicionais e curiosidades</li>
+                    </ul>
+                    <div class="step-image">
+                        <i class="fas fa-search fa-3x"></i>
+                        <p>Exploração de conteúdo</p>
+                    </div>
+                </div>
+                
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h4>Navegação Intuitiva</h4>
+                    <p>O site foi pensado para ser fácil de usar. Os links e menus são claros, permitindo que você encontre rapidamente o que procura.</p>
+                    <div class="highlight">
+                        <i class="fas fa-info-circle"></i>
+                        <p>Fique atento aos botões e ícones que podem indicar materiais para download, vídeos ou outras interações.</p>
+                    </div>
+                    <div class="step-image">
+                        <i class="fas fa-mouse-pointer fa
