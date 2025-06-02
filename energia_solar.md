@@ -40,7 +40,7 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 A energia solar é uma das soluções mais importantes para garantir um futuro mais limpo e sustentável. Seja para aquecer a água do chuveiro ou para gerar eletricidade para uma cidade inteira, o sol está ao nosso alcance todos os dias.
 E agora que você já sabe como isso funciona, que tal observar o céu e imaginar quantas possibilidades existem ali em cima? ☀️💡
 
-## ** 🇧🇷 Panorama Nacional da utilização de Energia Solar**
+## ** Panorama Nacional da utilização de Energia Solar**
 
 📈 Crescimento Acelerado
 * Até fevereiro de 2025, o Brasil alcançou aproximadamente 54 GW de capacidade instalada em energia solar, representando cerca de 21,9% da matriz elétrica nacional. 
@@ -57,16 +57,16 @@ E agora que você já sabe como isso funciona, que tal observar o céu e imagina
 ## **Panorama Mundial da utilização de Energia Solar**
 
 ⚡ Participação global crescente: 
-A energia solar já representa mais de 6% da eletricidade gerada em todo o mundo, com forte tendência de crescimento nos próximos anos.
+- A energia solar já representa mais de 6% da eletricidade gerada em todo o mundo, com forte tendência de crescimento nos próximos anos.
 
 📈 Expansão acelerada: 
-A capacidade instalada global ultrapassou 1.400 GW, com milhares de novos sistemas sendo instalados diariamente, tanto em usinas de grande porte quanto em telhados residenciais e comerciais.
+- A capacidade instalada global ultrapassou 1.400 GW, com milhares de novos sistemas sendo instalados diariamente, tanto em usinas de grande porte quanto em telhados residenciais e comerciais.
 
 🏆 Liderança internacional: 
-China, Estados Unidos, Índia e Japão estão entre os países que mais investem e produzem energia solar. A China se destaca como a maior potência nesse setor, com mais de 600 GW instalados.
+- China, Estados Unidos, Índia e Japão estão entre os países que mais investem e produzem energia solar. A China se destaca como a maior potência nesse setor, com mais de 600 GW instalados.
 
 🇧🇷 Brasil em destaque: 
-O Brasil está entre os dez maiores produtores de energia solar do mundo, mostrando grande aproveitamento do seu enorme potencial solar.
+- O Brasil está entre os dez maiores produtores de energia solar do mundo, mostrando grande aproveitamento do seu enorme potencial solar.
 
 🌱 Papel na transição energética: 
-A energia solar tem papel fundamental na redução das emissões de carbono e na substituição dos combustíveis fósseis, sendo uma das protagonistas da transição para uma matriz energética limpa e sustentável.
+- A energia solar tem papel fundamental na redução das emissões de carbono e na substituição dos combustíveis fósseis, sendo uma das protagonistas da transição para uma matriz energética limpa e sustentável.
