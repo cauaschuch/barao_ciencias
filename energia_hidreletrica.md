@@ -22,7 +22,7 @@ O processo é assim:
     src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Usina%20Hidreletrica.jpg"
     alt="Usina hidrelétrica"
     style="max-width: 50%; border-radius: 8px;">
-  <p><strong>Usina Hidrelétrica</strong></p><br><p>Fluxo de água com as comportas abertas de usina hidrelétrica</p>
+  <p><strong>Usina Hidrelétrica</strong></p><p>Fluxo de água com as comportas abertas de usina hidrelétrica</p>
 </div>
 
 ## **🏞️ Pequenas Centrais Hidrelétricas (PCHs)**
