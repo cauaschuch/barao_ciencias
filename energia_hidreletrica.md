@@ -19,8 +19,8 @@ O processo é assim:
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Usina%20Hidreletrica.jpg)" alt=" style="max-width: 100%; border-radius: 8px;">
-    <p><strong>usina Hidrelétrica</strong><br>
+    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Usina%20Hidreletrica.jpg" alt=" style="max-width: 100%; border-radius: 8px;">
+    <p><strong>Usina Hidrelétrica</strong><br>
   </div>
 
 ## **🏞️ Pequenas Centrais Hidrelétricas (PCHs)**
