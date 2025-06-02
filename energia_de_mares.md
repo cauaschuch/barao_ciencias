@@ -30,7 +30,8 @@ No mundo, a energia maremotriz ainda é uma tecnologia em desenvolvimento, mas j
 * A França tem uma das usinas mais antigas do mundo, em Rance, ativa desde 1966;
 * A Coreia do Sul tem a maior usina maremotriz do mundo, a Sihwa Lake Tidal Power Station;
 * O Reino Unido e o Canadá também investem em turbinas submersas e tecnologias flutuantes.
-No Brasil, o potencial para uso da energia das marés está em fase de estudos, especialmente no litoral nordeste, onde há boa variação de marés. Em 2012, foi inaugurada a primeira usina experimental maremotriz da América Latina, no estado do Ceará, no estuário do rio Pacoti. Ainda assim, o uso dessa tecnologia no país é muito limitado.
+
+* **No Brasil**, o potencial para uso da energia das marés está em fase de estudos, especialmente no litoral nordeste, onde há boa variação de marés. Em 2012, foi inaugurada a primeira usina experimental maremotriz da América Latina, no estado do Ceará, no estuário do rio Pacoti. Ainda assim, o uso dessa tecnologia no país é muito limitado.
 
 ## **🌊 Conclusão — Um Mar de Possibilidades!**
 A energia das marés representa mais uma alternativa limpa e sustentável para diversificar a matriz energética do planeta. Apesar de ainda ter uso restrito e custos elevados, ela tem grande potencial para regiões costeiras com alta amplitude de maré.
