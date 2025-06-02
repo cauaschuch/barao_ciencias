@@ -35,9 +35,10 @@ Existem diferentes maneiras de aproveitar a energia do sol. Veja as principais:
   
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20solar%20em%20residencia.jpg" alt="Carvão Vegetal" style="max-width: 100%; border-radius: 8px;">
+    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20solar%20em%20residencia.jpg" alt=Energia Solar instalada em Residencia"" style="max-width: 100%; border-radius: 8px;">
     <p><strong>Energia Solar instalada em Residencia</strong>
   </div>
+<div></div>
   
 
 ### 🔥 2. Energia Solar Térmica (ou Termossolar)
