@@ -46,14 +46,14 @@ Apesar de ser uma energia limpa, a instalação de turbinas eólicas pode ter al
 * 🌬️ Variação dos ventos: quando não venta, não há geração;
 * 📺 Pode causar interferência em sinais de TV.
 
-## **🟢🟡 Panorama Nacional da Energia Eólica
+## 🟢🟡 **Panorama Nacional da Energia Eólica
 * O Brasil é hoje o 6º maior produtor de energia eólica do mundo, com mais de 29 GW de capacidade instalada.
 * A energia eólica já representa cerca de 13,2% da matriz elétrica renovável brasileira, consolidando-se como a segunda maior fonte de geração de eletricidade limpa no país.
 * Os estados do Nordeste lideram a produção, com destaque para o Rio Grande do Norte, Bahia, Ceará e Piauí, devido à excelente qualidade dos ventos da região.
 * Em 2023, mais de 90% da energia eólica brasileira foi produzida por parques com fator de capacidade acima de 40%, índice considerado altíssimo em comparação com padrões internacionais.
 * O setor também impulsiona a geração de empregos, especialmente nas regiões de instalação de parques eólicos, além de movimentar as indústrias de torres, pás e equipamentos.
 
-## **🌍 Panorama Internacional da Energia Eólica
+## 🌍 **Panorama Internacional da Energia Eólica
 * A capacidade eólica instalada no mundo supera os 1.000 GW, com crescimento acelerado nos últimos anos, impulsionado por políticas climáticas e avanços tecnológicos.
 * China lidera com folga a geração eólica global, seguida por Estados Unidos, Alemanha, Índia e Espanha.
 * A energia eólica tem papel central nos planos de transição energética de diversos países, sendo responsável por mais de 7% da eletricidade mundial atualmente.
@@ -61,6 +61,6 @@ Apesar de ser uma energia limpa, a instalação de turbinas eólicas pode ter al
 * Com a queda nos custos de instalação, os projetos eólicos se tornaram altamente competitivos economicamente, inclusive sem subsídios, em muitas regiões.
 * A previsibilidade dos ventos e a baixa emissão de gases de efeito estufa fazem da energia eólica uma das principais apostas globais para descarbonização.
 
-## **🌬️ Conclusão — Energia Que Vem do Vento**
+## 🌬️**Conclusão — Energia Que Vem do Vento**
 A energia eólica é um exemplo perfeito de como a natureza pode nos ajudar a construir um futuro mais sustentável. No Brasil, ela cresce rápido, é eficiente e se soma a outras fontes renováveis para garantir energia limpa para todos.
 Com o vento a nosso favor, o futuro é mais verde! 🍃💨
