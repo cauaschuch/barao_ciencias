@@ -26,7 +26,7 @@ As PCHs são um tipo de usina hidrelétrica de menor porte, com potência entre 
 * Utilizam uma tecnologia que o Brasil domina muito bem.
   Apesar disso, ainda temos muito espaço para crescer: o número de PCHs instaladas hoje representa apenas um terço do potencial total estimado no país.
 
-## **✅ Vantagens da Energia Hídrica**
+## **✅ Vantagens da Energia Hídrelétrica**
 
 ## **⚠️ Desvantagens e Cuidados Necessários**
 
