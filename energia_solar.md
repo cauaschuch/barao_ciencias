@@ -40,7 +40,7 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 A energia solar é uma das soluções mais importantes para garantir um futuro mais limpo e sustentável. Seja para aquecer a água do chuveiro ou para gerar eletricidade para uma cidade inteira, o sol está ao nosso alcance todos os dias.
 E agora que você já sabe como isso funciona, que tal observar o céu e imaginar quantas possibilidades existem ali em cima? ☀️💡
 
-## ** Panorama Nacional da utilização de Energia Solar**
+## **Panorama Nacional da utilização de Energia Solar**
 
 📈 Crescimento Acelerado
 * Até fevereiro de 2025, o Brasil alcançou aproximadamente 54 GW de capacidade instalada em energia solar, representando cerca de 21,9% da matriz elétrica nacional. 
