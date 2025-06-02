@@ -78,5 +78,5 @@ Onde:
 - Se **aumentarmos a pressão**, também passa mais água.  
 - Mas se o cano for **estreito**, a água vai fluir devagar, mesmo com pressão.
 
-![Imagem: Lei de OHM](./IMAGES/imagem_ohm.jpg)
+![Imagem: Lei de OHM](./IMAGES/imagem_ohm.png)
 
