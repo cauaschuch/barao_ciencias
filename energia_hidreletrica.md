@@ -17,11 +17,13 @@ O processo é assim:
 * Essa eletricidade é enviada por fios de alta tensão até as subestações, que depois distribuem a energia para casas, escolas e empresas.
   Ou seja: a energia potencial da água vira energia cinética e, depois, elétrica! ⚡
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Usina%20Hidreletrica.jpg" alt=" style="max-width: 100%; border-radius: 8px;">
-    <p><strong>Usina Hidrelétrica</strong><br>
-  </div>
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Usina%20Hidreletrica.jpg"
+    alt="Usina hidrelétrica"
+    style="max-width: 50%; border-radius: 8px;">
+  <p><strong>Usina Hidrelétrica</strong></p>
+</div>
 
 ## **🏞️ Pequenas Centrais Hidrelétricas (PCHs)**
 
