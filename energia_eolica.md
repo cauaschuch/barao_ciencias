@@ -15,13 +15,13 @@ A energia eólica é gerada a partir da energia cinética dos ventos. O processo
 * A energia mecânica movimenta o gerador, que converte tudo em energia elétrica!
   É uma tecnologia inteligente, limpa e cada vez mais popular. 😊
 
-  <div style="text-align: center;">
-    <img 
+<div style="text-align: center;">
+  <img 
     src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20eolica%20onshore.jpg"
-      alt=Representação Turbinas para Geração de Energia Eólica em terra 
-      style="max-width: 50%; border-radius: 8px;">
-    <p><strong>Turbinas para Geração de Energia Eólica</strong><br>
-  </div>
+    alt="Representação Turbinas para Geração de Energia Eólica em terra"
+    style="max-width: 50%; border-radius: 8px;">
+  <p><strong>Turbinas para Geração de Energia Eólica</strong></p>
+</div>
   
 ## **🌍 Aplicações e Complementaridade**
 
