@@ -58,6 +58,11 @@ $$
 
 Ou seja, é como se todos os resistores virassem **um só resistor grandão**!
 
+Veja: Nessa figura temos dois resistores em série de 1kΩ, que somados e medidos com o multimetro (equipamento de medição na eletrônica) dão 2kΩ
+
+![Imagem: Circuito com Resistores em Série](./IMAGES/Resistores_Série_tinkercad.png)
+
+E não se preocupe se não sabe exatamente o que é essa placa branca a qual estão ligados, na próxima aula sobre circuitos apresentamos melhor ela! 
 ---
 
 ## 🌊 Resistores em Paralelo
@@ -77,6 +82,9 @@ $$
 \frac{1}{R_{\text{eq}}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \dots + \frac{1}{R_n}
 $$
 
+Veja: Nessa figura temos dois resistores em paralelo de 1kΩ, que somados e medidos com o multimetro (equipamento de medição na eletrônica) dão 0.5kΩ
+
+![Imagem: Circuito com Resistores em Série](./IMAGES/Resistores_paralelo_tinkercad.png)
 
 Ou seja, quanto mais resistores em paralelo, **menor será a resistência total**. Parece mágica, mas é só física! 😊
 
@@ -86,5 +94,6 @@ Ou seja, quanto mais resistores em paralelo, **menor será a resistência total*
 
 Você pode montar esses circuitos em simuladores como o Tinkercad e ver a corrente e a tensão em tempo real.  
 É como brincar de montar e testar seus próprios experimentos de eletricidade!
+Vamos ver mais sobre isso na próxima aula!
 
 
