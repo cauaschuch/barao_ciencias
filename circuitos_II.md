@@ -11,6 +11,38 @@ A protoboard é como um tabuleiro onde podemos conectar os componentes eletrôni
 ![Imagem: Ligações da protoboard](./IMAGES/protoboard.jpg)
 
 ---
+## ⚡ Descobrindo os Circuitos Elétricos!
+
+Antes de aprender sobre peças mais "elétricas e misteriosas", como os capacitores, vamos começar vendo **como a corrente elétrica funciona** num circuito simples. E pra isso, nada melhor que **luz e botões**!
+
+---
+
+### 🔴🟢 Dois LEDs e Dois Botões – Quem acende o quê?
+
+Nesse primeiro circuito, temos **dois botões** e **dois LEDs**. Cada botão controla um LED diferente.
+
+🛠️ Quando você **aperta o botão vermelho**, o LED vermelho acende.  
+🛠️ Quando aperta o **botão verde**, o LED verde acende.
+
+E tem mais: se você apertar os **dois botões ao mesmo tempo**, os **dois LEDs acendem juntos**!
+
+🧠 O que isso nos ensina?
+- A **corrente elétrica só flui** quando existe um **caminho completo**.
+- O botão funciona como um **interruptor**: se ele está aberto, a corrente não passa; se está fechado, a corrente flui.
+- O LED mostra se a corrente está ou não passando, porque ele só acende quando recebe energia.
+
+🎬 **Veja no vídeo como funciona esse circuito:**  
+![GIF: Circiuto RC em série](./IMAGES/RC_serie.gif)
+
+---
+
+## ⚙️ Agora, uma coisinha mais elaborada...
+
+Já que você entendeu como **acender LEDs com botões**, vamos ver um circuito um pouco mais esperto!
+
+Apresentamos agora um circuito com uma peça diferente: o **capacitor**.
+
+---
 
 ## 🔋 O que é um capacitor?
 
@@ -26,7 +58,7 @@ Imagine um copo d'água que vai enchendo devagar... Um **capacitor** faz algo pa
 
 Nesse tipo de circuito, o **resistor** e o **capacitor** estão conectados um **depois do outro**, como se estivessem fazendo fila.
 
-![Imagem: Circiuto RC em série](./IMAGES/RC_serie.gif)
+![GIF: Circiuto RC em série](./IMAGES/leds_acesos.gif)
 
 ### O que acontece aqui?
 
@@ -36,26 +68,6 @@ Nesse tipo de circuito, o **resistor** e o **capacitor** estão conectados um **
 
 ---
 
-## 🔁 Circuito RC em Paralelo
-
-Aqui o capacitor está em **paralelo com o LED**, como se os dois tivessem caminhos diferentes ligados na mesma fonte de energia.
-
-![Imagem: Circiuto RC em paralelo](./IMAGES/RC_paralelo.gif)
-
-### O que acontece aqui?
-
-- Quando ligamos o circuito, o LED acende **normalmente**, enquanto o capacitor também começa a carregar.
-- **Ao desligar**, o capacitor libera sua energia pelo LED.
-- O LED então **vai apagando devagar**, como um fade-out, enquanto o capacitor descarrega.
-
----
-
-## 🧠 Resumindo:
-
-- **RC em Série**: o capacitor **carrega devagar**, o LED **acende lentamente**.
-- **RC em Paralelo**: o capacitor **descarga devagar**, o LED **apaga lentamente**.
-
----
 
 ## 🧪 Desafio pra você!
 
