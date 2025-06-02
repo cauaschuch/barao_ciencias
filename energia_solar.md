@@ -35,11 +35,6 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 * 🔋 Integração com baterias: permite armazenar energia para uso à noite ou em dias nublados;
 * 🌍 Ajuda no combate às mudanças climáticas: por ser limpa e renovável, contribui para um planeta mais sustentável.
 
-## **🌞 Conclusão — O Sol como Nosso Aliado**
-
-A energia solar é uma das soluções mais importantes para garantir um futuro mais limpo e sustentável. Seja para aquecer a água do chuveiro ou para gerar eletricidade para uma cidade inteira, o sol está ao nosso alcance todos os dias.
-E agora que você já sabe como isso funciona, que tal observar o céu e imaginar quantas possibilidades existem ali em cima? ☀️💡
-
 ## **Panorama Nacional da utilização de Energia Solar**
 
 📈 Crescimento Acelerado
@@ -70,3 +65,8 @@ E agora que você já sabe como isso funciona, que tal observar o céu e imagina
 
 🌱 Papel na transição energética: 
 - A energia solar tem papel fundamental na redução das emissões de carbono e na substituição dos combustíveis fósseis, sendo uma das protagonistas da transição para uma matriz energética limpa e sustentável.
+
+## **🌞 Conclusão — O Sol como Nosso Aliado**
+
+A energia solar é uma das soluções mais importantes para garantir um futuro mais limpo e sustentável. Seja para aquecer a água do chuveiro ou para gerar eletricidade para uma cidade inteira, o sol está ao nosso alcance todos os dias.
+E agora que você já sabe como isso funciona, que tal observar o céu e imaginar quantas possibilidades existem ali em cima? ☀️💡
