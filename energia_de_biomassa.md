@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Energia Solar
+title: Energia de Biomassa e Biogás
 ---
 
 # **🌱 Energia de Biomassa e Biogás — Energia Que Vem da Natureza e dos Resíduos**
