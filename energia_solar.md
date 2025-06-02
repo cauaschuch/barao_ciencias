@@ -3,7 +3,7 @@ layout: default
 title: Energia Solar
 ---
 
-### **☀️ Energia solar- o impacto do sol na geração de energia**
+# **☀️ Energia solar- o impacto do sol na geração de energia**
 
 Todo mundo já deve ter sentido o calor do sol na própria pele em algum momento da própria vida. Pois saiba que, além de nos aquecer e iluminar, os raios solares também podem ser usados para gerar energia elétrica e térmica! Esta forma de energia é uma das  é uma das fontes renováveis mais promissoras do mundo, e o Brasil tem um enorme potencial nessa área.
 
