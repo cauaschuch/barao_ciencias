@@ -17,6 +17,12 @@ O processo é assim:
 * Essa eletricidade é enviada por fios de alta tensão até as subestações, que depois distribuem a energia para casas, escolas e empresas.
   Ou seja: a energia potencial da água vira energia cinética e, depois, elétrica! ⚡
 
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <div style="flex: 1; text-align: center;">
+    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Usina%20Hidreletrica.jpg)" alt=" style="max-width: 100%; border-radius: 8px;">
+    <p><strong>usina Hidrelétrica</strong><br>
+  </div>
+
 ## **🏞️ Pequenas Centrais Hidrelétricas (PCHs)**
 
 As PCHs são um tipo de usina hidrelétrica de menor porte, com potência entre 5 e 30 megawatts. No Brasil, elas têm grande destaque por várias razões:
