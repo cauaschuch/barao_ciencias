@@ -35,7 +35,7 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 * 🔋 Integração com baterias: permite armazenar energia para uso à noite ou em dias nublados;
 * 🌍 Ajuda no combate às mudanças climáticas: por ser limpa e renovável, contribui para um planeta mais sustentável.
 
-## **Panorama Nacional da utilização de Energia Solar**
+## **🟢🟡Panorama Nacional da utilização de Energia Solar**
 
 📈 Crescimento Acelerado
 * Até fevereiro de 2025, o Brasil alcançou aproximadamente 54 GW de capacidade instalada em energia solar, representando cerca de 21,9% da matriz elétrica nacional. 
