@@ -1,4 +1,9 @@
-#**🌊 Energia das Marés — A Força do Oceano Virando Eletricidade**
+---
+layout: default
+title: Energia Solar
+---
+
+## **🌊 Energia das Marés — A Força do Oceano Virando Eletricidade**
 
 Você já pensou em usar o vai e vem do mar para gerar energia? Com a energia das marés, isso é possível! Também chamada de energia maremotriz, essa fonte de energia limpa e renovável aproveita os movimentos naturais do oceano para produzir eletricidade. Vamos entender como tudo isso funciona?
 
