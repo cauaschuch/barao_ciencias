@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Energia Solar
+title: Energia Eólica
 ---
 
 # **💨 Energia Eólica — A Força dos Ventos e seu papel na geração de energia**
