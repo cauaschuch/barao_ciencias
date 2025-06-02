@@ -7,11 +7,6 @@ title: Carvão
 
 <p>Existem dois tipos principais de carvão: o <strong>carvão vegetal</strong> e o <strong>carvão mineral</strong>. Eles são diferentes na forma como são feitos e usados.</p>
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20solar%20em%20residencia.jpg" alt="Carvão Vegetal" style="max-width: 100%; border-radius: 8px;">
-    <p><strong>Carvão Vegetal</strong><br>Feito da queima da madeira</p>
-  </div>
   <div style="flex: 1; text-align: center;">
     <img src="IMAGES//mineral_coal.png" alt="Carvão Mineral" style="max-width: 100%; border-radius: 8px;">
     <p><strong>Carvão Mineral</strong><br>Retirado do subsolo, usado para gerar energia</p>
