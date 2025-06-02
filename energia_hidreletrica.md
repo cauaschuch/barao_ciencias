@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Energia Hídrica
+title: Energia Hidrelétrica
 ---
 
 # **💧 Energia Hídrica — A Força dos Rios Transformada em Eletricidade**
@@ -27,6 +27,13 @@ As PCHs são um tipo de usina hidrelétrica de menor porte, com potência entre 
   Apesar disso, ainda temos muito espaço para crescer: o número de PCHs instaladas hoje representa apenas um terço do potencial total estimado no país.
 
 ## **✅ Vantagens da Energia Hídrelétrica**
+
+*💧 Fonte renovável: utiliza a água dos rios, que está sempre se renovando com o ciclo da chuva;
+*⚡ Alta eficiência energética: as usinas hidrelétricas conseguem gerar grandes quantidades de eletricidade com eficiência superior a muitas outras fontes;
+* 🌿 Baixa emissão de poluentes: durante o funcionamento, não há emissão de gases do efeito estufa nem poluição direta do ar;
+* 🧭 Vida útil longa: muitas usinas funcionam por décadas com bons níveis de produção;
+* 🚿 Aproveitamento múltiplo: os reservatórios podem ser usados para abastecimento de água, irrigação, navegação, lazer e controle de cheias;
+* 🏞️ Desenvolvimento regional: a implantação de hidrelétricas estimula melhorias em infraestrutura, como estradas, escolas e hospitais nas áreas ao redor.
 
 ## **⚠️ Desvantagens e Cuidados Necessários**
 
