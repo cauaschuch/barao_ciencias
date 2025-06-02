@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Barão Ciências - Portal Educacional</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <!-- Adicionando biblioteca para geração de PDF -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
         * {
@@ -36,12 +35,14 @@
             min-height: 100vh;
             background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23eaf2f8" opacity="0.3"/><path d="M0 0L100 100M100 0L0 100" stroke="%231a5276" stroke-width="1" stroke-opacity="0.1"/></svg>');
             background-size: 200px;
+            position: relative;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
+            position: relative;
         }
 
         header {
@@ -55,6 +56,7 @@
             margin-bottom: 2rem;
             position: relative;
             overflow: hidden;
+            z-index: 2;
         }
 
         header::before {
@@ -85,6 +87,7 @@
             align-items: center;
             gap: 15px;
             margin-bottom: 1rem;
+            position: relative;
         }
 
         .logo {
@@ -121,6 +124,7 @@
             box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
             position: relative;
+            z-index: 2;
         }
 
         .card:hover {
@@ -192,6 +196,8 @@
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             transition: transform 0.3s ease;
             border-top: 4px solid;
+            position: relative;
+            overflow: hidden;
         }
 
         .disciplina-card:hover {
@@ -233,6 +239,8 @@
             border-radius: 15px;
             margin-top: 1.5rem;
             box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
+            position: relative;
+            overflow: hidden;
         }
 
         .qr-container img {
@@ -263,6 +271,8 @@
             flex-direction: column;
             align-items: center;
             text-align: center;
+            position: relative;
+            overflow: hidden;
         }
 
         .access-option i {
@@ -296,6 +306,7 @@
             border-radius: 10px;
             margin: 1.5rem 0;
             border-left: 4px solid var(--accent);
+            position: relative;
         }
 
         .highlight i {
@@ -309,6 +320,8 @@
             padding: 2.5rem;
             margin-bottom: 2rem;
             box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+            position: relative;
+            overflow: hidden;
         }
 
         .tutorial-header {
@@ -338,6 +351,7 @@
             padding: 1.8rem;
             border-left: 5px solid var(--accent);
             transition: all 0.3s ease;
+            position: relative;
         }
 
         .step:hover {
@@ -445,12 +459,8 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
             box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
-        }
-
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
+            position: relative;
+            z-index: 2;
         }
 
         /* Botão para gerar PDF */
@@ -459,7 +469,7 @@
             bottom: 30px;
             right: 30px;
             z-index: 100;
-            background: linear-gradient(120deg, var(--warning), #c0392b);
+            background: linear-gradient(120deg, var(--accent), #e67e22);
             color: white;
             border: none;
             padding: 15px 25px;
@@ -471,11 +481,14 @@
             align-items: center;
             gap: 10px;
             transition: all 0.3s ease;
+            font-size: 1.1rem;
+            animation: bounce 2s infinite;
         }
 
         .pdf-button:hover {
             transform: translateY(-3px);
             box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+            background: linear-gradient(120deg, #e67e22, var(--accent));
         }
 
         .pdf-button:active {
@@ -489,7 +502,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.7);
+            background: rgba(0, 0, 0, 0.85);
             display: flex;
             flex-direction: column;
             justify-content: center;
@@ -505,6 +518,70 @@
             margin-bottom: 20px;
             color: var(--accent);
             animation: pulse 1.5s infinite;
+        }
+
+        .pdf-loading p {
+            max-width: 400px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Elementos decorativos */
+        .science-icon {
+            position: absolute;
+            font-size: 3rem;
+            opacity: 0.1;
+            z-index: 1;
+        }
+
+        .science-icon:nth-child(1) {
+            top: 50px;
+            left: 5%;
+            color: var(--ciencias);
+            transform: rotate(20deg);
+        }
+
+        .science-icon:nth-child(2) {
+            top: 150px;
+            right: 10%;
+            color: var(--geografia);
+            transform: rotate(-15deg);
+        }
+
+        .science-icon:nth-child(3) {
+            bottom: 200px;
+            left: 15%;
+            color: var(--matematica);
+            transform: rotate(30deg);
+        }
+
+        .science-icon:nth-child(4) {
+            bottom: 100px;
+            right: 15%;
+            color: var(--accent);
+            transform: rotate(-25deg);
+        }
+
+        .floating {
+            animation: float 6s ease-in-out infinite;
+        }
+
+        /* Animações */
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+            100% { transform: scale(1); }
+        }
+
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
+
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(5deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
         }
 
         @media (max-width: 768px) {
@@ -538,11 +615,26 @@
                 padding: 12px 20px;
                 font-size: 0.9rem;
             }
+            
+            .science-icon {
+                display: none;
+            }
+        }
+
+        /* Estilo para o PDF */
+        .pdf-version {
+            display: none;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <!-- Elementos decorativos flutuantes -->
+    <i class="fas fa-atom science-icon floating"></i>
+    <i class="fas fa-globe-americas science-icon floating"></i>
+    <i class="fas fa-calculator science-icon floating"></i>
+    <i class="fas fa-flask science-icon floating"></i>
+    
+    <div class="container" id="content-to-print">
         <header>
             <div class="logo-container">
                 <i class="fas fa-graduation-cap logo"></i>
@@ -708,13 +800,48 @@
 
     <!-- Botão para gerar PDF -->
     <button class="pdf-button" id="generate-pdf">
-        <i class="fas fa-file-pdf"></i> Gerar PDF
+        <i class="fas fa-file-pdf"></i> Gerar PDF deste Folder
     </button>
 
     <!-- Modal de carregamento -->
     <div class="pdf-loading" id="pdf-loading">
-        <i class="fas fa-spinner fa-spin"></i>
-        <p>Gerando PDF, por favor aguarde...</p>
+        <i class="fas fa-cog fa-spin"></i>
+        <h3>Gerando seu PDF educacional...</h3>
+        <p>Estamos preparando um documento lúdico e informativo para você!</p>
+    </div>
+
+    <!-- Versão otimizada para PDF (oculta) -->
+    <div class="pdf-version" id="pdf-version">
+        <div style="padding: 30px; background: white; color: #333; font-family: Arial, sans-serif;">
+            <div style="text-align: center; margin-bottom: 30px;">
+                <h1 style="color: #1a5276; font-size: 28px; margin-bottom: 10px;">Barão Ciências</h1>
+                <p style="font-size: 18px; color: #2980b9;">Desvendando a Ciência, Geografia e Matemática de forma interativa e divertida</p>
+            </div>
+            
+            <div style="background: #eaf2f8; padding: 20px; border-radius: 10px; margin-bottom: 25px;">
+                <h2 style="color: #1a5276; border-bottom: 2px solid #1a5276; padding-bottom: 10px; margin-bottom: 15px;">Visão Geral</h2>
+                <p>Bem-vindo ao <strong>Barão Ciências</strong>, um portal de apoio educacional dedicado aos alunos do 8º ano A da Escola Estadual de Ensino Fundamental Barão do Rio Branco, em Catuípe/RS.</p>
+                <p style="background: rgba(243, 156, 18, 0.1); padding: 10px; border-left: 4px solid #f39c12; margin: 15px 0;">
+                    <strong>Parceria:</strong> Este site é fruto de uma parceria inovadora entre as professoras Mari Rosso, Marla Tedeschi e Cristina Bottega, e estudantes da Universidade de São Paulo (USP).
+                </p>
+                <p>Nosso objetivo é tornar o aprendizado mais acessível, divertido e conectado ao seu dia a dia.</p>
+            </div>
+            
+            <div style="margin-bottom: 25px;">
+                <h2 style="color: #1a5276; border-bottom: 2px solid #1a5276; padding-bottom: 10px; margin-bottom: 15px;">O Que Você Vai Encontrar</h2>
+                <ul style="list-style-type: none; padding-left: 0;">
+                    <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">✓ Apoio completo para as aulas de Ciências, Geografia e Matemática</li>
+                    <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">✓ Materiais didáticos que complementam o ensino em sala de aula</li>
+                    <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">✓ Ferramentas interativas para um aprendizado mais engajador</li>
+                    <li style="margin-bottom: 10px; padding-left: 25px; position: relative;">✓ Conteúdo adicional para curiosos e para quem busca aprofundamento</li>
+                </ul>
+            </div>
+            
+            <div style="text-align: center; margin-top: 40px; font-size: 14px; color: #666;">
+                <p>Folder Educacional &copy; 2023 - Escola Estadual de Ensino Fundamental Barão do Rio Branco, Catuípe/RS</p>
+                <p>Acesse o portal: https://cauaschuch.github.io/barao_ciencias/</p>
+            </div>
+        </div>
     </div>
 
     <script>
@@ -725,22 +852,45 @@
             loadingModal.style.display = 'flex';
             
             // Elemento que será convertido para PDF
-            const element = document.querySelector('.container');
+            const element = document.getElementById('content-to-print');
             
             // Configurações do PDF
             const opt = {
                 margin: 0.5,
-                filename: 'folder_barao_ciencias.pdf',
+                filename: 'folder_educacional_barao_ciencias.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2 },
-                jsPDF: { unit: 'in', format: 'a4', orientation: 'portrait' }
+                html2canvas: { 
+                    scale: 2,
+                    useCORS: true,
+                    allowTaint: true,
+                    logging: false
+                },
+                jsPDF: { 
+                    unit: 'in', 
+                    format: 'a4', 
+                    orientation: 'portrait',
+                    hotfixes: ["px_scaling"]
+                },
+                pagebreak: { mode: ['avoid-all', 'css', 'legacy'] }
             };
             
-            // Gerar o PDF
-            html2pdf().set(opt).from(element).save().then(() => {
-                // Ocultar o modal após a geração do PDF
-                loadingModal.style.display = 'none';
-            });
+            // Gerar o PDF com efeito visual
+            setTimeout(() => {
+                html2pdf().set(opt).from(element).save().then(() => {
+                    // Ocultar o modal após a geração do PDF
+                    loadingModal.style.display = 'none';
+                    
+                    // Efeito visual de confirmação
+                    const btn = document.getElementById('generate-pdf');
+                    btn.innerHTML = '<i class="fas fa-check-circle"></i> PDF Gerado!';
+                    btn.style.background = 'linear-gradient(120deg, #27ae60, #2ecc71)';
+                    
+                    setTimeout(() => {
+                        btn.innerHTML = '<i class="fas fa-file-pdf"></i> Gerar PDF deste Folder';
+                        btn.style.background = 'linear-gradient(120deg, var(--accent), #e67e22)';
+                    }, 3000);
+                });
+            }, 1500);
         });
     </script>
 </body>
