@@ -54,7 +54,7 @@ E agora que você já sabe como isso funciona, que tal observar o céu e imagina
 * O setor solar brasileiro atraiu mais de R$ 59,6 bilhões em investimentos em 2023, um aumento de 49% em relação ao ano anterior. 
 * Entre 2012 e 2023, foram gerados mais de 868,8 mil empregos no setor de energia solar no Brasil.
 
-## **Panorama Mundial da utilização de Energia Solar**
+## **🌍 Panorama Mundial da utilização de Energia Solar**
 
 ⚡ Participação global crescente: 
 - A energia solar já representa mais de 6% da eletricidade gerada em todo o mundo, com forte tendência de crescimento nos próximos anos.
