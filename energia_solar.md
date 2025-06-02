@@ -27,14 +27,15 @@ Existem diferentes maneiras de aproveitar a energia do sol. Veja as principais:
 * Funciona mesmo em dias nublados, embora com menor eficiência.
 * Os sistemas fotovoltaicos podem variar desde pequenas placas que alimentam uma calculadora até grandes usinas solares, com centenas de módulos que abastecem bairros inteiros.
 
- <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+<div style="display: flex; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
     <img src="barao_ciencias/IMAGES/Placas de energia fotovoltaica.jpg" alt="Placas para energia fotovoltaica" style="max-width: 100%; border-radius: 8px;">
-    <p><strong>Placas Solares</strong><br>
+    <p><strong>Placas Solares</strong></p>
   </div>
+  
   <div style="flex: 1; text-align: center;">
     <img src="barao_ciencias/IMAGES/Energia solar em residencia.jpg" alt="Energia Solar instalada em Residencia" style="max-width: 100%; border-radius: 8px;">
-    <p>Energia solar instalada em residencia</p>
+    <p>Energia solar instalada em residência</p>
   </div>
 </div>
   
