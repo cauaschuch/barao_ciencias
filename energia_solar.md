@@ -27,19 +27,17 @@ Existem diferentes maneiras de aproveitar a energia do sol. Veja as principais:
 * Funciona mesmo em dias nublados, embora com menor eficiência.
 * Os sistemas fotovoltaicos podem variar desde pequenas placas que alimentam uma calculadora até grandes usinas solares, com centenas de módulos que abastecem bairros inteiros.
 
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/cauaschuch/barao_ciencias/main/IMAGES/Placas%20de%20energia%20fotovoltaica.jpg" alt=Placas de Energia Solar Fotovoltaica" style="max-width: 100%; border-radius: 8px;">
-    <p><strong>Energia Solar</strong><br><strong>Placas Fotovoltaicas<strong></p>
-  </div>
-  
-<div style="display: flex; gap: 20px; flex-wrap: wrap;">
-  <div style="flex: 1; text-align: center;">
-    <img src="https://github.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20solar%20em%20residencia.jpg" alt=Energia Solar instalada em Residencia"" style="max-width: 100%; border-radius: 8px;">
-    <p><strong>Energia Solar instalada em Residencia</strong>
-  </div>
-<div></div>
-  
+<img 
+  src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Placas%20de%20energia%20fotovoltaica.jpg"
+  alt="Placas de Energia Solar Fotovoltaica"
+  style="max-width: 100%; border-radius: 8px;">
+<p><strong>Energia Solar</strong><br>placas Fotovoltaicas</p>
+
+<img 
+  src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20solar%20em%20residencia.jpg"
+  alt="Energia Solar instalada em Residencia"
+  style="max-width: 100%; border-radius: 8px;">
+<p><strong>Energia Solar instalada em Residência</strong></p>
 
 ### 🔥 2. Energia Solar Térmica (ou Termossolar)
 * Utiliza o calor do sol para aquecer fluidos.
