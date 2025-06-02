@@ -32,7 +32,7 @@ E tem mais: se você apertar os **dois botões ao mesmo tempo**, os **dois LEDs 
 - O LED mostra se a corrente está ou não passando, porque ele só acende quando recebe energia.
 
 🎬 **Veja no vídeo como funciona esse circuito:**  
-![GIF: Circiuto RC em série](./IMAGES/RC_serie.gif)
+![GIF: Circiuto RC em série](./IMAGES/leds_acesos.gif)
 
 ---
 
@@ -58,7 +58,7 @@ Imagine um copo d'água que vai enchendo devagar... Um **capacitor** faz algo pa
 
 Nesse tipo de circuito, o **resistor** e o **capacitor** estão conectados um **depois do outro**, como se estivessem fazendo fila.
 
-![GIF: Circiuto RC em série](./IMAGES/leds_acesos.gif)
+![GIF: Circiuto RC em série](./IMAGES/RC_serie.gif)
 
 ### O que acontece aqui?
 
