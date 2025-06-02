@@ -9,7 +9,7 @@ title: Carvão
 
 <div style="display: flex; gap: 20px; flex-wrap: wrap;">
   <div style="flex: 1; text-align: center;">
-    <img src="IMAGES/vegetal_carv.png" alt="Carvão Vegetal" style="max-width: 100%; border-radius: 8px;">
+    <img src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20solar%20em%20residencia.jpg" alt="Carvão Vegetal" style="max-width: 100%; border-radius: 8px;">
     <p><strong>Carvão Vegetal</strong><br>Feito da queima da madeira</p>
   </div>
   <div style="flex: 1; text-align: center;">
