@@ -17,7 +17,7 @@ A energia eólica é gerada a partir da energia cinética dos ventos. O processo
 
   <div style="text-align: center;">
     <img 
-      src="https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20eolica%20onshore.jpg" 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20eolica%20onshore.jpg"
       alt=Representação Turbinas para Geração de Energia Eólica em terra 
       style="max-width: 50%; border-radius: 8px;">
     <p><strong>Turbinas para Geração de Energia Eólica</strong><br>
