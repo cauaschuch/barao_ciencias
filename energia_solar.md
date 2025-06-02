@@ -27,17 +27,21 @@ Existem diferentes maneiras de aproveitar a energia do sol. Veja as principais:
 * Funciona mesmo em dias nublados, embora com menor eficiência.
 * Os sistemas fotovoltaicos podem variar desde pequenas placas que alimentam uma calculadora até grandes usinas solares, com centenas de módulos que abastecem bairros inteiros.
 
-<img 
-  src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Placas%20de%20energia%20fotovoltaica.jpg"
-  alt="Placas de Energia Solar Fotovoltaica"
-  style="max-width: 100%; border-radius: 8px;">
-<p><strong>Energia Solar</strong><br>placas Fotovoltaicas</p>
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Placas%20de%20energia%20fotovoltaica.jpg"
+    alt="Placas de Energia Solar Fotovoltaica"
+    style="max-width: 100%; border-radius: 8px;">
+  <p><strong>Energia Solar</strong><br>Placas Fotovoltaicas</p>
+</div>
 
-<img 
-  src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20solar%20em%20residencia.jpg"
-  alt="Energia Solar instalada em Residencia"
-  style="max-width: 100%; border-radius: 8px;">
-<p><strong>Energia Solar instalada em Residência</strong></p>
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20solar%20em%20residencia.jpg"
+    alt="Energia Solar instalada em Residência"
+    style="max-width: 100%; border-radius: 8px;">
+  <p><strong>Energia Solar instalada em Residência</strong></p>
+</div>
 
 ### 🔥 2. Energia Solar Térmica (ou Termossolar)
 * Utiliza o calor do sol para aquecer fluidos.
