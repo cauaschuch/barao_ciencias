@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
     <style>
+        /* Estilos CSS existentes para a página HTML normal */
         * {
             margin: 0;
             padding: 0;
@@ -621,31 +622,33 @@
             }
         }
 
+        /* ---------------------------------------------------------------------- */
         /* Estilos específicos para a versão PDF (layout de folheto) */
+        /* ---------------------------------------------------------------------- */
         .pdf-version {
-            display: none; /* Oculta a div no HTML normal */
-            width: 8.5in; /* Largura A4 em polegadas */
-            height: 11in; /* Altura A4 em polegadas */
+            display: none; /* Inicia oculto, será exibido no JS antes da captura */
+            /* A4 landscape: 11.69 x 8.27 inches, or 297 x 210 mm */
+            width: 11.69in; /* Largura A4 em polegadas para paisagem */
+            height: 8.27in; /* Altura A4 em polegadas para paisagem */
             overflow: hidden;
             background: #fff;
             color: var(--dark);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             position: relative;
             box-sizing: border-box;
-            border: 1px solid #ddd; /* Apenas para visualização em desenvolvimento */
+            /* border: 1px solid #ddd; /* Apenas para visualização em desenvolvimento */
         }
 
         .pdf-page {
             width: 100%;
             height: 100%;
-            display: flex;
-            flex-wrap: wrap; /* Permite que os painéis se ajustem */
+            display: flex; /* Para organizar os painéis lado a lado */
             box-sizing: border-box;
         }
 
         .pdf-panel {
-            width: calc(8.5in / 3); /* Divide a largura da página A4 em 3 painéis */
-            height: 11in;
+            width: calc(11.69in / 3); /* Divide a largura da página A4 em 3 painéis */
+            height: 8.27in; /* Altura total da página */
             padding: 0.6in 0.4in; /* Ajuste de padding para conteúdo */
             box-sizing: border-box;
             border-right: 1px dashed #eee; /* Linha de dobra sutil */
@@ -653,9 +656,10 @@
             display: flex;
             flex-direction: column;
             justify-content: flex-start; /* Alinha o conteúdo ao topo */
-            align-items: center;
-            text-align: center;
+            align-items: center; /* Centraliza conteúdo horizontalmente */
+            text-align: center; /* Alinha texto centralmente por padrão no painel */
             position: relative;
+            page-break-inside: avoid; /* Evita quebra de página dentro de um painel */
         }
 
         .pdf-panel:last-child {
@@ -666,73 +670,52 @@
             color: var(--primary);
             margin-bottom: 0.5rem;
             font-size: 1.2rem;
-            text-align: center;
+            text-align: center; /* Títulos centralizados */
+        }
+        .pdf-panel h4 {
+            font-size: 1rem; /* Subtítulos um pouco menores */
         }
 
         .pdf-panel p, .pdf-panel ul {
-            font-size: 0.9em;
+            font-size: 0.85em; /* Fonte um pouco menor para caber mais conteúdo */
             line-height: 1.4;
-            margin-bottom: 0.8rem;
-            text-align: left; /* Alinhamento de texto padrão */
+            margin-bottom: 0.6rem; /* Margem menor entre parágrafos */
+            text-align: left; /* Alinhamento de texto padrão dentro do painel */
             width: 100%; /* Ocupa a largura total do painel */
         }
         
         .pdf-panel ul {
             list-style-type: disc;
             padding-left: 1.2rem;
+            margin-top: 0.3rem;
         }
 
         .pdf-panel ul li {
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.2rem;
         }
 
-        /* Estilos para a "Capa" (painel 3) */
-        .pdf-panel.cover {
-            background: linear-gradient(120deg, var(--primary), var(--secondary));
-            color: white;
-            justify-content: center;
-            text-align: center;
-        }
-        .pdf-panel.cover h1 {
-            color: white;
-            font-size: 2.2rem;
-            margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-        .pdf-panel.cover .logo {
-            font-size: 3rem;
-            color: var(--accent);
-            margin-bottom: 0.5rem;
-        }
-        .pdf-panel.cover .tagline {
-            font-size: 1.1rem;
-            opacity: 0.9;
-        }
-        .pdf-panel.cover img {
-            width: 120px;
-            height: 120px;
-            border: 5px solid white;
-            border-radius: 10px;
-            margin-top: 1rem;
-        }
+        /* --- Painéis da Página 1 (Frente do Folheto) --- */
+        /* Ordem visual no PDF para paisagem A4:
+           Contra-capa (Painel 1) | Interno (Painel 2) | Capa (Painel 3)
+           No HTML, eles são definidos na ordem que aparecerão no PDF, então:
+           Painel 1 (contra-capa) é o primeiro div.pdf-panel
+           Painel 2 (interno) é o segundo
+           Painel 3 (capa) é o terceiro
+        */
 
-        /* Estilos para a "Contra-capa" (painel 1) */
+        /* Painel 1 (back-cover): Contra-capa */
         .pdf-panel.back-cover {
             background-color: var(--light);
-            justify-content: space-between;
-            align-items: center;
-            padding-top: 1in; /* Mais espaço no topo */
-            padding-bottom: 1in; /* Mais espaço no rodapé */
+            justify-content: space-between; /* Espalha o conteúdo verticalmente */
+            padding-top: 1.2in; /* Mais espaço no topo */
+            padding-bottom: 1.2in; /* Mais espaço no rodapé */
+            border-right: 1px dashed #ccc; /* Linha de dobra mais visível */
         }
         .pdf-panel.back-cover p {
-            font-size: 0.85em;
+            font-size: 0.8em;
             color: var(--dark);
             text-align: center;
-        }
-        .pdf-panel.back-cover .qr-code-small {
-            width: 80px;
-            height: 80px;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.4rem;
         }
         .pdf-panel.back-cover .link-access-pdf {
             display: block;
@@ -744,11 +727,15 @@
             text-decoration: none;
             font-weight: bold;
             font-size: 0.8em;
+            width: 80%; /* Ajuste a largura do botão */
+            max-width: 200px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
         }
 
-        /* Estilos para o painel de "Visão Geral" (painel 2 - interno) */
+        /* Painel 2 (overview): Visão Geral (lado interno da capa) */
         .pdf-panel.overview {
             background-color: #f8f9fa;
+            border-right: 1px dashed #ccc; /* Linha de dobra mais visível */
         }
         .pdf-panel.overview .highlight {
             background: rgba(243, 156, 18, 0.1);
@@ -764,13 +751,59 @@
             margin-right: 5px;
         }
 
-        /* Estilos para os painéis internos (totalmente abertos) */
+        /* Painel 3 (cover): Capa (painel mais à direita) */
+        .pdf-panel.cover {
+            background: linear-gradient(120deg, var(--primary), var(--secondary));
+            color: white;
+            justify-content: center; /* Centraliza conteúdo verticalmente */
+            text-align: center;
+        }
+        .pdf-panel.cover h1 {
+            color: white;
+            font-size: 2rem; /* Ajuste para caber bem */
+            margin-bottom: 0.4rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+        .pdf-panel.cover .logo {
+            font-size: 2.8rem;
+            color: var(--accent);
+            margin-bottom: 0.4rem;
+        }
+        .pdf-panel.cover .tagline {
+            font-size: 1rem;
+            opacity: 0.9;
+            margin-bottom: 1rem;
+        }
+        .pdf-panel.cover .qr-code-cover {
+            width: 100px;
+            height: 100px;
+            border: 4px solid white;
+            border-radius: 8px;
+            margin-top: 0.8rem;
+        }
+        .pdf-panel.cover p { /* Estilo para o texto do QR Code */
+            font-size: 0.8em;
+            color: white;
+            margin-top: 0.5rem;
+        }
+
+
+        /* --- Painéis da Página 2 (Verso do Folheto) --- */
+        /* Ordem visual no PDF para paisagem A4:
+           O que você vai encontrar (Painel 4) | Disciplinas (Painel 5) | Como usar o Portal (Painel 6)
+        */
+
         .pdf-panel.inner {
             background-color: white;
             padding: 0.6in 0.4in;
+            border-right: 1px dashed #eee; /* Linha de dobra */
         }
+        .pdf-panel.inner:last-child {
+            border-right: none; /* Remove a borda do último painel */
+        }
+
         .pdf-panel.inner .highlight {
-             background: rgba(243, 156, 18, 0.1);
+            background: rgba(243, 156, 18, 0.1);
             padding: 0.6rem;
             border-radius: 8px;
             margin: 0.8rem 0;
@@ -782,14 +815,14 @@
         .pdf-panel.inner .disciplina-card {
             background: #f8f9fa;
             border-radius: 8px;
-            padding: 0.8rem;
-            margin-bottom: 0.8rem;
+            padding: 0.6rem; /* Reduz padding */
+            margin-bottom: 0.6rem; /* Reduz margem */
             border-top: 3px solid;
             text-align: left;
         }
         .pdf-panel.inner .disciplina-card h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
+            font-size: 1em; /* Ajusta tamanho do título da disciplina */
+            margin-bottom: 0.4rem;
             display: flex;
             align-items: center;
             gap: 5px;
@@ -798,11 +831,11 @@
         .pdf-panel.inner .disciplina-card ul {
             list-style-type: disc;
             padding-left: 1.2rem;
-            margin-top: 0.5rem;
+            margin-top: 0.3rem;
         }
         .pdf-panel.inner .disciplina-card ul li {
-            margin-bottom: 0.2rem;
-            font-size: 0.8em;
+            margin-bottom: 0.1rem; /* Ajusta margem entre itens da lista */
+            font-size: 0.75em; /* Ajusta tamanho da fonte dos itens */
         }
         .pdf-panel.inner .ciencias { border-top-color: var(--ciencias); }
         .pdf-panel.inner .geografia { border-top-color: var(--geografia); }
@@ -811,94 +844,62 @@
         .pdf-panel.inner .step {
             background: #f8f9fa;
             border-radius: 8px;
-            padding: 0.8rem;
+            padding: 0.6rem; /* Reduz padding */
             border-left: 3px solid var(--accent);
-            margin-bottom: 0.8rem;
+            margin-bottom: 0.6rem; /* Reduz margem */
             text-align: left;
         }
         .pdf-panel.inner .step-number {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            width: 25px;
-            height: 25px;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 25px;
-            margin-bottom: 0.5rem;
-            font-weight: bold;
-            font-size: 0.9rem;
+            width: 22px; /* Menor */
+            height: 22px; /* Menor */
+            line-height: 22px;
+            margin-bottom: 0.4rem;
+            font-size: 0.8rem;
         }
         .pdf-panel.inner .step h4 {
-            font-size: 1.1rem;
-            margin-bottom: 0.5rem;
+            font-size: 1em; /* Ajusta tamanho do título do passo */
+            margin-bottom: 0.4rem;
             color: var(--primary);
         }
         .pdf-panel.inner .step-image {
-            height: 80px;
-            background: linear-gradient(45deg, #e0f7fa, #bbdefb);
+            height: 70px; /* Reduz altura */
             border-radius: 5px;
-            margin: 0.5rem 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: var(--primary);
-            font-weight: bold;
-            font-size: 0.8em;
-            text-align: center;
+            margin: 0.4rem 0;
+            font-size: 0.7em; /* Reduz tamanho da fonte */
             padding: 5px;
-            overflow: hidden;
-            position: relative;
         }
         .pdf-panel.inner .step-image i {
-            font-size: 1.8rem;
-            margin-bottom: 5px;
-            color: var(--secondary);
-        }
-        .pdf-panel.inner .step-image::before {
-            display: none; /* Remove overlay patterns for PDF */
+            font-size: 1.5rem; /* Reduz tamanho do ícone */
+            margin-bottom: 3px;
         }
         
         .pdf-panel.inner .access-button {
             display: block;
-            width: 100%;
-            max-width: 150px; /* Ajuste para caber no painel */
-            margin: 1rem auto;
-            text-align: center;
+            width: 80%; /* Ajuste a largura do botão */
+            max-width: 150px;
+            margin: 1rem auto 0.5rem auto; /* Ajuste margens */
+            padding: 0.5rem 0.8rem; /* Reduz padding */
+            font-size: 0.8rem;
+            border-radius: 25px;
             background: linear-gradient(120deg, var(--secondary), var(--primary));
             color: white;
-            padding: 0.5rem 1rem;
-            border-radius: 30px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 0.9rem;
-            box-shadow: none;
-        }
-        .pdf-panel.inner .access-button::after {
-            display: none;
         }
 
+        /* Rodapé em uma posição mais geral para ambas as páginas do PDF */
         .pdf-footer {
-            text-align: center;
-            width: 100%;
             position: absolute;
-            bottom: 0.4in;
-            left: 0;
+            bottom: 0.3in; /* Distância do fundo da página */
+            width: 100%;
+            text-align: center;
             font-size: 0.7em;
             color: #666;
-            padding: 0 0.4in;
+            padding: 0 0.4in; /* Padding lateral */
+            box-sizing: border-box;
         }
         .pdf-footer p {
-            margin-bottom: 0.2em;
-        }
-
-        /* Ensure images are rendered correctly */
-        .pdf-version img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: auto; /* Center images */
+            margin-bottom: 0.1em;
         }
     </style>
 </head>
@@ -1107,7 +1108,7 @@
                 <p>Folder Educacional &copy; 2025 - Escola Estadual de Ensino Fundamental Barão do Rio Branco, Catuípe/RS</p>
                 <p>Parceria: Professoras Mari Rosso, Marla Tedeschi, Cristina Bottega e Estudantes da USP</p>
                 <a href="https://cauaschuch.github.io/barao_ciencias/" class="link-access-pdf">
-                    Acessar Portal Agora
+                    <i class="fas fa-external-link-alt"></i> Acesse o Portal Agora
                 </a>
             </div>
         </div>
@@ -1191,7 +1192,7 @@
                         <p>Interface intuitiva</p>
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
     </div>
 
@@ -1205,6 +1206,9 @@
             // Elemento que será convertido para PDF (a div oculta com o layout de folheto)
             const element = document.getElementById('pdf-version');
             
+            // Tornar o elemento visível antes da captura
+            element.style.display = 'block';
+
             // Configurações do PDF
             const opt = {
                 margin: 0, // Margens zero para controle total via CSS
@@ -1227,7 +1231,8 @@
                 },
                 pagebreak: { 
                     mode: ['avoid-all', 'css', 'legacy'],
-                    after: '.front-page' // Quebra de página após a primeira página (frente do folheto)
+                    // Define a quebra de página. A 'back-page' marca o início da segunda página.
+                    before: '.back-page' 
                 }
             };
             
@@ -1236,6 +1241,8 @@
                 html2pdf().set(opt).from(element).save().then(() => {
                     // Ocultar o modal após a geração do PDF
                     loadingModal.style.display = 'none';
+                    // Esconder o elemento de volta
+                    element.style.display = 'none';
                     
                     // Efeito visual de confirmação
                     const btn = document.getElementById('generate-pdf');
@@ -1250,6 +1257,7 @@
                     console.error("Erro ao gerar PDF: ", error);
                     alert("Ocorreu um erro ao gerar o PDF. Por favor, tente novamente. Detalhes: " + error.message);
                     loadingModal.style.display = 'none';
+                    element.style.display = 'none'; // Esconder mesmo com erro
                 });
             }, 1500); // Pequeno atraso para a animação de carregamento
         });
