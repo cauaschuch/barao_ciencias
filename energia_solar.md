@@ -21,7 +21,28 @@ Essa tecnologia é extremamente versátil! Pode ser usada em locais isolados, on
 ## **⚙️ Tipos de Tecnologias Solares**
 
 Existem diferentes maneiras de aproveitar a energia do sol. Veja as principais:
-Os sistemas fotovoltaicos podem variar desde pequenas placas que alimentam uma calculadora até grandes usinas solares, com centenas de módulos que abastecem bairros inteiros.
+### ☀️ 1. Energia Solar Fotovoltaica
+* Converte diretamente a luz solar em eletricidade por meio de painéis solares com células fotovoltaicas (geralmente feitas de silício).
+* É a mais comum em residências, comércios e usinas solares.
+* Funciona mesmo em dias nublados, embora com menor eficiência.
+* Os sistemas fotovoltaicos podem variar desde pequenas placas que alimentam uma calculadora até grandes usinas solares, com centenas de módulos que abastecem bairros inteiros.
+
+ <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+  <div style="flex: 1; text-align: center;">
+    <img src="barao_ciencias/IMAGES/Placas de energia fotovoltaica.jpg" alt="Placas para energia fotovoltaica" style="max-width: 100%; border-radius: 8px;">
+    <p><strong>Placas Solares</strong><br>
+  </div>
+  
+
+### 🔥 2. Energia Solar Térmica (ou Termossolar)
+* Utiliza o calor do sol para aquecer fluidos.
+* Mais comum em aquecimento de água para uso residencial ou industrial.
+* Também usada em usinas termossolares, onde o calor move turbinas para gerar eletricidade.
+
+### 🔭 3. Energia Solar de Concentração (CSP – Concentrated Solar Power)
+* Usa espelhos ou lentes para concentrar a luz solar em um ponto específico.
+* Esse calor concentrado aquece um fluido que gera vapor, movendo uma turbina para produzir energia elétrica.
+* Indicada para grandes usinas em regiões com alta incidência solar.
 
 ## **✅ Vantagens da Energia Solar**
 
