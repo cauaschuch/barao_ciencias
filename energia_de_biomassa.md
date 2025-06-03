@@ -25,7 +25,7 @@ A conversão da biomassa em eletricidade pode acontecer de várias formas:
     src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Usina%20T%C3%A9rmica%20movida%20a%20Biomassa.png"
     alt="Usina Térmica movida a Biomassa"
     style="max-width: 75%; border-radius: 8px;">
-  <p><strong>Usina de Biomassa</strong></p>
+  <p><strong>Usina de Biomassa, imagem referente ao processo de combustão em caldeiras</strong></p>
 </div>
 
 ## **💨 O Que é o Biogás?**
