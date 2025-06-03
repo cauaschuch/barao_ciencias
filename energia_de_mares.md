@@ -21,8 +21,6 @@ A energia das marés é gerada pelo movimento das águas do mar, causado princip
   <p><strong>Turbinas Dentro da Água para Geração de Energia Maremotriz</strong></p>
 </div>
 
-https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20dos%20mares%20conceito.jpg
-
 ## **✅ Vantagens da Energia das Marés**
 * 🌊 Fonte limpa e renovável: aproveita os movimentos naturais do mar sem gerar poluentes;
 * 🔁 Alta previsibilidade: diferente do sol e do vento, as marés são muito mais regulares e fáceis de prever;
