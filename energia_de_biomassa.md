@@ -20,6 +20,14 @@ A conversão da biomassa em eletricidade pode acontecer de várias formas:
 * **Biodigestão:** processo natural onde microrganismos decompõem a matéria orgânica sem oxigênio e liberam biogás (rico em metano).
   Esses processos ativam turbinas que acionam geradores, transformando a energia química da matéria orgânica em energia elétrica. Também pode haver cogeração, quando o calor gerado é aproveitado em processos industriais. ⚙️
 
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Usina%20T%C3%A9rmica%20movida%20a%20Biomassa.png"
+    alt="Usina Térmica movida a Biomassa"
+    style="max-width: 75%; border-radius: 8px;">
+  <p><strong>Usina de Biomassa</strong></p>
+</div>
+
 ## **💨 O Que é o Biogás?**
 O biogás é um combustível obtido da decomposição de matéria orgânica em ambientes sem oxigênio (digestão anaeróbica). Ele é rico em metano e pode ser usado em usinas termelétricas para produzir eletricidade. 🌽🔥
 Apesar do potencial, o uso do biogás no Brasil ainda é pequeno: são apenas 200 MW gerados atualmente, enquanto a Alemanha, referência no setor, produz 5 GW só com biogás! Ou seja, temos muito espaço para crescer.
