@@ -13,6 +13,16 @@ A energia das marés é gerada pelo movimento das águas do mar, causado princip
 * **Usinas de barragem (ou lagoa de maré):** construídas em estuários ou baías, essas usinas funcionam como pequenas represas. Quando a maré sobe, a água entra no reservatório. Quando a maré desce, essa água é liberada, passando por turbinas que geram eletricidade.
 * **Turbinas submersas:** semelhantes a cata-ventos submarinos, ficam no fundo do mar e giram com a força das correntes marítimas, transformando o movimento da água em energia elétrica.
 
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20dos%20mares%20conceito.jpg"
+    alt="Representação Turbinas Dentro da Água para Geração de Energia Maremotriz"
+    style="max-width: 75%; border-radius: 8px;">
+  <p><strong>Turbinas Dentro da Água para Geração de Energia Maremotriz</strong></p>
+</div>
+
+https://github.com/cauaschuch/barao_ciencias/blob/main/IMAGES/Energia%20dos%20mares%20conceito.jpg
+
 ## **✅ Vantagens da Energia das Marés**
 * 🌊 Fonte limpa e renovável: aproveita os movimentos naturais do mar sem gerar poluentes;
 * 🔁 Alta previsibilidade: diferente do sol e do vento, as marés são muito mais regulares e fáceis de prever;
