@@ -25,6 +25,8 @@ Vamos dar uma olhada em alguns tipos de geradores e **quanta energia eles realme
 
 > A maior parte da luz do Sol vira calor ou é refletida. Só uma parte se transforma em eletricidade
 
+![Nem toda energia do sol que atinge o painel consegue ser aproveitada](./IMAGES/painel_eficiencia.png)
+
 ---
 
 ## 💨 Turbina Eólica
@@ -35,6 +37,8 @@ Vamos dar uma olhada em alguns tipos de geradores e **quanta energia eles realme
 🔋 **Eficiência típica**: **35% a 45%**
 
 > O vento gira as hélices, mas nem toda essa força pode ser aproveitada. Parte se perde com atrito, turbulência e limitações da própria hélice.
+
+![Nem toda energia dos ventos que atinge a turbina consegue ser aproveitada](./IMAGES/turbina_eficiencia.png)
 
 ---
 
@@ -47,6 +51,8 @@ Vamos dar uma olhada em alguns tipos de geradores e **quanta energia eles realme
 
 > A força da água é muito aproveitável! Por isso, usinas hidrelétricas costumam ser mais eficientes que painéis solares ou turbinas eólicas.
 
+![Grande parte da energia da água que atinge a turbina consegue ser aproveitada](./IMAGES/hidreletrica_eficiencia.png)
+
 ---
 
 ## 🔥 Usinas Termelétricas
@@ -57,6 +63,8 @@ Vamos dar uma olhada em alguns tipos de geradores e **quanta energia eles realme
 🔋 **Eficiência típica**: **33% a 40%**
 
 > Muita energia se perde em forma de calor no processo de aquecer a água e gerar vapor.
+
+![Só parte da energia do vapor que atinge a turbina consegue ser aproveitada](./IMAGES/termoeletrica_eficiencia.png)
 
 ---
 
