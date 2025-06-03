@@ -19,7 +19,7 @@ O processo funciona assim:
   <img 
     src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20geotermica.jpg"
     alt="Representação Usina Geotermica para Geração de Energia"
-    style="max-width: 50%; border-radius: 8px;">
+    style="max-width: 80%; border-radius: 8px;">
   <p><strong>Usina Geotermica para Geração de Energia</strong></p>
 </div>
 
