@@ -15,6 +15,15 @@ O processo funciona assim:
 * Depois, a água pode ser reinjetada no solo para continuar o ciclo! 🔁
   Esse tipo de energia pode ser usado tanto para gerar eletricidade como para aquecimento direto, por exemplo em casas ou estufas agrícolas.
 
+<div style="text-align: center;">
+  <img 
+    src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20geotermica.jpg"
+    alt="Representação Usina Geotermica para Geração de Energia"
+    style="max-width: 50%; border-radius: 8px;">
+  <p><strong>Usina Geotermica para Geração de Energia</strong></p>
+</div>
+
+
 ## **🌡️ Tipos de Usinas Geotérmicas**
 Existem diferentes formas de aproveitar o calor do subsolo, dependendo da profundidade e da temperatura encontrada:
 * **Sistemas de vapor seco**: usam diretamente o vapor vindo do solo para movimentar as turbinas;
