@@ -28,4 +28,6 @@ title: Notação científica
 
 <iframe scrolling="no" title="Digite a medida, selecione as unidades de medida inicial e final e aperte o PLAY. Aperte o botão RESTAURAR para nova transformação." src="https://www.geogebra.org/material/iframe/id/fkkpzyte/width/899/height/568/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="899px" height="568px" style="border:0px;"> </iframe>
 
+<iframe scrolling="no" title="Calculadora automática" src="https://www.geogebra.org/material/iframe/id/WjKdM8Xe/width/772/height/490/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="772px" height="490px" style="border:0px;"> </iframe>
+
 <a href="https://htwins.net/scale2/" target="_blank">Explore a Escala do Universo aqui!</a>
