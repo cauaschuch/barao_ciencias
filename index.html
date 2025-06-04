@@ -1,727 +1,133 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Barão Ciências - Portal Educacional</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        /* Estilos CSS existentes para a página HTML normal */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --primary: #1a5276;
-            --secondary: #2980b9;
-            --accent: #f39c12;
-            --light: #eaf2f8;
-            --dark: #2c3e50;
-            --success: #27ae60;
-            --warning: #e74c3c;
-            --geografia: #16a085;
-            --ciencias: #27ae60;
-            --matematica: #8e44ad;
-        }
-
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #f8f9fa, #e9ecef);
-            color: var(--dark);
-            line-height: 1.6;
-            padding: 0;
-            min-height: 100vh;
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="%23eaf2f8" opacity="0.3"/><path d="M0 0L100 100M100 0L0 100" stroke="%231a5276" stroke-width="1" stroke-opacity="0.1"/></svg>');
-            background-size: 200px;
-            position: relative;
-        }
-
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-            position: relative;
-        }
-
-        header {
-            background: linear-gradient(120deg, var(--primary), var(--secondary));
-            color: white;
-            padding: 2rem 1rem;
-            text-align: center;
-            border-bottom-left-radius: 20px;
-            border-bottom-right-radius: 20px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-            margin-bottom: 2rem;
-            position: relative;
-            overflow: hidden;
-            z-index: 2;
-        }
-
-        header::before {
-            content: "";
-            position: absolute;
-            top: -50px;
-            left: -50px;
-            width: 150px;
-            height: 150px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-        }
-
-        header::after {
-            content: "";
-            position: absolute;
-            bottom: -30px;
-            right: -30px;
-            width: 100px;
-            height: 100px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 50%;
-        }
-
-        .logo-container {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-            margin-bottom: 1rem;
-            position: relative;
-        }
-
-        .logo {
-            font-size: 3.5rem;
-            color: var(--accent);
-            animation: pulse 2s infinite;
-        }
-
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
-        .tagline {
-            font-size: 1.3rem;
-            max-width: 800px;
-            margin: 0 auto;
-            opacity: 0.9;
-            font-weight: 300;
-        }
-
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-            margin-bottom: 2rem;
-        }
-
-        .card {
-            background: white;
-            border-radius: 15px;
-            overflow: hidden;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-            position: relative;
-            z-index: 2;
-        }
-
-        .card:hover {
-            transform: translateY(-10px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-        }
-
-        .card-header {
-            background: linear-gradient(120deg, var(--secondary), var(--primary));
-            color: white;
-            padding: 1.5rem;
-            display: flex;
-            align-items: center;
-            gap: 12px;
-        }
-
-        .card-header i {
-            font-size: 1.8rem;
-        }
-
-        .card-body {
-            padding: 1.8rem;
-        }
-
-        .card h3 {
-            margin-bottom: 1.2rem;
-            color: var(--primary);
-            border-bottom: 2px solid var(--light);
-            padding-bottom: 0.8rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .card ul {
-            list-style-type: none;
-            padding-left: 0;
-        }
-
-        .card li {
-            padding: 0.9rem 0;
-            border-bottom: 1px dashed #e0e0e0;
-            display: flex;
-            align-items: flex-start;
-            gap: 12px;
-        }
-
-        .card li:last-child {
-            border-bottom: none;
-        }
-
-        .card li i {
-            color: var(--success);
-            margin-top: 5px;
-            min-width: 24px;
-        }
-
-        .disciplinas {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 1.5rem;
-        }
-
-        .disciplina-card {
-            background: white;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-            border-top: 4px solid;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .disciplina-card:hover {
-            transform: scale(1.03);
-        }
-
-        .ciencias {
-            border-top-color: var(--ciencias);
-        }
-
-        .geografia {
-            border-top-color: var(--geografia);
-        }
-
-        .matematica {
-            border-top-color: var(--matematica);
-        }
-
-        .disciplina-card h4 {
-            font-size: 1.3rem;
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        .disciplina-card ul {
-            padding-left: 20px;
-        }
-
-        .disciplina-card li {
-            margin-bottom: 0.7rem;
-        }
-
-        .qr-container {
-            text-align: center;
-            padding: 1.8rem;
-            background: linear-gradient(135deg, var(--light), #d6eaf8);
-            border-radius: 15px;
-            margin-top: 1.5rem;
-            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .qr-container img {
-            max-width: 200px;
-            display: block;
-            margin: 0 auto 1.5rem;
-            border: 10px solid white;
-            border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .access-options {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 20px;
-            justify-content: center;
-            margin-top: 1.5rem;
-        }
-
-        .access-option {
-            flex: 1;
-            min-width: 250px;
-            background: white;
-            border-radius: 12px;
-            padding: 1.5rem;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            text-align: center;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .access-option i {
-            font-size: 2.5rem;
-            color: var(--secondary);
-            margin-bottom: 1rem;
-        }
-
-        .link-access {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 10px 20px;
-            background: linear-gradient(120deg, var(--secondary), var(--primary));
-            color: white;
-            border-radius: 30px;
-            text-decoration: none;
-            font-weight: bold;
-            transition: all 0.3s ease;
-            width: 100%;
-            max-width: 200px;
-        }
-
-        .link-access:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
-        }
-
-        .highlight {
-            background: linear-gradient(to right, rgba(243, 156, 18, 0.1), transparent);
-            padding: 1rem;
-            border-radius: 10px;
-            margin: 1.5rem 0;
-            border-left: 4px solid var(--accent);
-            position: relative;
-        }
-
-        .highlight i {
-            color: var(--accent);
-            margin-right: 10px;
-        }
-
-        .tutorial {
-            background: white;
-            border-radius: 15px;
-            padding: 2.5rem;
-            margin-bottom: 2rem;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
-            position: relative;
-            overflow: hidden;
-        }
-
-        .tutorial-header {
-            text-align: center;
-            margin-bottom: 2.5rem;
-            color: var(--primary);
-        }
-
-        .tutorial-header h2 {
-            font-size: 2.2rem;
-            margin-bottom: 0.5rem;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 15px;
-        }
-
-        .tutorial-steps {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-        }
-
-        .step {
-            background: #f8f9fa;
-            border-radius: 12px;
-            padding: 1.8rem;
-            border-left: 5px solid var(--accent);
-            transition: all 0.3s ease;
-            position: relative;
-        }
-
-        .step:hover {
-            background: white;
-            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        .step-number {
-            display: inline-block;
-            background: var(--accent);
-            color: white;
-            width: 36px;
-            height: 36px;
-            border-radius: 50%;
-            text-align: center;
-            line-height: 36px;
-            margin-bottom: 1.2rem;
-            font-weight: bold;
-            font-size: 1.1rem;
-        }
-
-        .step h4 {
-            color: var(--primary);
-            margin-bottom: 1rem;
-            font-size: 1.3rem;
-        }
-
-        .step-image {
-            height: 160px;
-            background: linear-gradient(45deg, #e0f7fa, #bbdefb);
-            border-radius: 10px;
-            margin: 1.2rem 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            color: var(--primary);
-            font-weight: bold;
-            font-size: 1.1rem;
-            text-align: center;
-            padding: 15px;
-            overflow: hidden;
-            position: relative;
-        }
-
-        .step-image::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><rect width="100" height="100" fill="none" stroke="%231a5276" stroke-width="1" stroke-opacity="0.1" stroke-dasharray="5,5"/></svg>');
-            opacity: 0.3;
-        }
-
-        .step-image i {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            color: var(--secondary);
-        }
-
-        .access-button {
-            display: block;
-            width: 100%;
-            max-width: 400px;
-            margin: 2rem auto;
-            text-align: center;
-            background: linear-gradient(120deg, var(--secondary), var(--primary));
-            color: white;
-            padding: 1.2rem;
-            border-radius: 50px;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.3rem;
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .access-button:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
-        }
-
-        .access-button::after {
-            content: "";
-            position: absolute;
-            top: -50%;
-            left: -50%;
-            width: 200%;
-            height: 200%;
-            background: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
-            transform: rotate(30deg);
-        }
-
-        footer {
-            text-align: center;
-            padding: 2.5rem 0;
-            color: var(--primary);
-            font-weight: 500;
-            margin-top: 2rem;
-            background: white;
-            border-top-left-radius: 20px;
-            border-top-right-radius: 20px;
-            box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.05);
-            position: relative;
-            z-index: 2;
-        }
-
-        /* Elementos decorativos */
-        .science-icon {
-            position: absolute;
-            font-size: 3rem;
-            opacity: 0.1;
-            z-index: 1;
-        }
-
-        .science-icon:nth-child(1) {
-            top: 50px;
-            left: 5%;
-            color: var(--ciencias);
-            transform: rotate(20deg);
-        }
-
-        .science-icon:nth-child(2) {
-            top: 150px;
-            right: 10%;
-            color: var(--geografia);
-            transform: rotate(-15deg);
-        }
-
-        .science-icon:nth-child(3) {
-            bottom: 200px;
-            left: 15%;
-            color: var(--matematica);
-            transform: rotate(30deg);
-        }
-
-        .science-icon:nth-child(4) {
-            bottom: 100px;
-            right: 15%;
-            color: var(--accent);
-            transform: rotate(-25deg);
-        }
-
-        .floating {
-            animation: float 6s ease-in-out infinite;
-        }
-
-        /* Animações */
-        @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
-        }
-
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
-
-        @keyframes float {
-            0% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-20px) rotate(5deg); }
-            100% { transform: translateY(0px) rotate(0deg); }
-        }
-
-        @media (max-width: 768px) {
-            .grid-container, .tutorial-steps, .disciplinas {
-                grid-template-columns: 1fr;
-            }
-            
-            header {
-                padding: 1.5rem 1rem;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .tagline {
-                font-size: 1.1rem;
-            }
-            
-            .tutorial {
-                padding: 1.5rem;
-            }
-            
-            .access-options {
-                flex-direction: column;
-            }
-            
-            .science-icon {
-                display: none;
-            }
-        }
-    </style>
-</head>
-<body>
-    <i class="fas fa-atom science-icon floating"></i>
-    <i class="fas fa-globe-americas science-icon floating"></i>
-    <i class="fas fa-calculator science-icon floating"></i>
-    <i class="fas fa-flask science-icon floating"></i>
-    
-    <div class="container" id="content-to-print">
-        <header>
-            <div class="logo-container">
-                <i class="fas fa-graduation-cap logo"></i>
-                <h1>Barão Ciências</h1>
-            </div>
-            <p class="tagline">Desvendando a Ciência, Geografia e Matemática de forma interativa e divertida</p>
-        </header>
-
-        <div class="grid-container">
-            <div class="card">
-                <div class="card-header">
-                    <i class="fas fa-book-open"></i>
-                    <h2>Visão Geral</h2>
-                </div>
-                <div class="card-body">
-                    <p>Bem-vindo ao <strong>Barão Ciências</strong>, um portal de apoio educacional dedicado aos alunos do 8º ano A da Escola Estadual de Ensino Fundamental Barão do Rio Branco, em Catuípe/RS.</p>
-                    
-                    <div class="highlight">
-                        <i class="fas fa-lightbulb"></i>
-                        <p>Este site é fruto de uma parceria inovadora entre as professoras Mari Rosso, Marla Tedeschi e Cristina Bottega, e estudantes da Universidade de São Paulo (USP).</p>
-                    </div>
-                    
-                    <p>Nosso objetivo é tornar o aprendizado mais acessível, divertido e conectado ao seu dia a dia.</p>
-                    
-                    <div class="access-options">
-                        <div class="access-option">
-                            <i class="fas fa-qrcode"></i>
-                            <h3>Acesso via QR Code</h3>
-                            <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://cauaschuch.github.io/barao_ciencias/&size=200x200" alt="QR Code" style="width: 150px; height: 150px; border: 8px solid white; border-radius: 10px;">
-                            <p>Escaneie com a câmera do celular</p>
-                        </div>
-                        
-                        <div class="access-option">
-                            <i class="fas fa-link"></i>
-                            <h3>Acesso Direto pelo Link</h3>
-                            <p>Clique no botão abaixo para acessar o portal imediatamente:</p>
-                            <a href="https://cauaschuch.github.io/barao_ciencias/" class="link-access">
-                                <i class="fas fa-external-link-alt"></i> Acessar Portal
-                            </a>
-                            <p style="margin-top: 1rem; font-size: 0.9rem;">
-                                <i class="fas fa-info-circle"></i> Copie o link: 
-                                <span style="background: #f1f8ff; padding: 2px 8px; border-radius: 4px; font-family: monospace;">https://cauaschuch.github.io/barao_ciencias/</span>
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="card-header">
-                    <i class="fas fa-compass"></i>
-                    <h2>O Que Você Vai Encontrar</h2>
-                </div>
-                <div class="card-body">
-                    <ul>
-                        <li><i class="fas fa-check-circle"></i> Apoio completo para as aulas de Ciências, Geografia e Matemática do 8º ano A</li>
-                        <li><i class="fas fa-check-circle"></i> Materiais didáticos que complementam o ensino em sala de aula</li>
-                        <li><i class="fas fa-check-circle"></i> Ferramentas interativas para um aprendizado mais engajador</li>
-                        <li><i class="fas fa-check-circle"></i> Conteúdo adicional para curiosos e para quem busca aprofundamento</li>
-                        <li><i class="fas fa-check-circle"></i> Projetos desenvolvidos em sala com recursos online</li>
-                        <li><i class="fas fa-check-circle"></i> Conexão entre conteúdo didático e situações do cotidiano</li>
-                    </ul>
-                    
-                    <div class="disciplinas">
-                        <div class="disciplina-card ciencias">
-                            <h4><i class="fas fa-leaf"></i> Ciências</h4>
-                            <ul>
-                                <li>Materiais de apoio</li>
-                                <li>Projetos científicos</li>
-                                <li>Simulações interativas</li>
-                                <li>Experimentos práticos</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="disciplina-card geografia">
-                            <h4><i class="fas fa-globe-americas"></i> Geografia</h4>
-                            <ul>
-                                <li>Mapas interativos</li>
-                                <li>Estudos regionais</li>
-                                <li>Conteúdo sobre sustentabilidade</li>
-                                <li>Análise de paisagens</li>
-                            </ul>
-                        </div>
-                        
-                        <div class="disciplina-card matematica">
-                            <h4><i class="fas fa-calculator"></i> Matemática</h4>
-                            <ul>
-                                <li>Exercícios resolvidos</li>
-                                <li>Jogos educativos</li>
-                                <li>Aplicações práticas</li>
-                                <li>Desafios matemáticos</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="tutorial">
-            <div class="tutorial-header">
-                <h2><i class="fas fa-book-reader"></i> Como Usar o Portal</h2>
-                <p>Guia passo a passo para explorar todos os recursos</p>
-            </div>
-            
-            <div class="tutorial-steps">
-                <div class="step">
-                    <div class="step-number">1</div>
-                    <h4>Acesse as Disciplinas</h4>
-                    <p>No menu principal, você encontrará seções dedicadas a <strong>Ciências</strong>, <strong>Geografia</strong> e <strong>Matemática</strong>. Clique na disciplina desejada para explorar o conteúdo específico.</p>
-                    <div class="step-image">
-                        <i class="fas fa-book fa-3x"></i>
-                        <p>Menu de disciplinas</p>
-                    </div>
-                </div>
-                
-                <div class="step">
-                    <div class="step-number">2</div>
-                    <h4>Explore o Conteúdo</h4>
-                    <p>Dentro de cada disciplina, o site oferece uma variedade de recursos para auxiliar nos seus estudos:</p>
-                    <ul>
-                        <li><strong>Materiais de Apoio:</strong> Textos, resumos e informações relevantes</li>
-                        <li><strong>Projetos:</strong> Descrições e recursos para projetos desenvolvidos em sala</li>
-                        <li><strong>Recursos Interativos:</strong> Atividades, jogos ou simulações</li>
-                        <li><strong>Conteúdo Extra:
-                        </strong> Informações adicionais e curiosidades</li>
-                    </ul>
-                    <div class="step-image">
-                        <i class="fas fa-search fa-3x"></i>
-                        <p>Exploração de conteúdo</p>
-                    </div>
-                </div>
-                
-                <div class="step">
-                    <div class="step-number">3</div>
-                    <h4>Navegação Intuitiva</h4>
-                    <p>O site foi pensado para ser fácil de usar. Os links e menus são claros, permitindo que você encontre rapidamente o que procura.</p>
-                    <div class="highlight">
-                        <i class="fas fa-info-circle"></i>
-                        <p>Fique atento aos botões e ícones que podem indicar materiais para download, vídeos ou outras interações.</p>
-                    </div>
-                    <div class="step-image">
-                        <i class="fas fa-mouse-pointer fa-3x"></i>
-                        <p>Interface intuitiva</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="highlight">
-                <i class="fas fa-graduation-cap"></i>
-                <p><strong>Conecte-se com o Aprendizado:</strong> Utilize o site para revisar matérias, pesquisar para trabalhos, ou explorar temas que te interessam. Os recursos visam conectar o conteúdo didático com situações do cotidiano.</p>
-            </div>
-            
-            <a href="https://cauaschuch.github.io/barao_ciencias/" class="access-button">
-                <i class="fas fa-external-link-alt"></i> Acesse o Portal Agora
-            </a>
-        </div>
-        
-        <footer>
-            <p>Barão Ciências: Seu parceiro para uma jornada de conhecimento mais rica e descomplicada!</p>
-            <p>Folder Educacional &copy; 2025 - Escola Estadual de Ensino Fundamental Barão do Rio Branco, Catuípe/RS</p>
-            <p>Parceria: Professoras Mari Rosso, Marla Tedeschi, Cristina Bottega e Estudantes da USP</p>
-        </footer>
+---
+layout: default
+title: Página inicial
+---
+
+<section class="banner"> 
+  <div class="wrapper">
+    <div class="banner-overlay">
+      <p><strong>SOBRE</strong></p>
+      <p>Este site foi criado para apoiar as aulas de Ciências, Geografia e Matemática do <strong>8º ano A</strong> da <strong>Escola Estadual de Ensino Fundamental Barão do Rio Branco</strong>, localizada em Catuípe/RS.</p>
+      <p>A iniciativa é fruto de uma parceria entre as professoras <strong>Mari Rosso</strong>, <strong>Marla Tedeschi</strong> e <strong>Cristina Bottega</strong> com estudantes da <strong>Universidade de São Paulo (USP)</strong>, dentro da disciplina <strong>LOM3095: Tecnologias Limpas para Geração de Energia</strong>, da Escola de Engenharia de Lorena (EEL-USP).</p>
+      <p>Aqui você encontrará materiais de apoio, projetos, recursos interativos e conteúdos extras para tornar o aprendizado mais acessível, divertido e conectado com o dia a dia.</p>
+      <p><em>Sintam-se em casa!</em></p>
     </div>
-</body>
-</html>
+  </div>
+</section>
+
+
+<!-- Seções com conteúdo centralizado -->
+<div class="wrapper">
+
+  <!-- Container: Aulas -->
+  <section class="container aulas">
+    <h2>Aulas</h2>
+    <div class="card-grid">
+      <a href="/barao_ciencias/ciencias.html" class="card">🧪 Ciências</a>
+      <a href="/barao_ciencias/geografia.html" class="card">🌍 Geografia</a>
+      <a href="/barao_ciencias/matematica.html" class="card">➗ Matemática</a>
+    </div>
+  </section>
+
+  <!-- Container: Extras -->
+  <section class="container extras">
+    <h2>Extras</h2>
+    <div class="card-grid">
+      <a href="/barao_ciencias/extras.html" class="card">📚 Conteúdos Extras</a>
+      <a href="/barao_ciencias/projetos.html" class="card">🔧 Projetos</a>
+      <!--<a href="/barao_ciencias/interativos.html" class="card">🎮 Recursos Interativos</a> # Excluido!!!--> 
+    </div>
+  </section>
+
+</div>
+
+<style>
+/* Reset e base */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Espaçamento entre seções */
+section {
+  margin-bottom: 2rem;
+}
+
+/* Banner de largura total */
+.banner {
+  background-image: url('IMAGES/escola-barao-foto.jpg');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 5rem 2rem;
+  position: relative;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.banner-overlay {
+  background-color: rgba(0, 0, 0, 0.3); /* Menos escuro */
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+/* Containers */
+.container {
+  padding: 3rem 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+/* Cores diferentes para cada container */
+.container.aulas {
+  background-color: #f0f9ff;
+}
+
+.container.extras {
+  background-color: #fff8e6;
+}
+
+.container h2 {
+  margin-bottom: 2rem;
+  color: #333;
+  font-size: 2rem;
+}
+
+/* Grid e cards */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.card {
+  flex: 1 1 240px;
+  max-width: 300px;
+  background: #f1f1f1;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-size: 1.3rem;
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.card:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.05);
+}
+</style>
+
+
 
