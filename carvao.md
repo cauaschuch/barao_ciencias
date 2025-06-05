@@ -13,6 +13,12 @@ title: Carvão
   </div>
 </div>
 
+  <div style="flex: 1; text-align: center;">
+    <img src="IMAGES//vegetal_carv.png" alt="Carvão Vegetal" style="max-width: 100%; border-radius: 8px;">
+    <p><strong>Carvão Mineral</strong><br>O carvão vegetal é produzido a partir de madeira</p>
+  </div>
+</div>
+
 <br>
 
 <h2>🔥 Mas tem um problema...</h2>
