@@ -11,13 +11,13 @@ title: Carvão
     <img src="IMAGES//mineral_coal.png" alt="Carvão Mineral" style="max-width: 100%; border-radius: 8px;">
     <p><strong>Carvão Mineral</strong><br>Retirado do subsolo, usado para gerar energia</p>
   </div>
-</div>
+
 
   <div style="flex: 1; text-align: center;">
     <img src="IMAGES//vegetal_carv.png" alt="Carvão Vegetal" style="max-width: 100%; border-radius: 8px;">
     <p><strong>Carvão Mineral</strong><br>O carvão vegetal é produzido a partir de madeira</p>
   </div>
-</div>
+
 
 <br>
 
