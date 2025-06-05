@@ -31,7 +31,7 @@ Existem diferentes maneiras de aproveitar a energia do sol. Veja as principais:
   <img
 src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Placas%20de%20energia%20fotovoltaica.jpg"
     alt="Placas de Energia Solar Fotovoltaica"
-    style="max-width: 50%; border-radius: 8px;">
+    style="max-width: 30%; border-radius: 8px;">
   <p><strong>Energia Solar</strong><br>Placas Fotovoltaicas</p>
 </div>
 
@@ -39,7 +39,7 @@ src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Pla
   <img 
     src="https://raw.githubusercontent.com/cauaschuch/barao_ciencias/main/IMAGES/Energia%20solar%20em%20residencia.jpg"
     alt="Energia Solar instalada em Residência"
-    style="max-width: 50%; border-radius: 8px;">
+    style="max-width: 30%; border-radius: 8px;">
   <p><strong>Energia Solar instalada em Residência</strong></p>
 </div>
 
@@ -95,6 +95,12 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 
 🌱 Papel na transição energética: 
 - A energia solar tem papel fundamental na redução das emissões de carbono e na substituição dos combustíveis fósseis, sendo uma das protagonistas da transição para uma matriz energética limpa e sustentável.
+
+## ** Mapa da distribuilão dos centros de geração de energia solar no mundo
+
+<p>Este mapa mostra onde existem geradores de energia por fontes solares pelo planeta. Clique no botão para explorar!</p>
+
+<p><a href="https://globalenergymonitor.org/pt/projects/global-solar-power-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição das Fontes de Energia Solar</a></p>
 
 ## **🌞 Conclusão — O Sol como Nosso Aliado**
 
