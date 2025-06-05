@@ -27,7 +27,7 @@ title: Carvão
 
 <div style="text-align: center; margin: 20px 0;">
   <a href="https://app.electricitymaps.com/map/72h/hourly" target="_blank">
-    <img src="IMAGES/CO2_MUNDO.png" alt="Mapa de CO2 no Mundo" style="max-width: 100%; border-radius: 8px;">
+    <img src="IMAGES/CO2_MUNDO.png" alt="Mapa de CO2 no Mundo, ref: app.electricitymaps.com/map/72h/hourly" style="max-width: 100%; border-radius: 8px;">
   </a>
   <p style="font-size: 0.9em; color: #555;">🌍 Quanto mais CO2, mais quente fica o planeta!</p>
 </div>
