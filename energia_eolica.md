@@ -73,7 +73,7 @@ Apesar de ser uma energia limpa, a instalação de turbinas eólicas pode ter al
 
 <p>Este mapa mostra onde existem geradores de energia por fontes eólica pelo planeta. Clique no botão para explorar!</p>
 
-<p><a href="https://globalenergymonitor.org/pt/projects/global-hydropower-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição da utilização das Fontes de Energia Eólica</a></p>
+<p><a href="https://globalenergymonitor.org/pt/projects/global-wind-power-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição da utilização das Fontes de Energia Eólica</a></p>
 
 
 
