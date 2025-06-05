@@ -61,6 +61,13 @@ Mas não somos os únicos apostando nisso. Veja outros exemplos:
 * **China**: lidera com impressionantes 47.700 centrais pequenas espalhadas pelo país.
   Esses dados mostram que ainda podemos expandir com responsabilidade, respeitando o meio ambiente e as comunidades locais.
 
+## **Mapa da distribuilão da geração de energia hidrelétrica no mundo**
+
+<p>Este mapa mostra onde existem geradores de energia por fontes hidrelétrica pelo planeta. Clique no botão para explorar!</p>
+
+<p><a href="https://globalenergymonitor.org/pt/projects/global-hydropower-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição  da utilização das Fontes de Energia Hidrelétrica</a></p>
+
+
 ## **💧 Conclusão — A Energia que Vem da Água**
 A energia hídrica é uma parceira antiga do Brasil, e continua sendo essencial para o nosso presente e futuro. Com equilíbrio, inovação e cuidado com a natureza, podemos expandir ainda mais essa fonte tão poderosa.
 Afinal, o som da água correndo pode também ser o som da energia chegando até você! 🌊⚡
