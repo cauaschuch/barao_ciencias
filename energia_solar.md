@@ -96,7 +96,7 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 🌱 Papel na transição energética: 
 - A energia solar tem papel fundamental na redução das emissões de carbono e na substituição dos combustíveis fósseis, sendo uma das protagonistas da transição para uma matriz energética limpa e sustentável.
 
-## **Mapa da distribuilão dos centros de geração de energia solar no mundo**
+## **🗺️Mapa da distribuilão dos centros de geração de energia solar no mundo**
 
 <p>Este mapa mostra onde existem geradores de energia por fontes solares pelo planeta. Clique no botão para explorar!</p>
 
