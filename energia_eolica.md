@@ -69,6 +69,14 @@ Apesar de ser uma energia limpa, a instalação de turbinas eólicas pode ter al
 * Com a queda nos custos de instalação, os projetos eólicos se tornaram altamente competitivos economicamente, inclusive sem subsídios, em muitas regiões.
 * A previsibilidade dos ventos e a baixa emissão de gases de efeito estufa fazem da energia eólica uma das principais apostas globais para descarbonização.
 
+## **🗺️Mapa da distribuilão da geração de energia hidrelétrica no mundo**
+
+<p>Este mapa mostra onde existem geradores de energia por fontes eólica pelo planeta. Clique no botão para explorar!</p>
+
+<p><a href="https://globalenergymonitor.org/pt/projects/global-hydropower-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição da utilização das Fontes de Energia Eólica</a></p>
+
+
+
 ## 🌬️**Conclusão — Energia Que Vem do Vento**
 A energia eólica é um exemplo perfeito de como a natureza pode nos ajudar a construir um futuro mais sustentável. No Brasil, ela cresce rápido, é eficiente e se soma a outras fontes renováveis para garantir energia limpa para todos.
 Com o vento a nosso favor, o futuro é mais verde! 🍃💨
