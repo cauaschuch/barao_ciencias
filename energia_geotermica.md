@@ -53,6 +53,14 @@ No mundo, a situação é bem diferente! Países como:
 * A Itália foi pioneira: a primeira usina geotérmica do mundo foi instalada lá, em 1913!
   Esses exemplos mostram como o calor do interior da Terra pode ser uma solução energética importante e sustentável.
 
+
+## **🗺️Mapa da distribuilão dos centros de geração de energia solar no mundo**
+
+<p>Este mapa mostra onde existem geradores de energia por fontes geotérmicas pelo planeta. Clique no botão para explorar!</p>
+
+<p><a href="https://globalenergymonitor.org/pt/projects/global-geothermal-power-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição das Fontes Geotérmicas/a></p>
+
+
 ## **🔥 Conclusão — Energia que Vem do interior da Terra**
 A energia geotérmica é uma solução limpa, constante e renovável, que pode ajudar muitos países a diversificar suas fontes de energia. Apesar de ainda ser pouco explorada no Brasil, ela tem grande valor em escala global.
 
