@@ -61,7 +61,7 @@ Mas não somos os únicos apostando nisso. Veja outros exemplos:
 * **China**: lidera com impressionantes 47.700 centrais pequenas espalhadas pelo país.
   Esses dados mostram que ainda podemos expandir com responsabilidade, respeitando o meio ambiente e as comunidades locais.
 
-## **Mapa da distribuilão da geração de energia hidrelétrica no mundo**
+## **🗺️Mapa da distribuilão da geração de energia hidrelétrica no mundo**
 
 <p>Este mapa mostra onde existem geradores de energia por fontes hidrelétrica pelo planeta. Clique no botão para explorar!</p>
 
