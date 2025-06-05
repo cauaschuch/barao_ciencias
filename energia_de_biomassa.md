@@ -70,6 +70,12 @@ Como qualquer forma de geração de energia, a biomassa também exige cuidados:
 * A energia gerada a partir de biomassa varia de acordo com os recursos locais disponíveis — como resíduos agrícolas, florestais, urbanos ou industriais — sendo especialmente popular em países com grandes setores agrícola e agroindustrial.
 * Globalmente, a biomassa representa uma parte relevante da matriz energética renovável e contribui tanto para a geração elétrica quanto para aquecimento, especialmente em zonas rurais e industriais.
 
+## **🗺️Mapa da distribuilão dos centros de geração de energia solar no mundo**
+
+<p>Este mapa mostra onde existem geradores de energia por fontes de biomassa pelo planeta. Clique no botão para explorar!</p>
+
+<p><a href="https://globalenergymonitor.org/pt/projects/global-bioenergy-power-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição das Fontes Bioenergéticas</a></p>
+
 ## **🌱 Conclusão — De Resíduos para a Tomada**
 A energia de biomassa e biogás é uma aliada sustentável no combate às mudanças climáticas e ao desperdício. Ela transforma lixo em energia, gera empregos, distribui renda e ainda ajuda o planeta a respirar melhor. Se usada com responsabilidade e tecnologia, pode ser uma grande protagonista no nosso futuro energético. 🌎✨
 
