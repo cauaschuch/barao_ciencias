@@ -7,24 +7,12 @@ title: Estatística: média, moda e mediana
 
 <p>Antes de tudo, dá uma olhada nessas animações interativas aqui embaixo. Brinque com os valores e veja como a média, a mediana e a moda mudam!</p>
 
-<div style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden; margin: 30px 0;">
-  <iframe 
-    src="https://www.geogebra.org/material/iframe/id/gr9Ez8Bq/width/800/height/450"
-    title="Média Aritmética Simples"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    allowfullscreen
-    scrolling="no">
-  </iframe>
+<div style="text-align: center; margin: 30px 0;">
+  <iframe scrolling="no" title="Média Aritmética Simples" src="https://www.geogebra.org/material/iframe/id/gr9Ez8Bq/width/800/height/450" width="1000" height="600" style="border:0px;"></iframe>
 </div>
 
-<div style="position: relative; padding-top: 56.25%; height: 0; overflow: hidden; margin: 30px 0;">
-  <iframe 
-    src="https://www.geogebra.org/material/iframe/id/ypbmucnv/width/800/height/450"
-    title="Média, mediana e moda"
-    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;"
-    allowfullscreen
-    scrolling="no">
-  </iframe>
+<div style="text-align: center; margin: 30px 0;">
+  <iframe scrolling="no" title="Média, mediana e moda" src="https://www.geogebra.org/material/iframe/id/ypbmucnv/width/800/height/450" width="1000" height="600" style="border:0px;"></iframe>
 </div>
 
 
