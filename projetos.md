@@ -3,7 +3,6 @@ layout: default
 title: Projetos
 ---
 
-<h2 style="text-align: center; margin-top: 40px;">Projetos</h2>
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin: 60px 0;">
 
