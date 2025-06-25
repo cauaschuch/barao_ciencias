@@ -51,17 +51,17 @@ Como qualquer forma de geração de energia, a biomassa também exige cuidados:
 
 ## **🟢🟡 Panorama Nacional**
 ### 🔋 Biogás e Biometano
-* O Brasil possui um dos maiores potenciais mundiais para produção de biogás, estimado em mais de 84 bilhões de Nm³ por ano, mas ainda utiliza uma fração muito pequena disso.
-* Em 2023, o país contava com mais de 750 plantas de biogás em operação, produzindo cerca de 2,35 bilhões de Nm³ por ano.
+* O Brasil possui um dos maiores potenciais mundiais para produção de biogás, estimado em mais de 100 bilhões de Nm³ por ano, mas ainda utiliza uma fração muito pequena disso.
+* Em 2023, o país contava com mais de 1200 plantas de biogás em operação, produzindo cerca de 2,35 bilhões de Nm³ por ano.
 * A maior parte da produção vem do setor de saneamento, seguido pela agroindústria e agropecuária.
 
 ### 🌱 Biomassa
-* A biomassa contribuiu com cerca de 4% da geração de energia elétrica no Brasil em 2023, com desempenho recorde.
-* São mais de 600 empreendimentos movidos a biomassa no país, sendo que a maioria utiliza bagaço de cana-de-açúcar, somando mais de 12.000 MW de potência instalada.
+* A biomassa contribuiu com cerca de 5% da geração de energia elétrica no Brasil em 2023, com desempenho recorde.
+* São mais de 600 empreendimentos movidos a biomassa no país, sendo que a maioria utiliza bagaço de cana-de-açúcar, somando mais de 15.000 MW de potência instalada.
 
 ## **🌍 Panorama Internacional da Energia de Biogás e Biomassa**
 ### 🔋 Biogás e Biometano
-* A produção global de biogás e biometano está em expansão, com destaque para a Europa, que produziu mais de 22 bilhões de m³ em 2023 — uma parcela significativa do consumo total de gás na região.
+* A produção global de biogás e biometano está em expansão, com destaque para a Europa, que produziu mais de 30 bilhões de m³ em 2023 — uma parcela significativa do consumo total de gás na região.
 * Países como Alemanha, Itália, Reino Unido e França estão entre os maiores produtores, utilizando o biogás como fonte de energia elétrica, térmica e como substituto ao gás natural em redes urbanas.
 * O biogás tem ganhado espaço na transição energética por ser uma alternativa renovável que também atua na gestão de resíduos orgânicos e no reaproveitamento de subprodutos da agropecuária e do saneamento.
 
