@@ -6,7 +6,7 @@ title: Projetos
 
 <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 30px; margin: 60px 0;">
 
-  <a href="/projeto-feira-cultural.html" target="_blank" rel="noopener noreferrer" style="
+  <a href="/barao_ciencias/projeto-feira-cultural" target="_blank" rel="noopener noreferrer" style="
       display: inline-block;
       padding: 16px 32px;
       background-color: #2c7be5;
