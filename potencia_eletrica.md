@@ -24,7 +24,7 @@ Imagina que você tem uma torneira:
 
 #### 1️⃣ Quando a torneira está **quase fechada**, só pingando:  
 
-<img src="./IMAGES/torneira_pingando.gif" width="100%">
+<img src="./IMAGES/torneira_pingando.gif" width="50%">
 
 👉 Isso representa uma situação com **pouca pressão** (tensão) e **baixo fluxo de água** (corrente).  
 Resultado? A quantidade de água (energia) saindo por segundo é **bem pequena**.  
@@ -34,7 +34,7 @@ Resultado? A quantidade de água (energia) saindo por segundo é **bem pequena**
 
 #### 2️⃣ Agora, torneira **totalmente aberta**:  
 
-<img src="./IMAGES/torneira_aberta.gif" width="100%">
+<img src="./IMAGES/torneira_aberta.gif" width="50%">
 
 👉 Aqui temos **alta pressão** e **grande fluxo de água**.  
 A quantidade de água (energia) saindo por segundo é **bem maior**.  
@@ -47,3 +47,4 @@ Quanto **maior a tensão** (pressão) e **maior a corrente** (fluxo), **maior a 
 
 > Potência é o “banho forte” da eletricidade:  
 > pressão alta + volume alto = muita energia sendo usada.
+
