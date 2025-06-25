@@ -37,8 +37,8 @@ As PCHs são um tipo de usina hidrelétrica de menor porte, com potência entre 
 
 ## **✅ Vantagens da Energia Hídrelétrica**
 
-*💧 Fonte renovável: utiliza a água dos rios, que está sempre se renovando com o ciclo da chuva;
-*⚡ Alta eficiência energética: as usinas hidrelétricas conseguem gerar grandes quantidades de eletricidade com eficiência superior a muitas outras fontes;
+* 💧 Fonte renovável: utiliza a água dos rios, que está sempre se renovando com o ciclo da chuva;
+* ⚡ Alta eficiência energética: as usinas hidrelétricas conseguem gerar grandes quantidades de eletricidade com eficiência superior a muitas outras fontes;
 * 🌿 Baixa emissão de poluentes: durante o funcionamento, não há emissão de gases do efeito estufa nem poluição direta do ar;
 * 🧭 Vida útil longa: muitas usinas funcionam por décadas com bons níveis de produção;
 * 🚿 Aproveitamento múltiplo: os reservatórios podem ser usados para abastecimento de água, irrigação, navegação, lazer e controle de cheias;
@@ -55,13 +55,11 @@ Nem tudo são flores. A construção de grandes hidrelétricas pode causar impac
 
 ## **🌎 Panorama Nacional e Mundial**
 
-O Brasil é um líder global em energia hídrica! Atualmente, cerca de 58,9% da energia elétrica gerada no país vem de usinas hidrelétricas, o que faz dessa a maior fonte da matriz elétrica nacional
-Mas não somos os únicos apostando nisso. Veja outros exemplos:
-* **Alemanha**: com menos rios e área, tem mais de 7.300 usinas de até 30 MW;
-* **China**: lidera com impressionantes 47.700 centrais pequenas espalhadas pelo país.
+Em 2025, as hidrelétricas respondem por 52% da geração elétrica nacional, mantendo-se como a principal fonte, porém com participação menor devido ao avanço da solar e eólica."Mas não somos os únicos apostando nisso. Veja outros exemplos de destaque internacionais:
+* *Noruega* (96% de energia hídrica) e *China* (mais de 50.000 Pequenas Centrais Hidrelétricas) mostram como a tecnologia pode ser adaptada a diferentes realidades.
   Esses dados mostram que ainda podemos expandir com responsabilidade, respeitando o meio ambiente e as comunidades locais.
 
-## **🗺️Mapa da distribuilão da geração de energia hidrelétrica no mundo**
+## **🗺️Mapa da distribuição da geração de energia hidrelétrica no mundo**
 
 <p>Este mapa mostra onde existem geradores de energia por fontes hidrelétrica pelo planeta. Clique no botão para explorar!</p>
 
