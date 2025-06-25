@@ -61,7 +61,7 @@ No mundo, a situação é bem diferente! Países como:
 <p><a href="https://globalenergymonitor.org/pt/projects/global-geothermal-power-tracker/tracker-map/" target="_blank" rel="noopener noreferrer" style="display:inline-block; padding: 12px 20px; background-color:#333; color:white; text-decoration:none; border-radius:8px;">🌍 Ver Mapa Global da Distribuição das Fontes Geotérmicas/a></p>
 
 
-## **🔥 Conclusão — Energia que Vem do interior da Terra**
+## ** 🔥 Conclusão — Energia que Vem do interior da Terra**
 A energia geotérmica é uma solução limpa, constante e renovável, que pode ajudar muitos países a diversificar suas fontes de energia. Apesar de ainda ser pouco explorada no Brasil, ela tem grande valor em escala global.
 
 
