@@ -7,9 +7,7 @@ title: Estatística: média, moda e mediana
 
 <p>Antes de tudo, dá uma olhada nessas animações interativas aqui embaixo. Brinque com os valores e veja como a média, a mediana e a moda mudam!</p>
 
-<div style="text-align: center; margin: 30px 0;">
-  <iframe scrolling="no" title="Média Aritmética Simples" src="https://www.geogebra.org/material/iframe/id/gr9Ez8Bq/width/800/height/450" width="1000" height="600" style="border:0px;"></iframe>
-</div>
+<iframe scrolling="no" title="Média - distribuição" src="https://www.geogebra.org/material/iframe/id/v9tmmaqq/width/1076/height/731/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/false/rc/false/ld/false/sdz/false/ctl/false" width="1076px" height="731px" style="border:0px;"> </iframe>
 
 <div style="text-align: center; margin: 30px 0;">
   <iframe scrolling="no" title="Média, mediana e moda" src="https://www.geogebra.org/material/iframe/id/ypbmucnv/width/800/height/450" width="1000" height="600" style="border:0px;"></iframe>
