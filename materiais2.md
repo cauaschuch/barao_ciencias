@@ -79,6 +79,8 @@ Nenhum calor é perdido. Nada trava o caminho da eletricidade.
 - ⚙️ **Semicondutores** mudaram o mundo com os computadores e celulares! 💻📱
 - ❄️ **Supercondutores** ainda estão sendo estudados para **trens flutuantes** (levitação magnética!) 🚄🧲
 
+- ![MAG](IMAGES/MAGLEV.jpg)
+
 ---
 
 ## 🧪 Perguntas que podem despertar o cientista em você:
