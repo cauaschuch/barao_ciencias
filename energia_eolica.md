@@ -55,21 +55,21 @@ Apesar de ser uma energia limpa, a instalação de turbinas eólicas pode ter al
 * 📺 Pode causar interferência em sinais de TV.
 
 ## 🟢🟡 Panorama Nacional da Energia Eólica
-* O Brasil é hoje o 6º maior produtor de energia eólica do mundo, com mais de 29 GW de capacidade instalada.
+* Em 2024, o Brasil atingiu aproximados 34 GW. Projeções para 2025 indicam 38-40 GW, consolidando o país como 5º maior produtor global, ultrapassando a Espanha.
 * A energia eólica já representa cerca de 13,2% da matriz elétrica renovável brasileira, consolidando-se como a segunda maior fonte de geração de eletricidade limpa no país.
-* Os estados do Nordeste lideram a produção, com destaque para o Rio Grande do Norte, Bahia, Ceará e Piauí, devido à excelente qualidade dos ventos da região.
-* Em 2023, mais de 90% da energia eólica brasileira foi produzida por parques com fator de capacidade acima de 40%, índice considerado altíssimo em comparação com padrões internacionais.
+* O Nordeste continua líder, com Rio Grande do Norte e Bahia respondendo por mais de 50% da geração, enquanto Rio Grande do Sul e Maranhão aceleram investimentos em novos parques.
+* O Brasil mantém um dos melhores fatores de capacidade do mundo (aproximadamente 45% em 2025), graças à qualidade dos ventos e à modernização dos parques eólicos.
 * O setor também impulsiona a geração de empregos, especialmente nas regiões de instalação de parques eólicos, além de movimentar as indústrias de torres, pás e equipamentos.
 
 ## 🌍 Panorama Internacional da Energia Eólica
-* A capacidade eólica instalada no mundo supera os 1.000 GW, com crescimento acelerado nos últimos anos, impulsionado por políticas climáticas e avanços tecnológicos.
+* A capacidade eólica global chegou a 1.200 GW em 2025, liderada pela China (aproximados 500 GW), EUA (aproximados 150 GW) e Alemanha (aproximados 70 GW).
 * China lidera com folga a geração eólica global, seguida por Estados Unidos, Alemanha, Índia e Espanha.
 * A energia eólica tem papel central nos planos de transição energética de diversos países, sendo responsável por mais de 7% da eletricidade mundial atualmente.
 * O avanço da tecnologia offshore (parques eólicos no mar) está expandindo as possibilidades de geração em países com menor espaço territorial ou ventos continentais limitados.
 * Com a queda nos custos de instalação, os projetos eólicos se tornaram altamente competitivos economicamente, inclusive sem subsídios, em muitas regiões.
 * A previsibilidade dos ventos e a baixa emissão de gases de efeito estufa fazem da energia eólica uma das principais apostas globais para descarbonização.
 
-## **🗺️Mapa da distribuilão da geração de energia hidrelétrica no mundo**
+## **🗺️Mapa da distribuilão da geração de energia eólica no mundo**
 
 <p>Este mapa mostra onde existem geradores de energia por fontes eólica pelo planeta. Clique no botão para explorar!</p>
 
