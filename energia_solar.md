@@ -69,15 +69,13 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 
 📈 Crescimento Acelerado
 * Até fevereiro de 2025, o Brasil alcançou aproximadamente 54 GW de capacidade instalada em energia solar, representando cerca de 21,9% da matriz elétrica nacional. 
-* Em 2023, o país adicionou cerca de 15,4 GW de nova capacidade, tornando-se o terceiro maior mercado de energia solar do mundo, atrás apenas da China e dos Estados Unidos.
-
+* O Brasil consolidou-se como o 5º maior produtor de energia solar do mundo em 2025, à frente do Japão e atrás apenas de China, EUA, Índia e Alemanha.
 🏘️ Geração Distribuída e Centralizada
 * A geração distribuída (sistemas residenciais e comerciais) responde por uma parcela significativa da capacidade instalada, com destaque para os estados de São Paulo, Minas Gerais e Rio Grande do Sul. 
 * A geração centralizada (grandes usinas solares) também tem crescido, com investimentos significativos em diversas regiões do país. 
 
 💼 Impacto Econômico e Social
-* O setor solar brasileiro atraiu mais de R$ 59,6 bilhões em investimentos em 2023, um aumento de 49% em relação ao ano anterior. 
-* Entre 2012 e 2023, foram gerados mais de 868,8 mil empregos no setor de energia solar no Brasil.
+* Em 2025, os investimentos no setor solar no Brasil devem superar R$ 80 bilhões, com geração de mais de 1 milhão de empregos acumulados desde 2012.
 
 ## **🌍 Panorama Mundial da utilização de Energia Solar**
 
@@ -85,13 +83,10 @@ A energia solar está se tornando uma solução cada vez mais popular por ser li
 - A energia solar já representa mais de 6% da eletricidade gerada em todo o mundo, com forte tendência de crescimento nos próximos anos.
 
 📈 Expansão acelerada: 
-- A capacidade instalada global ultrapassou 1.400 GW, com milhares de novos sistemas sendo instalados diariamente, tanto em usinas de grande porte quanto em telhados residenciais e comerciais.
-
+- A capacidade instalada global deve superar 1.900 GW em 2025, com a China respondendo por mais de 40% desse total.
+  
 🏆 Liderança internacional: 
-- China, Estados Unidos, Índia e Japão estão entre os países que mais investem e produzem energia solar. A China se destaca como a maior potência nesse setor, com mais de 600 GW instalados.
-
-🇧🇷 Brasil em destaque: 
-- O Brasil está entre os dez maiores produtores de energia solar do mundo, mostrando grande aproveitamento do seu enorme potencial solar.
+- China, Estados Unidos, Índia, Brasil e Japão estão entre os países que mais investem e produzem energia solar. A China se destaca como a maior potência nesse setor, com mais de 600 GW instalados.
 
 🌱 Papel na transição energética: 
 - A energia solar tem papel fundamental na redução das emissões de carbono e na substituição dos combustíveis fósseis, sendo uma das protagonistas da transição para uma matriz energética limpa e sustentável.
